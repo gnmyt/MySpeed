@@ -23,7 +23,7 @@
     "react-dom": "^18.3.1",
     "react-i18next": "^15.1.0",
     "react-router-dom": "^6.27.0",
-    "sass": "^1.80.5",
+    "sass": "^1.80.6",
     "uuid": "^10.0.0",
     "vite": "^5.4.10",
     "vite-plugin-pwa": "^0.20.5"
