@@ -22,7 +22,7 @@
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.3.1",
     "react-i18next": "^15.1.0",
-    "react-router-dom": "^6.27.0",
+    "react-router-dom": "^6.28.0",
     "sass": "^1.80.5",
     "uuid": "^11.0.3",
     "vite": "^5.4.10",
