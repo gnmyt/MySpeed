@@ -25,7 +25,7 @@
     "react-router-dom": "^7.1.1",
     "sass": "^1.80.5",
     "uuid": "^11.0.3",
-    "vite": "^5.4.10",
+    "vite": "^6.2.2",
     "vite-plugin-pwa": "^0.20.5"
   },
   "devDependencies": {
