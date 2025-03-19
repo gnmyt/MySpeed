@@ -7,29 +7,29 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@fontsource/inter": "^5.1.0",
-    "@fortawesome/fontawesome-svg-core": "^6.6.0",
-    "@fortawesome/free-brands-svg-icons": "^6.6.0",
-    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fontsource/inter": "^5.2.5",
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
-    "@vitejs/plugin-react": "^4.3.3",
-    "chart.js": "^4.4.7",
-    "cron-parser": "^4.9.0",
-    "i18next": "^24.2.0",
-    "i18next-browser-languagedetector": "^8.0.0",
-    "i18next-http-backend": "^2.6.2",
-    "react": "^18.3.1",
-    "react-chartjs-2": "^5.2.0",
-    "react-dom": "^18.3.1",
-    "react-i18next": "^15.4.0",
-    "react-router-dom": "^7.1.1",
-    "sass": "^1.80.5",
-    "uuid": "^11.0.3",
-    "vite": "^5.4.10",
-    "vite-plugin-pwa": "^0.20.5"
+    "@vitejs/plugin-react": "^4.3.4",
+    "chart.js": "^4.4.8",
+    "cron-parser": "^5.0.5",
+    "i18next": "^24.2.3",
+    "i18next-browser-languagedetector": "^8.0.4",
+    "i18next-http-backend": "^3.0.2",
+    "react": "^19.0.0",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "^19.0.0",
+    "react-i18next": "^15.4.1",
+    "react-router-dom": "^7.3.0",
+    "sass": "^1.86.0",
+    "uuid": "^11.1.0",
+    "vite": "^6.2.2",
+    "vite-plugin-pwa": "^0.21.1"
   },
   "devDependencies": {
-    "@types/react": "^18.3.12",
-    "@types/react-dom": "^18.3.1"
+    "@types/react": "^19.0.11",
+    "@types/react-dom": "^19.0.4"
   }
 }
