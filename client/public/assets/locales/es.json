@@ -11,13 +11,13 @@
     "ms": "(en ms)",
     "mbps": "(en Mbps)",
     "accept_title": "Acepta las condiciones",
-    "accept_subtext": "En este paso, nos gustaría informarte sobre la licencia de Ookla. Léela y confirma que la has leído y aceptado haciendo clic en \"Hecho\"."
+    "accept_subtext": "En este paso, nos gustaría informarte sobre la licencia de Ookla. Léela y confirma que la has leído y aceptado haciendo clic en \"Listo\"."
   },
   "dialog": {
     "okay": "Vale",
     "done": "Listo",
-    "continue": "Continúa en",
-    "apply": "De acuerdo",
+    "continue": "Continuar",
+    "apply": "Aplicar",
     "update": "Cambiar",
     "close": "Cerrar",
     "unset": "Eliminar",
@@ -46,11 +46,11 @@
     "changes_applied": "Los cambios han sido guardados",
     "language_changed": "Se ha cambiado el idioma",
     "provider_changed": "Se ha cambiado el proveedor",
-    "changes_unsaved": "Tus cambios no han sido aceptados. Comprueba los datos",
+    "changes_unsaved": "Tus cambios no han sido aplicados. Comprueba los datos",
     "invalid": "Datos inválidos",
     "ping": "Ping óptimo",
     "upload": "Velocidad de subida óptima",
-    "download": "Velocidad de descarga óptima",
+    "download": "Velocidad de bajada óptima",
     "recommendations": "Valores óptimos",
     "change_provider": "Cambiar de proveedor",
     "password": "Cambiar la contraseña",
@@ -60,10 +60,10 @@
     "pause_tests": "Pausar tests",
     "resume_tests": "Continuar tests",
     "language": "Cambiar de idioma",
-    "light_mode": "Modo luz",
+    "light_mode": "Modo claro",
     "dark_mode": "Modo oscuro",
-    "theme_switched_light": "Conmutado a modo luz",
-    "theme_switched_dark": "Cambiar a modo oscuro",
+    "theme_switched_light": "Cambiar al modo claro",
+    "theme_switched_dark": "Cambiar al modo oscuro",
     "info": "Información sobre el proyecto",
     "provider": "Acerca del proveedor",
     "integrations": "Integraciones"
@@ -73,8 +73,8 @@
       "continuous": "Continuo (cada minuto)",
       "frequent": "Muy a menudo (cada 30 minutos)",
       "default": "Estándar (cada hora)",
-      "rare": "Raramente (cada 3 horas)",
-      "really_rare": "Muy raramente (cada 6 horas)"
+      "rare": "Poca frecuencia (cada 3 horas)",
+      "really_rare": "Muy poca frecuencia (cada 6 horas)"
     },
     "level": {
       "no_access": "Sin acceso",
@@ -88,10 +88,10 @@
   "update": {
     "ping_title": "Establecer ping óptimo (ms)",
     "ping_placeholder": "Ping (ms)",
-    "upload_title": "Velocidad de subida óptima (Mbps)",
+    "upload_title": "Establecer velocidad de subida óptima (Mbps)",
     "upload_placeholder": "Velocidad de subida (Mbps)",
-    "download_title": "Velocidad de descarga óptima (Mbps)",
-    "download_placeholder": "Velocidad de descarga (Mbps)",
+    "download_title": "Establecer velocidad de bajada óptima (Mbps)",
+    "download_placeholder": "Velocidad de bajada (Mbps)",
     "recommendations_title": "Recomendaciones óptimas",
     "recommendations_set": "¿Usar valores recomendados?",
     "provider_title": "Establecer proveedor de tests de Velocidad",
@@ -99,10 +99,10 @@
     "new_password": "Establecer nueva contraseña",
     "password_placeholder": "Nueva contraseña",
     "password_removed": "Se ha eliminado el bloqueo de contraseña y la contraseña establecida.",
-    "level": "Nivel de cambio",
-    "level_title": "Derechos de los visitantes",
+    "level": "Cambiar Nivel",
+    "level_title": "Permisos de los visitantes",
     "cron_title": "Ajustar la frecuencia de los tests",
-    "cron_rules": "Regla cron",
+    "cron_rules": "Regla de cron",
     "cron_next_test": "Próximo test:",
     "time_title": "Mostrar los tests de los últimos:",
     "download": "Descargar",
@@ -119,8 +119,8 @@
     "start_tooltip": "Ejecutar test de velocidad",
     "new_update": "Actualización disponible",
     "download": "Descarga",
-    "paused": "Los tests de velocidad están pausados. Por favor, continúe si desea realizar uno.",
-    "running": "Ya se está realizando un test de velocidad. Espera un momento.",
+    "paused": "Los tests de velocidad están pausados. Por favor, reanudelos si desea realizar uno.",
+    "running": "Ya se está realizando un test de velocidad. Espere un momento.",
     "admin_login": "Inicio de sesión de administrador",
     "beta": {
       "title": "Versión beta",
@@ -131,7 +131,7 @@
     "speedtests": "Tests de velocidad",
     "configuration": "Configuración",
     "stored_tests": "Tests almacenados",
-    "tests": "Pruebas",
+    "tests": "Tests",
     "export_tests": "Exportar tests",
     "tests_exported": "Se han exportado los tests",
     "csv": "CSV",
@@ -142,10 +142,10 @@
     "import_config_error": "Se ha producido un error al importar la configuración",
     "export": "Exportar",
     "import": "Importar",
-    "clear_history": "Eliminar historial",
+    "clear_history": "Eliminar el historial",
     "history_cleared": "Se ha eliminado el historial",
     "delete": "Eliminar",
-    "confirm_delete": "Sí, eliminar",
+    "confirm_delete": "Sí, Eliminar",
     "export_settings": "Exportar ajustes",
     "import_settings": "Importar ajustes",
     "factory_reset": "Restablecimiento de fábrica",
@@ -158,7 +158,7 @@
   "latest": {
     "ping": "Ping",
     "ping_unit": "ms",
-    "down": "Descarga",
+    "down": "Bajada",
     "speed_unit": "Mbps",
     "up": "Subida",
     "latest": "Último test",
@@ -170,8 +170,8 @@
     "recommendations_info": "Basándose en los resultados de los 10 últimos tests, el ping óptimo es <Bold>{{ping}} ms</Bold>, la velocidad de descarga es <Bold>{{down}} Mbit/s</Bold> y la velocidad de subida es <Bold>{{up}} Mbit/s</Bold>. Lo mejor es que utilices tu velocidad contratada como guía y sólo uses las recomendaciones si coinciden.",
     "update": "Está disponible una actualización a la versión {{version}}. Ver <Changes>los cambios</Changes> y <DLLink>descargar la actualización</DLLink>.",
     "down": {
-      "title": "Velocidad de descarga",
-      "description": "La velocidad de descarga afecta a tu experiencia de navegación. Cuanta más tengas, más rápido podrás recibir datos."
+      "title": "Velocidad de bajada",
+      "description": "La velocidad de bajada afecta a tu experiencia de navegación. Cuanta más tengas, más rápido podrás recibir datos."
     },
     "ping": {
       "title": "Ping",
@@ -197,24 +197,24 @@
     "at": "A las"
   },
   "test": {
-    "not_available": "Actualmente no hay tests disponibles",
+    "not_available": "Mo hay tests disponibles ahora mismo",
     "no_latest": "No hay ningun test en curso. Realice un test o espere hasta que se haya realizado el siguiente.",
-    "loading_more": "Cargando más pruebas...",
-    "no_more_tests": "No hay que cargar más pruebas",
+    "loading_more": "Cargando más tests...",
+    "no_more_tests": "No hay más tests que cargar",
     "unknown_error": "Error desconocido:",
     "failed": "Test fallido",
-    "recheck": "Por favor, compruebe en la medida de lo posible si esto ocurre más a menudo.",
+    "recheck": "Por favor, compruebe en la medida de lo posible si esto ocurre a menudo.",
     "delete": "Borrar test",
     "deleted": "El test fue eliminado",
     "average": {
       "title": "Velocidad media",
-      "description": "<Bold>{{amount}}</Bold> Los tests indican que el <Bold>{{date}}</Bold> hubo una velocidad media de descarga de <Bold>{{down}} Mbit/s</Bold> y una velocidad de subida de <Bold>{{up}} Mbit/s</Bold>. Los tests duraron una media de <Bold>{{duration}} segundos</Bold>."
+      "description": "<Bold>{{amount}}</Bold> Los tests indican que el <Bold>{{date}}</Bold> hubo una velocidad media de bajada de <Bold>{{down}} Mbit/s</Bold> y una velocidad de subida de <Bold>{{up}} Mbit/s</Bold>. Los tests duraron una media de <Bold>{{duration}} segundos</Bold>."
     },
     "result": {
       "title": "Resultado del test",
-      "description": "<Link>Este test</Link> alcanzó una velocidad de descarga máxima de <Bold>{{down}} Mbps</Bold> y una velocidad de subida máxima de <Bold>{{up}} Mbps</Bold>. Se creó <Bold>{{type}}</Bold> y tardó <Bold>{{duration}} Segundos</Bold>.",
-      "from_you": "de ti",
-      "automatic": "automático"
+      "description": "<Link>Este test</Link> alcanzó una velocidad de descarga máxima de <Bold>{{down}} Mbps</Bold> y una velocidad de subida máxima de <Bold>{{up}} Mbps</Bold>. Fue creado <Bold>{{type}}</Bold> y tardó <Bold>{{duration}} Segundos</Bold>.",
+      "from_you": "por usted",
+      "automatic": "automáticamente"
     },
     "overview": {
       "title": "Resumen ({{amount}})",
@@ -226,11 +226,11 @@
   },
   "errors": {
     "network_unreachable": "La conexión a Internet era inestable durante el test",
-    "took_too_long": "El test duró demasiado y se anuló",
+    "took_too_long": "El test tardó demasiado y se canceló",
     "no_permission": "MySpeed no tiene autorización para iniciar este test",
     "resource_unavailable": "El test no se ha podido realizar porque el recurso no estaba disponible temporalmente",
-    "no_route": "No se ha podido realizar el test porque no existía ninguna ruta hacia el host",
-    "connection_refused": "No se ha podido realizar el test porque no existía ninguna ruta hacia el host",
+    "no_route": "El test no se ha podido realizar porque no existía ninguna ruta hacia el host",
+    "connection_refused": "El test no se ha podido realizar porque la conexion fue rechazada",
     "timed_out": "La conexión a Internet era inestable durante el test",
     "config": "No se ha podido cargar el archivo de configuración",
     "invalid_view": "Vista no válida"
@@ -248,7 +248,7 @@
       "title": "Tests fallidos",
       "success": "Exitoso",
       "failed": "Fallido",
-      "label": "Pruebas"
+      "label": "Tests"
     },
     "speed": {
       "title": "Velocidad"
@@ -260,13 +260,13 @@
     },
     "duration": {
       "title": "Duración del test",
-      "label": "Número"
+      "label": "Cantidad"
     },
     "values": {
       "min": "Peor",
       "max": "Mejor",
       "avg": "Media",
-      "down": "Velodidad de descarga",
+      "down": "Velodidad de bajada",
       "up": "Velodidad de subida"
     }
   },
@@ -290,7 +290,7 @@
     },
     "delete": {
       "title": "Eliminar servidor",
-      "description": "El servidor <Bold>{{name}}</Bold> (#{{id}}) ha sido eliminado. Esta acción no se puede deshacer. ¿Desea continuar?",
+      "description": "El servidor <Bold>{{name}}</Bold> (#{{id}}) será eliminado. Esta acción no se puede deshacer. ¿Desea continuar?",
       "yes": "Sí, eliminar",
       "success": "El servidor se ha eliminado correctamente"
     },
@@ -311,8 +311,8 @@
     "display_name": "Nombre de la integración",
     "create": "Añadir",
     "activity": {
-      "never_executed": "Nunca ejecutado",
-      "last_run": "Antes "
+      "never_executed": "Nunca ejecutada",
+      "last_run": "Hace "
     },
     "discord": {
       "title": "Discord",
@@ -324,8 +324,8 @@
         "error_message": "Mensaje de error",
         "error_message_placeholder": "Error: %error%",
         "send_failed": "Enviar mensajes de error",
-        "send_finished": "Enviar completado",
-        "finished_message": "Mensaje finalizado",
+        "send_finished": "Enviar completados",
+        "finished_message": "Mensaje de completado",
         "finished_message_placeholder": "%ping% ms, %download% Mbps, %upload% Mbps"
       }
     },
@@ -333,13 +333,13 @@
       "title": "Gotify",
       "fields": {
         "url": "URL del servidor",
-        "key": "Ficha de solicitud",
+        "key": "App token",
         "priority": "Prioridad",
         "error_message": "Mensaje de error",
         "error_message_placeholder": "Error: %error%",
         "send_failed": "Enviar mensajes de error",
         "send_finished": "Enviar completados",
-        "finished_message": "Mensaje finalizado",
+        "finished_message": "Mensaje de completado",
         "finished_message_placeholder": "%ping% ms, %download% Mbps, %upload% Mbps"
       }
     },
@@ -352,7 +352,7 @@
         "error_message_placeholder": "Error: %error%",
         "send_failed": "Enviar mensajes de error",
         "send_finished": "Enviar completados",
-        "finished_message": "Mensaje finalizado",
+        "finished_message": "Mensaje de completado",
         "finished_message_placeholder": "%ping% ms, %download% Mbps, %upload% Mbps"
       }
     },
@@ -367,12 +367,12 @@
       "title": "Telegram",
       "fields": {
         "token": "Bot Token",
-        "chat_id": "Chat ID",
+        "chat_id": "ID del Chat",
         "error_message": "Mensaje de error",
         "error_message_placeholder": "Error: %error%",
         "send_failed": "Enviar mensajes de error",
         "send_finished": "Enviar completados",
-        "finished_message": "Mensaje finalizado",
+        "finished_message": "Mensaje de completado",
         "finished_message_placeholder": "%ping% ms, %download% Mbps, %upload% Mbps"
       }
     },
@@ -381,10 +381,10 @@
       "fields": {
         "url": "URL del webhook",
         "url_placeholder": "https://su-servidor.es/hook",
-        "send_started": "Inicio envío",
+        "send_started": "Enviar iniciados",
         "send_failed": "Enviar mensajes de error",
         "send_finished": "Enviar completados",
-        "send_alive": "Enviar mensaje de estado",
+        "send_alive": "Enviar mensaje de estado (keep-alive)",
         "send_recommendations": "Enviar recomendaciones",
         "send_config_updates": "Enviar actualizaciones de configuración"
       }
