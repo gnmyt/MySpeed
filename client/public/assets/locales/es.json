@@ -167,7 +167,7 @@
   "info": {
     "credits": "<MSpeed>MySpeed</MSpeed> es un proyecto de código abierto proporcionado por GNMYT. Deja una estrella en <Github>GitHub</Github> o <Donate>haz una donación</Donate> para apoyar el proyecto.",
     "recommendations_error": "Hay que hacer al menos 10 tests para poder determinar una media. No importa si los tests se hicieron manual o automáticamente.",
-    "recommendations_info": "Basándose en los resultados de los 10 últimos tests, el ping óptimo es <Bold>{{ping}} ms</Bold>, la velocidad de descarga es <Bold>{{down}} Mbit/s</Bold> y la velocidad de subida es <Bold>{{up}} Mbit/s</Bold>. Lo mejor es que utilices tu velocidad contratada como guía y sólo uses las recomendaciones si coinciden.",
+    "recommendations_info": "Basándose en los resultados de los 10 últimos tests, el ping óptimo es <Bold>{{ping}} ms</Bold>, la velocidad de bajada es <Bold>{{down}} Mbit/s</Bold> y la velocidad de subida es <Bold>{{up}} Mbit/s</Bold>. Lo mejor es que utilices tu velocidad contratada como guía y sólo uses las recomendaciones si coinciden.",
     "update": "Está disponible una actualización a la versión {{version}}. Ver <Changes>los cambios</Changes> y <DLLink>descargar la actualización</DLLink>.",
     "down": {
       "title": "Velocidad de bajada",
@@ -212,7 +212,7 @@
     },
     "result": {
       "title": "Resultado del test",
-      "description": "<Link>Este test</Link> alcanzó una velocidad de descarga máxima de <Bold>{{down}} Mbps</Bold> y una velocidad de subida máxima de <Bold>{{up}} Mbps</Bold>. Fue creado <Bold>{{type}}</Bold> y tardó <Bold>{{duration}} Segundos</Bold>.",
+      "description": "<Link>Este test</Link> alcanzó una velocidad de bajada máxima de <Bold>{{down}} Mbps</Bold> y una velocidad de subida máxima de <Bold>{{up}} Mbps</Bold>. Fue creado <Bold>{{type}}</Bold> y tardó <Bold>{{duration}} Segundos</Bold>.",
       "from_you": "por usted",
       "automatic": "automáticamente"
     },
