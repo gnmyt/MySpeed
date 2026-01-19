@@ -52,6 +52,7 @@
     "upload": "最佳的上传速度",
     "download": "最佳的下载速度",
     "recommendations": "最优值",
+    "optimal_values": "Optimal values",
     "change_provider": "更换提供商",
     "password": "更改密码",
     "cron": "设置测试频率",
@@ -64,9 +65,17 @@
     "dark_mode": "黑暗模式",
     "theme_switched_light": "切换到灯光模式",
     "theme_switched_dark": "切换到黑暗模式",
-    "info": "关于项目的信息",
     "provider": "关于供应商",
     "integrations": "集成"
+  },
+  "about": {
+    "title": "About MySpeed",
+    "description": "MySpeed is an open-source speedtest analysis software that records your internet speed for up to 30 days.",
+    "github": "GitHub",
+    "website": "Website",
+    "donate": "Donate",
+    "translate": "Translate",
+    "made_by": "Made with"
   },
   "options": {
     "cron": {
@@ -122,6 +131,7 @@
     "paused": "测速目前已暂停。如果你想参加，请继续。",
     "running": "测速已经在进行中。请稍等片刻。",
     "admin_login": "管理员登录",
+    "servers": "Servers",
     "beta": {
       "title": "测试版本",
       "description": "该功能仍处于测试阶段。如果你发现错误，请报告 <Link>这里</Link>."
@@ -165,7 +175,6 @@
     "before": "从"
   },
   "info": {
-    "credits": "<MSpeed>MySpeed</MSpeed>是由 GNMYT 提供的一个开源项目。请在<Github>GitHub</Github>上留言或<Donate>捐款</Donate>支持该项目。",
     "recommendations_error": "必须至少做 10 次测速，这样才能确定平均数。无论这些测速是手动还是自动完成的，都没有关系。",
     "recommendations_info": "根据最近 10 次测速结果，最佳的 Ping 延迟为<Bold>{{ping}} 毫秒</Bold>，下载速度为<Bold>{{down}} Mbit/s</Bold>，上传速度为<Bold>{{up}} Mbit/s</Bold>。最好参考你的宽带合同，并只在与之相符的情况下采用这些值。",
     "update": "对{{version}} 版本的更新是可用的。参见<Changes>变化</Changes>和<DLLink>下载更新</DLLink>。",
@@ -217,11 +226,7 @@
       "automatic": "自动"
     },
     "overview": {
-      "title": "最后一次{{amount}}的测试概述",
-      "1": "24小时",
-      "2": "2天",
-      "3": "7天",
-      "4": "30天"
+      "title_range": "Test overview from {{from}} to {{to}}"
     }
   },
   "errors": {
@@ -236,6 +241,7 @@
     "invalid_view": "无效视图"
   },
   "statistics": {
+    "average": "Average",
     "overview": {
       "total_title": "测速次数",
       "total_description": "进行测速的总的数量",
@@ -268,7 +274,41 @@
       "avg": "平均",
       "down": "下载数值",
       "up": "上传数值"
+    },
+    "hourly": {
+      "title": "Speed by Time of Day",
+      "sample_count": "Tests"
+    },
+    "consistency": {
+      "title": "Connection Stability",
+      "excellent": "Excellent",
+      "good": "Good",
+      "fair": "Fair",
+      "poor": "Poor",
+      "ping_variance": "Ping variance"
+    },
+    "aggregation": {
+      "daily": "Showing daily averages",
+      "weekly": "Showing weekly averages"
     }
+  },
+  "calendar": {
+    "select_range": "Select date range",
+    "select_start": "Select start date",
+    "select_end": "Select end date",
+    "from": "From",
+    "to": "To",
+    "last_7_days": "Last 7 days",
+    "last_30_days": "Last 30 days",
+    "last_90_days": "Last 90 days",
+    "last_year": "Last year",
+    "mon": "Mon",
+    "tue": "Tue",
+    "wed": "Wed",
+    "thu": "Thu",
+    "fri": "Fri",
+    "sat": "Sat",
+    "sun": "Sun"
   },
   "nodes": {
     "add": "添加服务器",
@@ -392,5 +432,20 @@
   },
   "common": {
     "back_to_top": "返回顶部"
+  },
+  "not_found": {
+    "title": "Page not found",
+    "description": "The page you're looking for doesn't exist or has been moved.",
+    "back_home": "Back to Home"
+  },
+  "route_error": {
+    "title": "Oops!",
+    "subtitle": "Something went wrong",
+    "description": "An unexpected error occurred. Please try again or go back to the home page.",
+    "reload": "Reload Page"
+  },
+  "optimal_values": {
+    "title": "Optimal Values",
+    "use_recommended": "Use recommended"
   }
 }
