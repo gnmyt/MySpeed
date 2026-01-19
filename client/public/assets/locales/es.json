@@ -52,6 +52,7 @@
     "upload": "Velocidad de subida óptima",
     "download": "Velocidad de descarga óptima",
     "recommendations": "Valores óptimos",
+    "optimal_values": "Optimal values",
     "change_provider": "Cambiar de proveedor",
     "password": "Cambiar la contraseña",
     "cron": "Ajustar frecuencia",
@@ -64,9 +65,17 @@
     "dark_mode": "Modo oscuro",
     "theme_switched_light": "Conmutado a modo luz",
     "theme_switched_dark": "Cambiar a modo oscuro",
-    "info": "Información sobre el proyecto",
     "provider": "Acerca del proveedor",
     "integrations": "Integraciones"
+  },
+  "about": {
+    "title": "About MySpeed",
+    "description": "MySpeed is an open-source speedtest analysis software that records your internet speed for up to 30 days.",
+    "github": "GitHub",
+    "website": "Website",
+    "donate": "Donate",
+    "translate": "Translate",
+    "made_by": "Made with"
   },
   "options": {
     "cron": {
@@ -122,6 +131,7 @@
     "paused": "Los tests de velocidad están pausados. Por favor, continúe si desea realizar uno.",
     "running": "Ya se está realizando un test de velocidad. Espera un momento.",
     "admin_login": "Inicio de sesión de administrador",
+    "servers": "Servers",
     "beta": {
       "title": "Versión beta",
       "description": "Esta función está todavía en beta. Si encuentras algún error, notifícalo <Link>aquí</Link>."
@@ -165,7 +175,6 @@
     "before": "hace"
   },
   "info": {
-    "credits": "<MSpeed>MySpeed</MSpeed> es un proyecto de código abierto proporcionado por GNMYT. Deja una estrella en <Github>GitHub</Github> o <Donate>haz una donación</Donate> para apoyar el proyecto.",
     "recommendations_error": "Hay que hacer al menos 10 tests para poder determinar una media. No importa si los tests se hicieron manual o automáticamente.",
     "recommendations_info": "Basándose en los resultados de los 10 últimos tests, el ping óptimo es <Bold>{{ping}} ms</Bold>, la velocidad de descarga es <Bold>{{down}} Mbit/s</Bold> y la velocidad de subida es <Bold>{{up}} Mbit/s</Bold>. Lo mejor es que utilices tu velocidad contratada como guía y sólo uses las recomendaciones si coinciden.",
     "update": "Está disponible una actualización a la versión {{version}}. Ver <Changes>los cambios</Changes> y <DLLink>descargar la actualización</DLLink>.",
@@ -217,11 +226,7 @@
       "automatic": "automático"
     },
     "overview": {
-      "title": "Resumen ({{amount}})",
-      "1": "24 horas",
-      "2": "2 días",
-      "3": "7 días",
-      "4": "30 días"
+      "title_range": "Test overview from {{from}} to {{to}}"
     }
   },
   "errors": {
@@ -236,6 +241,7 @@
     "invalid_view": "Vista no válida"
   },
   "statistics": {
+    "average": "Average",
     "overview": {
       "total_title": "Tests totales",
       "total_description": "Número de tests realizados",
@@ -268,7 +274,41 @@
       "avg": "Media",
       "down": "Velodidad de descarga",
       "up": "Velodidad de subida"
+    },
+    "hourly": {
+      "title": "Speed by Time of Day",
+      "sample_count": "Tests"
+    },
+    "consistency": {
+      "title": "Connection Stability",
+      "excellent": "Excellent",
+      "good": "Good",
+      "fair": "Fair",
+      "poor": "Poor",
+      "ping_variance": "Ping variance"
+    },
+    "aggregation": {
+      "daily": "Showing daily averages",
+      "weekly": "Showing weekly averages"
     }
+  },
+  "calendar": {
+    "select_range": "Select date range",
+    "select_start": "Select start date",
+    "select_end": "Select end date",
+    "from": "From",
+    "to": "To",
+    "last_7_days": "Last 7 days",
+    "last_30_days": "Last 30 days",
+    "last_90_days": "Last 90 days",
+    "last_year": "Last year",
+    "mon": "Mon",
+    "tue": "Tue",
+    "wed": "Wed",
+    "thu": "Thu",
+    "fri": "Fri",
+    "sat": "Sat",
+    "sun": "Sun"
   },
   "nodes": {
     "add": "Añadir servidor",
@@ -392,5 +432,20 @@
   },
   "common": {
     "back_to_top": "Volver arriba"
+  },
+  "not_found": {
+    "title": "Page not found",
+    "description": "The page you're looking for doesn't exist or has been moved.",
+    "back_home": "Back to Home"
+  },
+  "route_error": {
+    "title": "Oops!",
+    "subtitle": "Something went wrong",
+    "description": "An unexpected error occurred. Please try again or go back to the home page.",
+    "reload": "Reload Page"
+  },
+  "optimal_values": {
+    "title": "Optimal Values",
+    "use_recommended": "Use recommended"
   }
 }
