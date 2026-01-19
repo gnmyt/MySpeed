@@ -52,6 +52,7 @@
     "upload": "Optimum yükleme hızı",
     "download": "Optimum indirme hızı",
     "recommendations": "Öneriler",
+    "optimal_values": "Optimal values",
     "change_provider": "Sağlayıcıyı değiştirin",
     "password": "Şifre Değiştir",
     "cron": "Frekans ayarlama",
@@ -64,9 +65,17 @@
     "dark_mode": "Karanlık tema",
     "theme_switched_light": "Aydınlık temaya geçildi",
     "theme_switched_dark": "Koyu temaya geçildi",
-    "info": "Proje hakkında bilgi",
     "provider": "Sağlayıcı hakkında",
     "integrations": "Entegrasyonlar"
+  },
+  "about": {
+    "title": "About MySpeed",
+    "description": "MySpeed is an open-source speedtest analysis software that records your internet speed for up to 30 days.",
+    "github": "GitHub",
+    "website": "Website",
+    "donate": "Donate",
+    "translate": "Translate",
+    "made_by": "Made with"
   },
   "options": {
     "cron": {
@@ -122,6 +131,7 @@
     "paused": "Speedtestler şu anda duraklatıldı. Bir tane yapmak isterseniz devam edin.",
     "running": "Bir speedtest zaten çalışıyor. Lütfen biraz bekleyin.",
     "admin_login": "Yönetici Girişi",
+    "servers": "Servers",
     "beta": {
       "title": "Beta Sürümü",
       "description": "Bu özellik hala beta aşamasında. Herhangi bir hata bulursanız lütfen bunları <Link>buradan</Link> bildirin."
@@ -165,7 +175,6 @@
     "before": "önce"
   },
   "info": {
-    "credits": "<MSpeed>MySpeed</MSpeed>, GNMYT tarafından sağlanan açık kaynaklı bir projedir. <Github>GitHub</Github> 'da bir yıldız bırakın veya projeyi desteklemek için <Donate>bağış</Donate> yapın.",
     "recommendations_error": "Bir ortalama almak için en az 10 test yapmanız gerekmektedir. Testler manuel veya otomatik yapılmış olmasının bir önemi yoktur.",
     "recommendations_info": "Son 10 test baz alındığında, optimum ping'in <Bold>{{ping}} ms</Bold>, indirme hızının <Bold>{{down}} Mbps</Bold> ve yükleme hızının <Bold>{{up}} Mbps</Bold> olduğu bulundu. İnternet sözleşmenize yönelik olarak kendinizi en iyi şekilde yönlendirmeniz ve yalnızca sözleşmenizle uyumlu olanı kabul etmeniz en iyisi karar olacaktır.",
     "update": "Sürüm {{version}} için bir güncelleme mevcut. <Changes>Değişiklikleri</Changes> görüntüleyin ve <DLLink>güncellemeyi indirin</DLLink>.",
@@ -217,11 +226,7 @@
       "automatic": "otomatik olarak"
     },
     "overview": {
-      "title": "Son {{amount}} içindeki test genel bakışı",
-      "1": "24 saat",
-      "2": "2 gün",
-      "3": "7 gün",
-      "4": "30 gün"
+      "title_range": "Test overview from {{from}} to {{to}}"
     }
   },
   "errors": {
@@ -236,6 +241,7 @@
     "invalid_view": "Geçersiz görünüm"
   },
   "statistics": {
+    "average": "Average",
     "overview": {
       "total_title": "Toplam testler",
       "total_description": "Yapılan testlerin sayısı",
@@ -268,7 +274,41 @@
       "avg": "Ortalama",
       "down": "İndirme değerleri",
       "up": "Yükleme değerleri"
+    },
+    "hourly": {
+      "title": "Speed by Time of Day",
+      "sample_count": "Tests"
+    },
+    "consistency": {
+      "title": "Connection Stability",
+      "excellent": "Excellent",
+      "good": "Good",
+      "fair": "Fair",
+      "poor": "Poor",
+      "ping_variance": "Ping variance"
+    },
+    "aggregation": {
+      "daily": "Showing daily averages",
+      "weekly": "Showing weekly averages"
     }
+  },
+  "calendar": {
+    "select_range": "Select date range",
+    "select_start": "Select start date",
+    "select_end": "Select end date",
+    "from": "From",
+    "to": "To",
+    "last_7_days": "Last 7 days",
+    "last_30_days": "Last 30 days",
+    "last_90_days": "Last 90 days",
+    "last_year": "Last year",
+    "mon": "Mon",
+    "tue": "Tue",
+    "wed": "Wed",
+    "thu": "Thu",
+    "fri": "Fri",
+    "sat": "Sat",
+    "sun": "Sun"
   },
   "nodes": {
     "add": "Sunucu ekle",
@@ -392,5 +432,20 @@
   },
   "common": {
     "back_to_top": "Başa dön"
+  },
+  "not_found": {
+    "title": "Page not found",
+    "description": "The page you're looking for doesn't exist or has been moved.",
+    "back_home": "Back to Home"
+  },
+  "route_error": {
+    "title": "Oops!",
+    "subtitle": "Something went wrong",
+    "description": "An unexpected error occurred. Please try again or go back to the home page.",
+    "reload": "Reload Page"
+  },
+  "optimal_values": {
+    "title": "Optimal Values",
+    "use_recommended": "Use recommended"
   }
 }
