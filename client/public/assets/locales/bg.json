@@ -52,6 +52,7 @@
     "upload": "Оптимална скорост нагоре",
     "download": "Оптимална скорост нагоре",
     "recommendations": "Оптимални стойности",
+    "optimal_values": "Optimal values",
     "change_provider": "Смяна на доставчика",
     "password": "Промяна на паролата",
     "cron": "Задаване на честота",
@@ -64,9 +65,17 @@
     "dark_mode": "Тъмният режим",
     "theme_switched_light": "Превключване в режим на светлина",
     "theme_switched_dark": "Превключване в тъмен режим",
-    "info": "Информация за проекта",
     "provider": "Щодо провайдера",
     "integrations": "Интеграции"
+  },
+  "about": {
+    "title": "About MySpeed",
+    "description": "MySpeed is an open-source speedtest analysis software that records your internet speed for up to 30 days.",
+    "github": "GitHub",
+    "website": "Website",
+    "donate": "Donate",
+    "translate": "Translate",
+    "made_by": "Made with"
   },
   "options": {
     "cron": {
@@ -122,6 +131,7 @@
     "paused": "В момента тестовете за скорост са спрени. Моля, продължете, ако желаете да се включите.",
     "running": "Тестът на скоростта вече е в ход. Моля, изчакайте малко.",
     "admin_login": "Вход за администратор",
+    "servers": "Servers",
     "beta": {
       "title": "Бета версия",
       "description": "Тази функция все още е в бета фаза. Ако откриете някакви грешки, моля, докладвайте за тях <Link>тук</Link>."
@@ -165,7 +175,6 @@
     "before": "от"
   },
   "info": {
-    "credits": "<MSpeed>MySpeed</MSpeed> е проект с отворен код, предоставен от GNMYT. Оставете звезда в <Github>GitHub</Github> или <Donate>дарете средства,</Donate> за да подкрепите проекта.",
     "recommendations_error": "Трябва да направите поне 10 теста, за да може да се определи средната стойност. Няма значение дали тестовете са извършени ръчно или автоматично.",
     "recommendations_info": "Въз основа на резултатите от последните 10 теста беше установено, че оптималният пинг е <Bold>{{ping}} ms</Bold>, а изтеглянето е <Bold>{{down}}. Mbit/s</Bold>, а качването при <Bold>{{up}}. Mbit/s</Bold>. Най-добре е да използвате договора си за интернет като ориентир и да го приемете само ако съвпада с него.",
     "update": "Налична е актуализация на версия {{version}}. Вижте <Changes>промените</Changes> и <DLLink>изтеглете актуализацията</DLLink>.",
@@ -217,11 +226,7 @@
       "automatic": "автоматичен"
     },
     "overview": {
-      "title": "Преглед на теста за последната {{amount}}",
-      "1": "24 часа",
-      "2": "2 дни",
-      "3": "7 дни",
-      "4": "30 дни"
+      "title_range": "Test overview from {{from}} to {{to}}"
     }
   },
   "errors": {
@@ -236,6 +241,7 @@
     "invalid_view": "Невалиден изглед"
   },
   "statistics": {
+    "average": "Average",
     "overview": {
       "total_title": "Общо тестове",
       "total_description": "Броят на извършените тестове",
@@ -268,7 +274,41 @@
       "avg": "Средно",
       "down": "Стойности за изтегляне",
       "up": "Качване на стойности"
+    },
+    "hourly": {
+      "title": "Speed by Time of Day",
+      "sample_count": "Tests"
+    },
+    "consistency": {
+      "title": "Connection Stability",
+      "excellent": "Excellent",
+      "good": "Good",
+      "fair": "Fair",
+      "poor": "Poor",
+      "ping_variance": "Ping variance"
+    },
+    "aggregation": {
+      "daily": "Showing daily averages",
+      "weekly": "Showing weekly averages"
     }
+  },
+  "calendar": {
+    "select_range": "Select date range",
+    "select_start": "Select start date",
+    "select_end": "Select end date",
+    "from": "From",
+    "to": "To",
+    "last_7_days": "Last 7 days",
+    "last_30_days": "Last 30 days",
+    "last_90_days": "Last 90 days",
+    "last_year": "Last year",
+    "mon": "Mon",
+    "tue": "Tue",
+    "wed": "Wed",
+    "thu": "Thu",
+    "fri": "Fri",
+    "sat": "Sat",
+    "sun": "Sun"
   },
   "nodes": {
     "add": "Добавяне на сървър",
@@ -392,5 +432,20 @@
   },
   "common": {
     "back_to_top": "Върнете се в началото"
+  },
+  "not_found": {
+    "title": "Page not found",
+    "description": "The page you're looking for doesn't exist or has been moved.",
+    "back_home": "Back to Home"
+  },
+  "route_error": {
+    "title": "Oops!",
+    "subtitle": "Something went wrong",
+    "description": "An unexpected error occurred. Please try again or go back to the home page.",
+    "reload": "Reload Page"
+  },
+  "optimal_values": {
+    "title": "Optimal Values",
+    "use_recommended": "Use recommended"
   }
 }
