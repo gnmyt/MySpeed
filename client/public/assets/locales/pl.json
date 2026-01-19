@@ -52,6 +52,7 @@
     "upload": "Optymalna prędkość wysyłania",
     "download": "Optymalna prędkość pobierania",
     "recommendations": "Rekomendacje",
+    "optimal_values": "Optimal values",
     "change_provider": "Zmień dostawcę",
     "password": "Zmień hasło",
     "cron": "Ustaw częstotliwość",
@@ -64,9 +65,17 @@
     "dark_mode": "Tryb ciemny",
     "theme_switched_light": "Przełączony na tryb oświetlenia",
     "theme_switched_dark": "Przełączony na tryb ciemny",
-    "info": "O projekcie",
     "provider": "O dostawcy",
     "integrations": "Integracje"
+  },
+  "about": {
+    "title": "About MySpeed",
+    "description": "MySpeed is an open-source speedtest analysis software that records your internet speed for up to 30 days.",
+    "github": "GitHub",
+    "website": "Website",
+    "donate": "Donate",
+    "translate": "Translate",
+    "made_by": "Made with"
   },
   "options": {
     "cron": {
@@ -122,6 +131,7 @@
     "paused": "Testy prędkości są obecnie wstrzymane. Wznów je, jeśli chcesz wykonać test.",
     "running": "Test prędkości już trwa. Proszę, poczekaj chwilę.",
     "admin_login": "Logowanie administratora",
+    "servers": "Servers",
     "beta": {
       "title": "Wersja beta",
       "description": "Ta funkcja jest wciąż w fazie beta. Jeśli znajdziesz błędy, zgłoś je <Link>tutaj</Link>."
@@ -165,7 +175,6 @@
     "before": "przed"
   },
   "info": {
-    "credits": "<MSpeed>MySpeed</MSpeed> to projekt open source dostarczony przez GNMYT. Daj gwiazdkę na <Github>GitHub</Github> lub <Donate>wpłać darowiznę</Donate>, aby wesprzeć projekt.",
     "recommendations_error": "Musisz wykonać co najmniej 10 testów, aby uzyskać średnią. Nieważne, czy testy były wykonane ręcznie, czy automatycznie.",
     "recommendations_info": "Na podstawie ostatnich 10 testów stwierdzono, że optymalny ping wynosił <Bold>{{ping}} ms</Bold>, pobieranie <Bold>{{down}} Mbps</Bold> oraz wysyłanie <Bold>{{up}} Mbps</Bold>. Najlepiej kierować się warunkami Twojej umowy internetowej i dostosować ustawienia tylko wtedy, gdy się zgadzają.",
     "update": "Dostępna jest aktualizacja do wersji {{version}}. Zobacz <Changes>zmiany</Changes> oraz <DLLink>pobierz aktualizację</DLLink>.",
@@ -217,11 +226,7 @@
       "automatic": "automatycznie"
     },
     "overview": {
-      "title": "Przegląd testów z ostatnich {{amount}}",
-      "1": "24 godziny",
-      "2": "2 dni",
-      "3": "7 dni",
-      "4": "30 dni"
+      "title_range": "Test overview from {{from}} to {{to}}"
     }
   },
   "errors": {
@@ -236,6 +241,7 @@
     "invalid_view": "Nieprawidłowy widok"
   },
   "statistics": {
+    "average": "Average",
     "overview": {
       "total_title": "Łączna liczba testów",
       "total_description": "Liczba wykonanych testów",
@@ -268,7 +274,41 @@
       "avg": "Średnia",
       "down": "Wartości pobierania",
       "up": "Wartości wysyłania"
+    },
+    "hourly": {
+      "title": "Speed by Time of Day",
+      "sample_count": "Tests"
+    },
+    "consistency": {
+      "title": "Connection Stability",
+      "excellent": "Excellent",
+      "good": "Good",
+      "fair": "Fair",
+      "poor": "Poor",
+      "ping_variance": "Ping variance"
+    },
+    "aggregation": {
+      "daily": "Showing daily averages",
+      "weekly": "Showing weekly averages"
     }
+  },
+  "calendar": {
+    "select_range": "Select date range",
+    "select_start": "Select start date",
+    "select_end": "Select end date",
+    "from": "From",
+    "to": "To",
+    "last_7_days": "Last 7 days",
+    "last_30_days": "Last 30 days",
+    "last_90_days": "Last 90 days",
+    "last_year": "Last year",
+    "mon": "Mon",
+    "tue": "Tue",
+    "wed": "Wed",
+    "thu": "Thu",
+    "fri": "Fri",
+    "sat": "Sat",
+    "sun": "Sun"
   },
   "nodes": {
     "add": "Dodaj serwer",
@@ -392,5 +432,20 @@
   },
   "common": {
     "back_to_top": "Powrót do góry"
+  },
+  "not_found": {
+    "title": "Page not found",
+    "description": "The page you're looking for doesn't exist or has been moved.",
+    "back_home": "Back to Home"
+  },
+  "route_error": {
+    "title": "Oops!",
+    "subtitle": "Something went wrong",
+    "description": "An unexpected error occurred. Please try again or go back to the home page.",
+    "reload": "Reload Page"
+  },
+  "optimal_values": {
+    "title": "Optimal Values",
+    "use_recommended": "Use recommended"
   }
 }
