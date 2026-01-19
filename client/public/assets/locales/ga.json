@@ -52,6 +52,7 @@
     "upload": "Luas suas is fearr",
     "download": "Luas síos is fearr",
     "recommendations": "Moltaí",
+    "optimal_values": "Optimal values",
     "change_provider": "Athraigh soláthraí",
     "password": "Athraigh an focal faire",
     "cron": "Socraigh minicíocht",
@@ -64,9 +65,17 @@
     "dark_mode": "Mód dorcha",
     "theme_switched_light": "Athraithe go mód solais",
     "theme_switched_dark": "Athraithe go mód dorcha",
-    "info": "Maidir leis an tionscadal",
     "provider": "Maidir leis an soláthraí",
     "integrations": "Comhtháthúcháin"
+  },
+  "about": {
+    "title": "About MySpeed",
+    "description": "MySpeed is an open-source speedtest analysis software that records your internet speed for up to 30 days.",
+    "github": "GitHub",
+    "website": "Website",
+    "donate": "Donate",
+    "translate": "Translate",
+    "made_by": "Made with"
   },
   "options": {
     "cron": {
@@ -122,6 +131,7 @@
     "paused": "Tá tástálacha luais ar sos faoi láthair. Lean orthu más mian leat ceann a dhéanamh.",
     "running": "Tá tástáil luais ar siúl cheana féin. Fan nóiméad le do thoil.",
     "admin_login": "Logáil Isteach Riarthóra",
+    "servers": "Servers",
     "beta": {
       "title": "Leagan Béite",
       "description": "Tá an ghné seo fós i mbéite. Má aimsíonn tú aon fhabhtanna, cuir in iúl iad <Link>anseo</Link>."
@@ -165,7 +175,6 @@
     "before": "roimhe"
   },
   "info": {
-    "credits": "Is tionscadal foinse oscailte é <MSpeed>MySpeed</MSpeed> arna sholáthar ag GNMYT. Fág réalta ar <Github>GitHub</Github> nó <Donate>déan deontas</Donate> chun tacú leis an tionscadal.",
     "recommendations_error": "Caithfidh tú 10 dtástáil ar a laghad a dhéanamh chun meán a fháil. Is cuma má rinneadh na tástálacha de láimh nó go huathoibríoch.",
     "recommendations_info": "Bunaithe ar na 10 dtástáil dheireanacha, fuarthas amach gurbh é an ping is fearr ná <Bold>{{ping}} ms</Bold>, an íoslódáil ag <Bold>{{down}} Mbps</Bold> agus an uaslódáil ag <Bold>{{up}} Mbps</Bold>. Is fearr duit féin a threorú ar do chonradh idirlín agus gan glacadh leis ach amháin má chomhlíonann sé sin.",
     "update": "Tá nuashonrú ar leagan {{version}} ar fáil. Féach <Changes>na hathruithe</Changes> agus <DLLink>íoslódáil an nuashonrú</DLLink>.",
@@ -217,11 +226,7 @@
       "automatic": "go huathoibríoch"
     },
     "overview": {
-      "title": "Forbhreathnú tástála ar an {{amount}} deireanach",
-      "1": "24 uair an chloig",
-      "2": "2 lá",
-      "3": "7 lá",
-      "4": "30 lá"
+      "title_range": "Test overview from {{from}} to {{to}}"
     }
   },
   "errors": {
@@ -236,6 +241,7 @@
     "invalid_view": "Radharc neamhbhailí"
   },
   "statistics": {
+    "average": "Average",
     "overview": {
       "total_title": "Iomlán na dtástálacha",
       "total_description": "Líon na dtástálacha a rinneadh",
@@ -268,7 +274,41 @@
       "avg": "Meán",
       "down": "Luachanna a íoslódáil",
       "up": "Uaslódáil luachanna"
+    },
+    "hourly": {
+      "title": "Speed by Time of Day",
+      "sample_count": "Tests"
+    },
+    "consistency": {
+      "title": "Connection Stability",
+      "excellent": "Excellent",
+      "good": "Good",
+      "fair": "Fair",
+      "poor": "Poor",
+      "ping_variance": "Ping variance"
+    },
+    "aggregation": {
+      "daily": "Showing daily averages",
+      "weekly": "Showing weekly averages"
     }
+  },
+  "calendar": {
+    "select_range": "Select date range",
+    "select_start": "Select start date",
+    "select_end": "Select end date",
+    "from": "From",
+    "to": "To",
+    "last_7_days": "Last 7 days",
+    "last_30_days": "Last 30 days",
+    "last_90_days": "Last 90 days",
+    "last_year": "Last year",
+    "mon": "Mon",
+    "tue": "Tue",
+    "wed": "Wed",
+    "thu": "Thu",
+    "fri": "Fri",
+    "sat": "Sat",
+    "sun": "Sun"
   },
   "nodes": {
     "add": "Cuir freastalaí leis",
@@ -392,5 +432,20 @@
   },
   "common": {
     "back_to_top": "Ar ais go barr"
+  },
+  "not_found": {
+    "title": "Page not found",
+    "description": "The page you're looking for doesn't exist or has been moved.",
+    "back_home": "Back to Home"
+  },
+  "route_error": {
+    "title": "Oops!",
+    "subtitle": "Something went wrong",
+    "description": "An unexpected error occurred. Please try again or go back to the home page.",
+    "reload": "Reload Page"
+  },
+  "optimal_values": {
+    "title": "Optimal Values",
+    "use_recommended": "Use recommended"
   }
 }
