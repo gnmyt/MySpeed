@@ -52,6 +52,7 @@
     "upload": "Optimal opstartshastighed",
     "download": "Optimal nedadgående hastighed",
     "recommendations": "Anbefalinger",
+    "optimal_values": "Optimal values",
     "change_provider": "Skift udbyder",
     "password": "Skift adgangskode",
     "cron": "Indstil frekvens",
@@ -64,9 +65,17 @@
     "dark_mode": "Mørk tilstand",
     "theme_switched_light": "Skiftet til lystilstand",
     "theme_switched_dark": "Skiftet til mørk tilstand",
-    "info": "Info om projektet",
     "provider": "Om udbyderen",
     "integrations": "Integrationer"
+  },
+  "about": {
+    "title": "About MySpeed",
+    "description": "MySpeed is an open-source speedtest analysis software that records your internet speed for up to 30 days.",
+    "github": "GitHub",
+    "website": "Website",
+    "donate": "Donate",
+    "translate": "Translate",
+    "made_by": "Made with"
   },
   "options": {
     "cron": {
@@ -122,6 +131,7 @@
     "paused": "Hastighedstests er i øjeblikket sat på pause. Fortsæt venligst, hvis du gerne vil tage en.",
     "running": "En hastighedstest er allerede i gang. Vent venligst et øjeblik.",
     "admin_login": "Admin-login",
+    "servers": "Servers",
     "beta": {
       "title": "Beta-version",
       "description": "Denne funktion er stadig i betafasen. Hvis du finder fejl, bedes du rapportere dem <Link>her</Link>."
@@ -165,7 +175,6 @@
     "before": "fra"
   },
   "info": {
-    "credits": "<MSpeed>MySpeed</MSpeed> er et open source-projekt leveret af GNMYT. Giv en stjerne på <Github>GitHub</Github> eller <Donate>donér</Donate> for at støtte projektet.",
     "recommendations_error": "Du skal lave mindst 10 tests, så der kan beregnes et gennemsnit. Det betyder ikke noget, om testene er udført manuelt eller automatisk.",
     "recommendations_info": "Baseret på de sidste 10 testresultater blev det fundet, at den optimale ping var <Bold>{{ping}} ms</Bold>, download var <Bold>{{down}} Mbit/s</Bold> og upload ved <Bold>{{up}} Mbit/s</Bold>. Det er bedst at bruge din internetkontrakt som en rettesnor og kun anvende den, hvis den passer.",
     "update": "En opdatering til version {{version}} er tilgængelig. Se <Changes>ændringerne</Changes> og <DLLink>download opdateringen</DLLink>.",
@@ -217,11 +226,7 @@
       "automatic": "automatisk"
     },
     "overview": {
-      "title": "Testoversigt over de seneste {{amount}}",
-      "1": "24 timer",
-      "2": "2 dage",
-      "3": "7 dage",
-      "4": "30 dage"
+      "title_range": "Test overview from {{from}} to {{to}}"
     }
   },
   "errors": {
@@ -236,6 +241,7 @@
     "invalid_view": "Ugyldig visning"
   },
   "statistics": {
+    "average": "Average",
     "overview": {
       "total_title": "Test i alt",
       "total_description": "Antallet af udførte tests",
@@ -268,7 +274,41 @@
       "avg": "Gennemsnitlig",
       "down": "Download værdier",
       "up": "Upload værdier"
+    },
+    "hourly": {
+      "title": "Speed by Time of Day",
+      "sample_count": "Tests"
+    },
+    "consistency": {
+      "title": "Connection Stability",
+      "excellent": "Excellent",
+      "good": "Good",
+      "fair": "Fair",
+      "poor": "Poor",
+      "ping_variance": "Ping variance"
+    },
+    "aggregation": {
+      "daily": "Showing daily averages",
+      "weekly": "Showing weekly averages"
     }
+  },
+  "calendar": {
+    "select_range": "Select date range",
+    "select_start": "Select start date",
+    "select_end": "Select end date",
+    "from": "From",
+    "to": "To",
+    "last_7_days": "Last 7 days",
+    "last_30_days": "Last 30 days",
+    "last_90_days": "Last 90 days",
+    "last_year": "Last year",
+    "mon": "Mon",
+    "tue": "Tue",
+    "wed": "Wed",
+    "thu": "Thu",
+    "fri": "Fri",
+    "sat": "Sat",
+    "sun": "Sun"
   },
   "nodes": {
     "add": "Tilføj server",
@@ -392,5 +432,20 @@
   },
   "common": {
     "back_to_top": "Tilbage til toppen"
+  },
+  "not_found": {
+    "title": "Page not found",
+    "description": "The page you're looking for doesn't exist or has been moved.",
+    "back_home": "Back to Home"
+  },
+  "route_error": {
+    "title": "Oops!",
+    "subtitle": "Something went wrong",
+    "description": "An unexpected error occurred. Please try again or go back to the home page.",
+    "reload": "Reload Page"
+  },
+  "optimal_values": {
+    "title": "Optimal Values",
+    "use_recommended": "Use recommended"
   }
 }
