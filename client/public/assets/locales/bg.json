@@ -196,6 +196,8 @@
   "latest": {
     "ping": "Ping",
     "ping_unit": "ms",
+    "jitter": "Jitter",
+    "jitter_unit": "ms",
     "down": "Изтегляне",
     "speed_unit": "Mbit/s",
     "up": "Качване на",
@@ -213,6 +215,10 @@
     "ping": {
       "title": "Ping",
       "description": "Пингът показва колко бързо отговаря съответният доставчик. Колкото по-кратко е времето, толкова по-добре."
+    },
+    "jitter": {
+      "title": "Jitter",
+      "description": "Jitter is the variation in ping response times. Lower jitter means a more stable connection, which is important for real-time applications like video calls and gaming."
     },
     "up": {
       "title": "Скорост на качване",
@@ -250,6 +256,7 @@
     "result": {
       "title": "Резултат от теста",
       "description": "При <Link>този тест</Link> беше постигната максимална скорост на изтегляне от <Bold>{{down}} Mbps</Bold> и максимална скорост на качване от <Bold>{{up}} Mbps</Bold>. Той беше създаден <Bold>{{type}}</Bold> и е отнел <Bold>{{duration}} секунди</Bold>.",
+      "jitter": " The connection jitter was <Bold>{{jitter}} ms</Bold>.",
       "from_you": "от вас",
       "automatic": "автоматичен"
     },
