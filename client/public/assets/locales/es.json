@@ -23,6 +23,8 @@
     "unset": "Eliminar",
     "retry": "Volver a intentar",
     "login": "Iniciar sesión",
+    "save": "Save",
+    "saving": "Saving...",
     "password": {
       "title": "Constraseña requerida",
       "placeholder": "Tu contraseña",
@@ -38,7 +40,11 @@
       "server": "Servidor",
       "server_id": "ID de servidor",
       "choose_automatically": "Elige automáticamente",
-      "ookla_license": "He leído y acepto <Eula>el CLUF</Eula>, la <GDPR>política de privacidad</GDPR> y las <TOS>condiciones de servicio</TOS> de Ookla."
+      "ookla_license": "He leído y acepto <Eula>el CLUF</Eula>, la <GDPR>política de privacidad</GDPR> y las <TOS>condiciones de servicio</TOS> de Ookla.",
+      "ookla_notice": "By using Ookla, you agree to their <Eula>EULA</Eula>, <GDPR>privacy policy</GDPR> and <TOS>terms of service</TOS>.",
+      "ookla_desc": "Popular provider with global server network",
+      "libre_desc": "Open-source, self-hostable speedtest",
+      "cloudflare_desc": "Fast CDN-based testing"
     }
   },
   "dropdown": {
@@ -79,16 +85,36 @@
   },
   "options": {
     "cron": {
-      "continuous": "Continuo (cada minuto)",
-      "frequent": "Muy a menudo (cada 30 minutos)",
-      "default": "Estándar (cada hora)",
-      "rare": "Raramente (cada 3 horas)",
-      "really_rare": "Muy raramente (cada 6 horas)"
+      "continuous": "Continuous",
+      "continuous_desc": "Every minute - high resource usage",
+      "frequent": "Very often",
+      "frequent_desc": "Every 30 minutes",
+      "default": "Default",
+      "default_desc": "Every hour - recommended",
+      "rare": "Rarely",
+      "rare_desc": "Every 3 hours",
+      "really_rare": "Very rarely",
+      "really_rare_desc": "Every 6 hours"
     },
     "level": {
       "no_access": "Sin acceso",
       "read_access": "Acceso de sólo lectura"
     }
+  },
+  "password": {
+    "no_access_desc": "Visitors must enter the password to view anything",
+    "read_access_desc": "Visitors can view data but can't change settings"
+  },
+  "pause": {
+    "manual": "Pause Indefinitely",
+    "manual_desc": "Pause until manually resumed",
+    "short": "Short Break",
+    "short_desc": "Pause for 1 hour",
+    "medium": "Medium Break",
+    "medium_desc": "Pause for 6 hours",
+    "long": "Long Break",
+    "long_desc": "Pause for 12 hours",
+    "custom": "Custom Duration"
   },
   "page": {
     "overview": "Visión general",
@@ -113,11 +139,13 @@
     "cron_title": "Ajustar la frecuencia de los tests",
     "cron_rules": "Regla cron",
     "cron_next_test": "Próximo test:",
+    "custom_cron": "Custom schedule",
     "time_title": "Mostrar los tests de los últimos:",
     "download": "Descargar",
     "pause_title": "Pausar tests durante:",
     "hours": "Horas",
     "pause": "Pausar",
+    "pause_manual_hint": "Leave empty to pause indefinitely",
     "release_manually": "Reanudar manualmente",
     "language": "Cambiar de idioma",
     "view_title": "Cambiar interfaz"
