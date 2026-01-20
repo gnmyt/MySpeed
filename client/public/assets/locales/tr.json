@@ -196,6 +196,8 @@
   "latest": {
     "ping": "Ping",
     "ping_unit": "ms",
+    "jitter": "Jitter",
+    "jitter_unit": "ms",
     "down": "İndirme",
     "speed_unit": "Mbit/s",
     "up": "Yükleme",
@@ -213,6 +215,10 @@
     "ping": {
       "title": "Ping",
       "description": "Ping, ilgili sağlayıcının ne kadar hızlı yanıt verdiğini gösterir. Süre ne kadar az olursa, o kadar iyidir."
+    },
+    "jitter": {
+      "title": "Jitter",
+      "description": "Jitter is the variation in ping response times. Lower jitter means a more stable connection, which is important for real-time applications like video calls and gaming."
     },
     "up": {
       "title": "Yükleme hızı",
@@ -250,6 +256,7 @@
     "result": {
       "title": "Test sonucu",
       "description": "<Link>Bu testte</Link> maksimum indirme hızı <Bold>{{down}} M</Bold> bps ve maksimum yükleme hızı <Bold>{{up}} Mbps</Bold> olarak elde edilmiştir. Oluşturuldu <Bold>{{type}}</Bold> ve <Bold>{{duration}} saniye</Bold> sürdü.",
+      "jitter": " The connection jitter was <Bold>{{jitter}} ms</Bold>.",
       "from_you": "siz tarafından",
       "automatic": "otomatik olarak"
     },
