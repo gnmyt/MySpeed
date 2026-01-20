@@ -196,6 +196,8 @@
   "latest": {
     "ping": "Ping",
     "ping_unit": "ms",
+    "jitter": "Jitter",
+    "jitter_unit": "ms",
     "down": "Téléchargement",
     "speed_unit": "Mbps",
     "up": "Téléversement",
@@ -213,6 +215,10 @@
     "ping": {
       "title": "Latence",
       "description": "Le ping vous montre la durée entre votre ordinateur et votre FAI. Plus le temps est court, mieux c'est."
+    },
+    "jitter": {
+      "title": "Jitter",
+      "description": "Jitter is the variation in ping response times. Lower jitter means a more stable connection, which is important for real-time applications like video calls and gaming."
     },
     "up": {
       "title": "Vitesse de téléversement",
@@ -250,6 +256,7 @@
     "result": {
       "title": "Résultats du test",
       "description": "<Link>Ce test</Link> a atteint une vitesse de téléchargement maximale de <Bold>{{down}} Mbps</Bold> et une vitesse de téléchargement maximale de <Bold>{{up}} Mbps</Bold>. Il a été créé <Bold>{{type}}</Bold> et a duré <Bold>{{duration}} secondes</Bold>.",
+      "jitter": " The connection jitter was <Bold>{{jitter}} ms</Bold>.",
       "from_you": "par vous",
       "automatic": "automatiquement"
     },
