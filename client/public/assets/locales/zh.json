@@ -23,6 +23,8 @@
     "unset": "移除",
     "retry": "再试一次",
     "login": "登录",
+    "save": "Save",
+    "saving": "Saving...",
     "password": {
       "title": "需要密码",
       "placeholder": "您的密码",
@@ -38,7 +40,11 @@
       "server": "服务器",
       "server_id": "服务器ID",
       "choose_automatically": "自动选择",
-      "ookla_license": "我已阅读并接受 Ookla 的<Eula>EULA</Eula>、<GDPR>隐私政策</GDPR>和<TOS>服务条款</TOS>。"
+      "ookla_license": "我已阅读并接受 Ookla 的<Eula>EULA</Eula>、<GDPR>隐私政策</GDPR>和<TOS>服务条款</TOS>。",
+      "ookla_notice": "By using Ookla, you agree to their <Eula>EULA</Eula>, <GDPR>privacy policy</GDPR> and <TOS>terms of service</TOS>.",
+      "ookla_desc": "Popular provider with global server network",
+      "libre_desc": "Open-source, self-hostable speedtest",
+      "cloudflare_desc": "Fast CDN-based testing"
     }
   },
   "dropdown": {
@@ -79,16 +85,36 @@
   },
   "options": {
     "cron": {
-      "continuous": "连续 (每分钟)",
-      "frequent": "非常频繁 (每30分钟一次)",
-      "default": "标准 (每小时一次)",
-      "rare": "很少 (每3小时一次)",
-      "really_rare": "非常少 (每6小时一次)"
+      "continuous": "Continuous",
+      "continuous_desc": "Every minute - high resource usage",
+      "frequent": "Very often",
+      "frequent_desc": "Every 30 minutes",
+      "default": "Default",
+      "default_desc": "Every hour - recommended",
+      "rare": "Rarely",
+      "rare_desc": "Every 3 hours",
+      "really_rare": "Very rarely",
+      "really_rare_desc": "Every 6 hours"
     },
     "level": {
       "no_access": "无法进入",
       "read_access": "只读访问"
     }
+  },
+  "password": {
+    "no_access_desc": "Visitors must enter the password to view anything",
+    "read_access_desc": "Visitors can view data but can't change settings"
+  },
+  "pause": {
+    "manual": "Pause Indefinitely",
+    "manual_desc": "Pause until manually resumed",
+    "short": "Short Break",
+    "short_desc": "Pause for 1 hour",
+    "medium": "Medium Break",
+    "medium_desc": "Pause for 6 hours",
+    "long": "Long Break",
+    "long_desc": "Pause for 12 hours",
+    "custom": "Custom Duration"
   },
   "page": {
     "overview": "概览",
@@ -113,11 +139,13 @@
     "cron_title": "设置测试频率",
     "cron_rules": "克隆规则",
     "cron_next_test": "下一次测试：",
+    "custom_cron": "Custom schedule",
     "time_title": "显示最后一次测试...",
     "download": "下载",
     "pause_title": "测速暂停了，因为...",
     "hours": "小时",
     "pause": "暂停",
+    "pause_manual_hint": "Leave empty to pause indefinitely",
     "release_manually": "手动释放",
     "language": "改变语言",
     "view_title": "修改视图"
