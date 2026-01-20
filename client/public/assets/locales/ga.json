@@ -39,6 +39,8 @@
       "interface": "Comhéadan",
       "server": "Freastalaí",
       "server_id": "ID an fhreastalaí",
+      "custom_url": "Custom Server URL",
+      "custom_url_placeholder": "https://speed.test/backend/",
       "choose_automatically": "Roghnaigh go huathoibríoch",
       "ookla_license": "Léigh mé agus glacaim le <Eula>EULA</Eula>, <GDPR>polasaí príobháideachta</GDPR> agus <TOS>téarmaí seirbhíse</TOS> Ookla.",
       "ookla_notice": "By using Ookla, you agree to their <Eula>EULA</Eula>, <GDPR>privacy policy</GDPR> and <TOS>terms of service</TOS>.",
