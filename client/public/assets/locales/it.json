@@ -196,6 +196,8 @@
   "latest": {
     "ping": "Ping",
     "ping_unit": "ms",
+    "jitter": "Jitter",
+    "jitter_unit": "ms",
     "down": "Scaricare",
     "speed_unit": "Mbps",
     "up": "Caricare",
@@ -213,6 +215,10 @@
     "ping": {
       "title": "Ping",
       "description": "Il ping indica la velocità di risposta del rispettivo provider. Più breve è il tempo, meglio è."
+    },
+    "jitter": {
+      "title": "Jitter",
+      "description": "Jitter is the variation in ping response times. Lower jitter means a more stable connection, which is important for real-time applications like video calls and gaming."
     },
     "up": {
       "title": "Velocità upload",
@@ -250,6 +256,7 @@
     "result": {
       "title": "Risultato del test",
       "description": "<Link>Questo test</Link> ha raggiunto una velocità massima di download di <Bold>{{down}} Mbps</Bold> e una velocità massima di upload di <Bold>{{up}} Mbps</Bold>. È stato creato <Bold>{{type}}</Bold> e ha richiesto <Bold>{{duration}} secondi</Bold>.",
+      "jitter": " The connection jitter was <Bold>{{jitter}} ms</Bold>.",
       "from_you": "da parte vostra",
       "automatic": "automatico"
     },
