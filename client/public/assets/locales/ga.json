@@ -196,6 +196,8 @@
   "latest": {
     "ping": "Ping",
     "ping_unit": "ms",
+    "jitter": "Jitter",
+    "jitter_unit": "ms",
     "down": "Íoslódáil",
     "speed_unit": "Mbps",
     "up": "Uaslódáil",
@@ -213,6 +215,10 @@
     "ping": {
       "title": "Ping",
       "description": "Léiríonn an ping duit cé chomh tapa agus a fhreagraíonn an soláthraí faoi seach. Dá giorra an t-am, is amhlaidh is fearr."
+    },
+    "jitter": {
+      "title": "Jitter",
+      "description": "Jitter is the variation in ping response times. Lower jitter means a more stable connection, which is important for real-time applications like video calls and gaming."
     },
     "up": {
       "title": "Luas uaslódála",
@@ -250,6 +256,7 @@
     "result": {
       "title": "Toradh tástála",
       "description": "<Link>Bhain an tástáil seo</Link> uasluas íoslódála amach de <Bold>{{down}} Mbps</Bold> agus uasluas uaslódála de <Bold>{{up}} Mbps</Bold>. Cruthaíodh í <Bold>{{type}}</Bold> agus mhair sí <Bold>{{duration}} soicind</Bold>.",
+      "jitter": " The connection jitter was <Bold>{{jitter}} ms</Bold>.",
       "from_you": "ag tú",
       "automatic": "go huathoibríoch"
     },
