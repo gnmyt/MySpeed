@@ -196,6 +196,8 @@
   "latest": {
     "ping": "ping 延迟",
     "ping_unit": "毫秒",
+    "jitter": "Jitter",
+    "jitter_unit": "ms",
     "down": "下载",
     "speed_unit": "Mbps",
     "up": "上传",
@@ -213,6 +215,10 @@
     "ping": {
       "title": "平",
       "description": "Ping 延迟显示了各自供应商的响应速度。时间越短越好。"
+    },
+    "jitter": {
+      "title": "Jitter",
+      "description": "Jitter is the variation in ping response times. Lower jitter means a more stable connection, which is important for real-time applications like video calls and gaming."
     },
     "up": {
       "title": "上传速度",
@@ -250,6 +256,7 @@
     "result": {
       "title": "测试结果",
       "description": "<Link>该测试</Link>的最高下载速度为<Bold>{{down}} Mbps</Bold>，最高上传速度为<Bold>{{up}} Mbps</Bold>。创建 <Bold>{{type}}</Bold>耗时<Bold>{{duration}} 秒</Bold>。",
+      "jitter": " The connection jitter was <Bold>{{jitter}} ms</Bold>.",
       "from_you": "来自你的",
       "automatic": "自动"
     },
