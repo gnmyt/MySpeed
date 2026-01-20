@@ -39,6 +39,8 @@
       "interface": "Interface",
       "server": "Server",
       "server_id": "Server-ID",
+      "custom_url": "Custom Server URL",
+      "custom_url_placeholder": "https://speed.test/backend/",
       "choose_automatically": "Automatisch kiezen",
       "ookla_license": "Ik heb de <Eula>EULA</Eula>, <GDPR>het privacybeleid</GDPR> en <TOS>de servicevoorwaarden</TOS> van Ookla gelezen en accepteer deze.",
       "ookla_notice": "By using Ookla, you agree to their <Eula>EULA</Eula>, <GDPR>privacy policy</GDPR> and <TOS>terms of service</TOS>.",
