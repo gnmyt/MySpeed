@@ -39,6 +39,8 @@
       "interface": "Arayüz",
       "server": "Sunucu",
       "server_id": "Sunucu Kimliği",
+      "custom_url": "Custom Server URL",
+      "custom_url_placeholder": "https://speed.test/backend/",
       "choose_automatically": "Otomatik olarak seçin",
       "ookla_license": "Ookla'nın <Eula>EULA</Eula>'sını, <GDPR>gizlilik politikasını</GDPR> ve <TOS>hizmet şartlarını</TOS> okudum ve kabul ediyorum.",
       "ookla_notice": "By using Ookla, you agree to their <Eula>EULA</Eula>, <GDPR>privacy policy</GDPR> and <TOS>terms of service</TOS>.",
