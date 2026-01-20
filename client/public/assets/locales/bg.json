@@ -23,6 +23,8 @@
     "unset": "Премахване на",
     "retry": "Опитайте отново",
     "login": "Влезте в системата",
+    "save": "Save",
+    "saving": "Saving...",
     "password": {
       "title": "Изисква се парола",
       "placeholder": "Вашата парола",
@@ -38,7 +40,11 @@
       "server": "Сървър",
       "server_id": "Идентификатор на сървъра",
       "choose_automatically": "Изберете автоматично",
-      "ookla_license": "Прочетох и приемам <Eula>ЛСКП,</Eula> <GDPR>политиката за поверителност</GDPR> и <TOS>условията за ползване на</TOS> Ookla."
+      "ookla_license": "Прочетох и приемам <Eula>ЛСКП,</Eula> <GDPR>политиката за поверителност</GDPR> и <TOS>условията за ползване на</TOS> Ookla.",
+      "ookla_notice": "By using Ookla, you agree to their <Eula>EULA</Eula>, <GDPR>privacy policy</GDPR> and <TOS>terms of service</TOS>.",
+      "ookla_desc": "Popular provider with global server network",
+      "libre_desc": "Open-source, self-hostable speedtest",
+      "cloudflare_desc": "Fast CDN-based testing"
     }
   },
   "dropdown": {
@@ -79,16 +85,36 @@
   },
   "options": {
     "cron": {
-      "continuous": "Непрекъснато (на всяка минута)",
-      "frequent": "Много често (на всеки 30 минути)",
-      "default": "Стандартно (на всеки час)",
-      "rare": "Рядко (на всеки 3 часа)",
-      "really_rare": "Много рядко (на всеки 6 часа)"
+      "continuous": "Continuous",
+      "continuous_desc": "Every minute - high resource usage",
+      "frequent": "Very often",
+      "frequent_desc": "Every 30 minutes",
+      "default": "Default",
+      "default_desc": "Every hour - recommended",
+      "rare": "Rarely",
+      "rare_desc": "Every 3 hours",
+      "really_rare": "Very rarely",
+      "really_rare_desc": "Every 6 hours"
     },
     "level": {
       "no_access": "Няма достъп",
       "read_access": "Достъп само за четене"
     }
+  },
+  "password": {
+    "no_access_desc": "Visitors must enter the password to view anything",
+    "read_access_desc": "Visitors can view data but can't change settings"
+  },
+  "pause": {
+    "manual": "Pause Indefinitely",
+    "manual_desc": "Pause until manually resumed",
+    "short": "Short Break",
+    "short_desc": "Pause for 1 hour",
+    "medium": "Medium Break",
+    "medium_desc": "Pause for 6 hours",
+    "long": "Long Break",
+    "long_desc": "Pause for 12 hours",
+    "custom": "Custom Duration"
   },
   "page": {
     "overview": "Преглед",
@@ -113,11 +139,13 @@
     "cron_title": "Задаване на тестова честота",
     "cron_rules": "Правило на Cron",
     "cron_next_test": "Следващ тест:",
+    "custom_cron": "Custom schedule",
     "time_title": "Покажете тестовете от последните ...",
     "download": "Изтегляне",
     "pause_title": "Тестове за скорост - пауза за...",
     "hours": "Часове",
     "pause": "Пауза",
+    "pause_manual_hint": "Leave empty to pause indefinitely",
     "release_manually": "Освобождаване ръчно",
     "language": "Промяна на езика",
     "view_title": "Промяна на изгледа"
