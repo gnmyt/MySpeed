@@ -196,6 +196,8 @@
   "latest": {
     "ping": "Пинг",
     "ping_unit": "ms",
+    "jitter": "Jitter",
+    "jitter_unit": "ms",
     "down": "Скачать",
     "speed_unit": "Mbit/s",
     "up": "Загрузить",
@@ -213,6 +215,10 @@
     "ping": {
       "title": "Пинг",
       "description": "Пинг показывает, как быстро отвечает соответствующий провайдер. Чем короче время, тем лучше."
+    },
+    "jitter": {
+      "title": "Jitter",
+      "description": "Jitter is the variation in ping response times. Lower jitter means a more stable connection, which is important for real-time applications like video calls and gaming."
     },
     "up": {
       "title": "Скорость загрузки",
@@ -250,6 +256,7 @@
     "result": {
       "title": "Результат тестирования",
       "description": "В <Link>этом тесте</Link> была достигнута максимальная скорость скачивания <Bold>{{down}} Мбит/с</Bold> и максимальная скорость загрузки <Bold>{{up}} Мбит/с</Bold>. Он был создан <Bold>{{type}}</Bold> и занял <Bold>{{duration}} секунд</Bold>.",
+      "jitter": " The connection jitter was <Bold>{{jitter}} ms</Bold>.",
       "from_you": "от тебя",
       "automatic": "автоматический"
     },
