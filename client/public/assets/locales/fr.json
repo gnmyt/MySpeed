@@ -23,6 +23,8 @@
     "unset": "Retirer",
     "retry": "Réessayer",
     "login": "Connexion",
+    "save": "Save",
+    "saving": "Saving...",
     "password": {
       "title": "Mot de passe requis",
       "placeholder": "Votre mot de passe",
@@ -38,7 +40,11 @@
       "server": "Serveur",
       "server_id": "ID du serveur",
       "choose_automatically": "Choisis automatiquement",
-      "ookla_license": "J'ai lu et j'accepte le <Eula>CLUF</Eula>, la <GDPR>politique de confidentialité</GDPR> et les <TOS>conditions de service</TOS> d'Ookla."
+      "ookla_license": "J'ai lu et j'accepte le <Eula>CLUF</Eula>, la <GDPR>politique de confidentialité</GDPR> et les <TOS>conditions de service</TOS> d'Ookla.",
+      "ookla_notice": "By using Ookla, you agree to their <Eula>EULA</Eula>, <GDPR>privacy policy</GDPR> and <TOS>terms of service</TOS>.",
+      "ookla_desc": "Popular provider with global server network",
+      "libre_desc": "Open-source, self-hostable speedtest",
+      "cloudflare_desc": "Fast CDN-based testing"
     }
   },
   "dropdown": {
@@ -79,16 +85,36 @@
   },
   "options": {
     "cron": {
-      "continuous": "Continue (toutes les minutes)",
-      "frequent": "Très souvent (toutes les 30 minutes)",
-      "default": "Par défaut (toutes les heures)",
-      "rare": "Rarement (toutes les 3 heures)",
-      "really_rare": "Très rarement (toutes les 6 heures)"
+      "continuous": "Continuous",
+      "continuous_desc": "Every minute - high resource usage",
+      "frequent": "Very often",
+      "frequent_desc": "Every 30 minutes",
+      "default": "Default",
+      "default_desc": "Every hour - recommended",
+      "rare": "Rarely",
+      "rare_desc": "Every 3 hours",
+      "really_rare": "Very rarely",
+      "really_rare_desc": "Every 6 hours"
     },
     "level": {
       "no_access": "Accès Refusé",
       "read_access": "Accès en lecture seule"
     }
+  },
+  "password": {
+    "no_access_desc": "Visitors must enter the password to view anything",
+    "read_access_desc": "Visitors can view data but can't change settings"
+  },
+  "pause": {
+    "manual": "Pause Indefinitely",
+    "manual_desc": "Pause until manually resumed",
+    "short": "Short Break",
+    "short_desc": "Pause for 1 hour",
+    "medium": "Medium Break",
+    "medium_desc": "Pause for 6 hours",
+    "long": "Long Break",
+    "long_desc": "Pause for 12 hours",
+    "custom": "Custom Duration"
   },
   "page": {
     "overview": "Vue d'ensemble",
@@ -113,11 +139,13 @@
     "cron_title": "Définir la fréquence de test",
     "cron_rules": "Règle Cron",
     "cron_next_test": "Test suivant :",
+    "custom_cron": "Custom schedule",
     "time_title": "Afficher les tests des dernières ...",
     "download": "Télécharger",
     "pause_title": "Mettre en pause les tests de vitesse pour...",
     "hours": "Heures",
     "pause": "Suspendre",
+    "pause_manual_hint": "Leave empty to pause indefinitely",
     "release_manually": "Libérer manuellement",
     "language": "Changer de langue",
     "view_title": "Basculer l’affichage"
