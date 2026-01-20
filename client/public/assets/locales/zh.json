@@ -39,6 +39,8 @@
       "interface": "界面",
       "server": "服务器",
       "server_id": "服务器ID",
+      "custom_url": "Custom Server URL",
+      "custom_url_placeholder": "https://speed.test/backend/",
       "choose_automatically": "自动选择",
       "ookla_license": "我已阅读并接受 Ookla 的<Eula>EULA</Eula>、<GDPR>隐私政策</GDPR>和<TOS>服务条款</TOS>。",
       "ookla_notice": "By using Ookla, you agree to their <Eula>EULA</Eula>, <GDPR>privacy policy</GDPR> and <TOS>terms of service</TOS>.",
