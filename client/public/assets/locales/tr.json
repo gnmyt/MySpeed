@@ -23,6 +23,8 @@
     "unset": "Kaldırmak",
     "retry": "Tekrar deneyin",
     "login": "Giriş yap",
+    "save": "Save",
+    "saving": "Saving...",
     "password": {
       "title": "Şifre gerekli",
       "placeholder": "Şifreniz",
@@ -38,7 +40,11 @@
       "server": "Sunucu",
       "server_id": "Sunucu Kimliği",
       "choose_automatically": "Otomatik olarak seçin",
-      "ookla_license": "Ookla'nın <Eula>EULA</Eula>'sını, <GDPR>gizlilik politikasını</GDPR> ve <TOS>hizmet şartlarını</TOS> okudum ve kabul ediyorum."
+      "ookla_license": "Ookla'nın <Eula>EULA</Eula>'sını, <GDPR>gizlilik politikasını</GDPR> ve <TOS>hizmet şartlarını</TOS> okudum ve kabul ediyorum.",
+      "ookla_notice": "By using Ookla, you agree to their <Eula>EULA</Eula>, <GDPR>privacy policy</GDPR> and <TOS>terms of service</TOS>.",
+      "ookla_desc": "Popular provider with global server network",
+      "libre_desc": "Open-source, self-hostable speedtest",
+      "cloudflare_desc": "Fast CDN-based testing"
     }
   },
   "dropdown": {
@@ -79,16 +85,36 @@
   },
   "options": {
     "cron": {
-      "continuous": "Sürekli (her dakika)",
-      "frequent": "Çok sık (her 30 dakikada bir)",
-      "default": "Varsayılan (her saat)",
-      "rare": "Nadiren (her 3 saatte bir)",
-      "really_rare": "Çok nadiren (her 6 saatte bir)"
+      "continuous": "Continuous",
+      "continuous_desc": "Every minute - high resource usage",
+      "frequent": "Very often",
+      "frequent_desc": "Every 30 minutes",
+      "default": "Default",
+      "default_desc": "Every hour - recommended",
+      "rare": "Rarely",
+      "rare_desc": "Every 3 hours",
+      "really_rare": "Very rarely",
+      "really_rare_desc": "Every 6 hours"
     },
     "level": {
       "no_access": "Erişim yok",
       "read_access": "Salt Okunur Erişim"
     }
+  },
+  "password": {
+    "no_access_desc": "Visitors must enter the password to view anything",
+    "read_access_desc": "Visitors can view data but can't change settings"
+  },
+  "pause": {
+    "manual": "Pause Indefinitely",
+    "manual_desc": "Pause until manually resumed",
+    "short": "Short Break",
+    "short_desc": "Pause for 1 hour",
+    "medium": "Medium Break",
+    "medium_desc": "Pause for 6 hours",
+    "long": "Long Break",
+    "long_desc": "Pause for 12 hours",
+    "custom": "Custom Duration"
   },
   "page": {
     "overview": "Genel Bakış",
@@ -113,11 +139,13 @@
     "cron_title": "Test sıklığını ayarla",
     "cron_rules": "Cron kuralı",
     "cron_next_test": "Sonraki test:",
+    "custom_cron": "Custom schedule",
     "time_title": "Son testleri göster ...",
     "download": "İndir",
     "pause_title": "Speedtestleri duraklat...",
     "hours": "Saatler",
     "pause": "Duraklat",
+    "pause_manual_hint": "Leave empty to pause indefinitely",
     "release_manually": "Manuel olarak bırak",
     "language": "Dili Değiştir",
     "view_title": "Görünümü Değiştir"
