@@ -39,7 +39,7 @@
       "interface": "Интерфейс",
       "server": "Сервер",
       "server_id": "Идентификатор сервера",
-      "custom_url": "Custom Server URL",
+      "custom_url": "Custom URL",
       "custom_url_placeholder": "https://speed.test/backend/",
       "choose_automatically": "Выбирай автоматически",
       "ookla_license": "Я прочитал и принимаю <Eula>EULA</Eula>, <GDPR>политику конфиденциальности</GDPR> и <TOS>условия обслуживания</TOS> Ookla.",
@@ -279,6 +279,9 @@
   },
   "statistics": {
     "average": "Average",
+    "export": {
+      "button": "Export"
+    },
     "overview": {
       "total_title": "Всего тестов",
       "total_description": "Количество проведенных тестов",
