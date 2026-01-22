@@ -368,6 +368,11 @@
       "yes": "Sea, scrios",
       "success": "Scriosadh an freastalaí go rathúil"
     },
+    "rename": {
+      "title": "Rename server",
+      "placeholder": "New server name",
+      "success": "The server has been renamed successfully"
+    },
     "messages": {
       "not_reachable": "Ní féidir teacht ar an bhfreastalaí",
       "password_changed": "Pasfhocal athraithe",
