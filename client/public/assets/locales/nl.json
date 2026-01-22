@@ -39,7 +39,7 @@
       "interface": "Interface",
       "server": "Server",
       "server_id": "Server-ID",
-      "custom_url": "Custom Server URL",
+      "custom_url": "Custom URL",
       "custom_url_placeholder": "https://speed.test/backend/",
       "choose_automatically": "Automatisch kiezen",
       "ookla_license": "Ik heb de <Eula>EULA</Eula>, <GDPR>het privacybeleid</GDPR> en <TOS>de servicevoorwaarden</TOS> van Ookla gelezen en accepteer deze.",
@@ -279,6 +279,9 @@
   },
   "statistics": {
     "average": "Average",
+    "export": {
+      "button": "Export"
+    },
     "overview": {
       "total_title": "Totaal testen",
       "total_description": "Het aantal uitgevoerde tests",
