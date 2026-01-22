@@ -39,7 +39,7 @@
       "interface": "Grænseflade",
       "server": "Server",
       "server_id": "Server-ID",
-      "custom_url": "Custom Server URL",
+      "custom_url": "Custom URL",
       "custom_url_placeholder": "https://speed.test/backend/",
       "choose_automatically": "Vælg automatisk",
       "ookla_license": "Jeg har læst og accepterer <Eula>EULA</Eula>'en, <GDPR>privatlivspolitikken</GDPR> og <TOS>servicevilkårene</TOS> for Ookla.",
@@ -279,6 +279,9 @@
   },
   "statistics": {
     "average": "Average",
+    "export": {
+      "button": "Export"
+    },
     "overview": {
       "total_title": "Test i alt",
       "total_description": "Antallet af udførte tests",
