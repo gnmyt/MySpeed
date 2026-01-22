@@ -368,6 +368,11 @@
       "yes": "Ja, slet",
       "success": "Serveren blev slettet med succes"
     },
+    "rename": {
+      "title": "Rename server",
+      "placeholder": "New server name",
+      "success": "The server has been renamed successfully"
+    },
     "messages": {
       "not_reachable": "Serveren kan ikke nås",
       "password_changed": "Adgangskoden er blevet ændret",
