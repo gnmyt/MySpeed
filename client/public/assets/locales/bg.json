@@ -368,6 +368,11 @@
       "yes": "Да, изтрийте",
       "success": "Сървърът е успешно изтрит"
     },
+    "rename": {
+      "title": "Rename server",
+      "placeholder": "New server name",
+      "success": "The server has been renamed successfully"
+    },
     "messages": {
       "not_reachable": "Сървърът не е достъпен",
       "password_changed": "Паролата е променена",
