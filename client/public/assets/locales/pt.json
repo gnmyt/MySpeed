@@ -39,7 +39,7 @@
       "interface": "Interface",
       "server": "Servidor",
       "server_id": "ID do servidor",
-      "custom_url": "Custom Server URL",
+      "custom_url": "Custom URL",
       "custom_url_placeholder": "https://speed.test/backend/",
       "choose_automatically": "Escolha automaticamente",
       "ookla_license": "Eu li e aceito o <Eula>EULA</Eula>, <GDPR>a política de privacidade</GDPR> e os <TOS>termos de serviço</TOS> da Ookla.",
@@ -279,6 +279,9 @@
   },
   "statistics": {
     "average": "Average",
+    "export": {
+      "button": "Export"
+    },
     "overview": {
       "total_title": "Total de testes",
       "total_description": "O número de testes executados",
