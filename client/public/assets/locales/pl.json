@@ -368,6 +368,11 @@
       "yes": "Tak, usuń",
       "success": "Serwer został pomyślnie usunięty"
     },
+    "rename": {
+      "title": "Rename server",
+      "placeholder": "New server name",
+      "success": "The server has been renamed successfully"
+    },
     "messages": {
       "not_reachable": "Serwer jest niedostępny",
       "password_changed": "Hasło zmienione",
