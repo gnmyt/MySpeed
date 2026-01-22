@@ -39,7 +39,7 @@
       "interface": "Comhéadan",
       "server": "Freastalaí",
       "server_id": "ID an fhreastalaí",
-      "custom_url": "Custom Server URL",
+      "custom_url": "Custom URL",
       "custom_url_placeholder": "https://speed.test/backend/",
       "choose_automatically": "Roghnaigh go huathoibríoch",
       "ookla_license": "Léigh mé agus glacaim le <Eula>EULA</Eula>, <GDPR>polasaí príobháideachta</GDPR> agus <TOS>téarmaí seirbhíse</TOS> Ookla.",
@@ -279,6 +279,9 @@
   },
   "statistics": {
     "average": "Average",
+    "export": {
+      "button": "Export"
+    },
     "overview": {
       "total_title": "Iomlán na dtástálacha",
       "total_description": "Líon na dtástálacha a rinneadh",
