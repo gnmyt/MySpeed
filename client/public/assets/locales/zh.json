@@ -312,6 +312,7 @@
       "down": "下载数值",
       "up": "上传数值"
     },
+    "failed_test": "Failed test",
     "hourly": {
       "title": "Speed by Time of Day",
       "sample_count": "Tests"
@@ -323,10 +324,6 @@
       "fair": "Fair",
       "poor": "Poor",
       "ping_variance": "Ping variance"
-    },
-    "aggregation": {
-      "daily": "Showing daily averages",
-      "weekly": "Showing weekly averages"
     }
   },
   "calendar": {
