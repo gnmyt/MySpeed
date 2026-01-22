@@ -368,6 +368,11 @@
       "yes": "是的，删除",
       "success": "该服务器被成功删除"
     },
+    "rename": {
+      "title": "Rename server",
+      "placeholder": "New server name",
+      "success": "The server has been renamed successfully"
+    },
     "messages": {
       "not_reachable": "服务器无法到达",
       "password_changed": "密码已被更改",
