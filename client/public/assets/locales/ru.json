@@ -69,10 +69,10 @@
     "pause_tests": "Приостановить тесты",
     "resume_tests": "Продолжить тесты",
     "language": "Изменить язык",
-    "light_mode": "Режим освещения",
+    "light_mode": "Светлый режим",
     "dark_mode": "Темный режим",
-    "theme_switched_light": "Переключился в режим освещения",
-    "theme_switched_dark": "Переключись в темный режим",
+    "theme_switched_light": "Включен светлый режим",
+    "theme_switched_dark": "Включен темный режим",
     "provider": "О провайдере",
     "integrations": "Интеграции"
   },
@@ -87,15 +87,15 @@
   },
   "options": {
     "cron": {
-      "continuous": "Continuous",
+      "continuous": "Непрерывно (каждую минуту)",
       "continuous_desc": "Every minute - high resource usage",
-      "frequent": "Very often",
+      "frequent": "Очень часто (каждые 30 минут)",
       "frequent_desc": "Every 30 minutes",
-      "default": "Default",
+      "default": "По умолчанию (каждый час)",
       "default_desc": "Every hour - recommended",
-      "rare": "Rarely",
+      "rare": "Редко (каждые 3 часа)",
       "rare_desc": "Every 3 hours",
-      "really_rare": "Very rarely",
+      "really_rare": "Очень редко (каждые 6 часов)",
       "really_rare_desc": "Every 6 hours"
     },
     "level": {
@@ -247,7 +247,7 @@
   "test": {
     "not_available": "В настоящее время нет доступных тестов",
     "no_latest": "Текущий тест отсутствует. Пожалуйста, выполните тест или подождите, пока не будет выполнен следующий тест.",
-    "loading_more": "Загрузи больше тестов...",
+    "loading_more": "Загрузить больше тестов...",
     "no_more_tests": "Больше никаких тестов для загрузки",
     "unknown_error": "Неизвестная ошибка:",
     "failed": "Тест не прошел",
