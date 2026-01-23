@@ -1,0 +1,496 @@
+{
+  "failed": "Gagal",
+  "welcome": {
+    "step": "Langkah",
+    "title": "Selamat datang di MySpeed!",
+    "subtext": "Mari kita siapkan MySpeed untuk pertama kalinya. Jangan khawatir, tidak akan lama.",
+    "provider_title": "Pilih penyedia",
+    "provider_subtext": "Pilih penyedia yang ingin Anda gunakan di sini. Penyedia ini kemudian akan melakukan pengujian Anda.",
+    "data_title": "Atur data optimal",
+    "data_subtext": "Pilih kecepatan yang disepakati secara kontraktual dalam langkah ini",
+    "ms": "(dalam ms)",
+    "mbps": "(dalam Mbps)",
+    "accept_title": "Terima persyaratan",
+    "accept_subtext": "Pada langkah ini, kami ingin memberi tahu Anda tentang lisensi Ookla. Bacalah dan konfirmasi bahwa Anda telah membaca dan menerimanya dengan mengklik \"Selesai\"."
+  },
+  "dialog": {
+    "okay": "Baik",
+    "done": "Selesai",
+    "continue": "Lanjutkan",
+    "apply": "Ya, terapkan",
+    "update": "Perbarui",
+    "close": "Tutup",
+    "unset": "Hapus",
+    "retry": "Coba lagi",
+    "login": "Masuk",
+    "save": "Save",
+    "saving": "Saving...",
+    "password": {
+      "title": "Kata sandi diperlukan",
+      "placeholder": "Kata sandi Anda",
+      "wrong": "Kata sandi yang Anda masukkan salah",
+      "unlock": "Buka kunci"
+    },
+    "api": {
+      "title": "API tidak dapat dijangkau",
+      "description": "MySpeed tidak dapat menjangkau API dari instance ini. Silakan coba lagi nanti."
+    },
+    "provider": {
+      "interface": "Antarmuka",
+      "server": "Server",
+      "server_id": "ID Server",
+      "custom_url": "Custom URL",
+      "custom_url_placeholder": "https://speed.test/backend/",
+      "choose_automatically": "Pilih secara otomatis",
+      "ookla_license": "Saya telah membaca dan menerima <Eula>EULA</Eula>, <GDPR>kebijakan privasi</GDPR> dan <TOS>ketentuan layanan</TOS> dari Ookla.",
+      "ookla_notice": "By using Ookla, you agree to their <Eula>EULA</Eula>, <GDPR>privacy policy</GDPR> and <TOS>terms of service</TOS>.",
+      "ookla_desc": "Popular provider with global server network",
+      "libre_desc": "Open-source, self-hostable speedtest",
+      "cloudflare_desc": "Fast CDN-based testing"
+    }
+  },
+  "dropdown": {
+    "settings": "Pengaturan",
+    "changes_applied": "Perubahan Anda telah disimpan.",
+    "language_changed": "Bahasa telah diubah.",
+    "provider_changed": "Penyedia telah diubah.",
+    "changes_unsaved": "Perubahan Anda tidak diterapkan. Periksa masukan Anda.",
+    "invalid": "Masukan tidak valid",
+    "ping": "Ping optimal",
+    "upload": "Kecepatan unggah optimal",
+    "download": "Kecepatan unduh optimal",
+    "recommendations": "Rekomendasi",
+    "optimal_values": "Optimal values",
+    "change_provider": "Ubah penyedia",
+    "password": "Ubah kata sandi",
+    "cron": "Atur frekuensi",
+    "time": "Atur periode",
+    "storage": "Kelola penyimpanan",
+    "pause_tests": "Jeda pengujian",
+    "resume_tests": "Lanjutkan pengujian",
+    "language": "Ubah bahasa",
+    "light_mode": "Mode terang",
+    "dark_mode": "Mode gelap",
+    "theme_switched_light": "Beralih ke mode terang",
+    "theme_switched_dark": "Beralih ke mode gelap",
+    "provider": "Tentang penyedia",
+    "integrations": "Integrasi"
+  },
+  "about": {
+    "title": "About MySpeed",
+    "description": "MySpeed is an open-source speedtest analysis software that records your internet speed for up to 30 days.",
+    "github": "GitHub",
+    "website": "Website",
+    "donate": "Donate",
+    "translate": "Translate",
+    "made_by": "Made with"
+  },
+  "options": {
+    "cron": {
+      "continuous": "Kontinyu (setiap menit)",
+      "continuous_desc": "Every minute - high resource usage",
+      "frequent": "Sangat sering (setiap 30 menit)",
+      "frequent_desc": "Every 30 minutes",
+      "default": "Default (setiap jam)",
+      "default_desc": "Every hour - recommended",
+      "rare": "Jarang (setiap 3 jam)",
+      "rare_desc": "Every 3 hours",
+      "really_rare": "Sangat jarang (setiap 6 jam)",
+      "really_rare_desc": "Every 6 hours"
+    },
+    "level": {
+      "no_access": "Tidak Ada Akses",
+      "read_access": "Akses Hanya Baca"
+    }
+  },
+  "password": {
+    "no_access_desc": "Visitors must enter the password to view anything",
+    "read_access_desc": "Visitors can view data but can't change settings"
+  },
+  "pause": {
+    "manual": "Pause Indefinitely",
+    "manual_desc": "Pause until manually resumed",
+    "short": "Short Break",
+    "short_desc": "Pause for 1 hour",
+    "medium": "Medium Break",
+    "medium_desc": "Pause for 6 hours",
+    "long": "Long Break",
+    "long_desc": "Pause for 12 hours",
+    "custom": "Custom Duration"
+  },
+  "page": {
+    "overview": "Ringkasan",
+    "statistics": "Statistik"
+  },
+  "update": {
+    "ping_title": "Atur ping optimal (ms)",
+    "ping_placeholder": "Ping (ms)",
+    "upload_title": "Atur kecepatan unggah optimal (Mbps)",
+    "upload_placeholder": "Kecepatan unggah (Mbps)",
+    "download_title": "Atur kecepatan unduh optimal (Mbps)",
+    "download_placeholder": "Kecepatan unduh (Mbps)",
+    "recommendations_title": "Rekomendasi optimal",
+    "recommendations_set": "Atur rekomendasi otomatis?",
+    "provider_title": "Atur penyedia speedtest",
+    "manually": "Atur secara manual",
+    "new_password": "Atur kata sandi baru",
+    "password_placeholder": "Kata sandi baru",
+    "password_removed": "Kunci kata sandi telah dihapus dan kata sandi yang diatur telah dihapus.",
+    "level": "Ubah level",
+    "level_title": "Hak untuk pengunjung",
+    "cron_title": "Atur frekuensi pengujian",
+    "cron_rules": "Aturan Cron",
+    "cron_next_test": "Pengujian Berikutnya:",
+    "custom_cron": "Custom cron expression",
+    "schedule_offset": "Offset schedule",
+    "schedule_offset_desc": "Adds a small delay to prevent tests from starting at exact times",
+    "advanced": "Advanced",
+    "time_title": "Tampilkan pengujian dari ... terakhir",
+    "download": "Unduh",
+    "pause_title": "Jeda speedtest selama...",
+    "hours": "Jam",
+    "pause": "Jeda",
+    "pause_manual_hint": "Leave empty to pause indefinitely",
+    "release_manually": "Lepaskan secara manual",
+    "language": "Ubah bahasa",
+    "view_title": "Alihkan tampilan"
+  },
+  "header": {
+    "title": "MySpeed",
+    "running_tooltip": "Speedtest sedang berjalan",
+    "start_tooltip": "Mulai speedtest",
+    "new_update": "Pembaruan tersedia",
+    "download": "Unduh",
+    "paused": "Speedtest saat ini dijeda. Silakan lanjutkan jika Anda ingin melakukan satu.",
+    "running": "Speedtest sudah berjalan. Silakan tunggu sebentar.",
+    "admin_login": "Masuk Admin",
+    "servers": "Servers",
+    "beta": {
+      "title": "Versi Beta",
+      "description": "Fitur ini masih dalam beta. Jika Anda menemukan bug, silakan laporkan <Link>di sini</Link>."
+    }
+  },
+  "storage": {
+    "speedtests": "Speedtest",
+    "configuration": "Konfigurasi",
+    "stored_tests": "Pengujian tersimpan",
+    "tests": "Pengujian",
+    "export_tests": "Ekspor pengujian",
+    "tests_exported": "Pengujian telah diekspor",
+    "csv": "CSV",
+    "json": "JSON",
+    "import_tests": "Impor pengujian",
+    "tests_imported": "Pengujian telah diimpor",
+    "import_test_error": "Terjadi kesalahan saat mengimpor pengujian",
+    "import_config_error": "Terjadi kesalahan saat mengimpor konfigurasi",
+    "export": "Ekspor",
+    "import": "Impor",
+    "clear_history": "Hapus riwayat",
+    "history_cleared": "Riwayat telah dihapus",
+    "delete": "Hapus",
+    "confirm_delete": "Ya, hapus",
+    "export_settings": "Ekspor pengaturan",
+    "import_settings": "Impor pengaturan",
+    "factory_reset": "Reset pabrik",
+    "factory_reset_completed": "Reset pabrik telah selesai",
+    "reset": "Reset",
+    "confirm_reset": "Ya, reset",
+    "settings_exported": "Pengaturan telah diekspor",
+    "settings_imported": "Pengaturan telah diimpor"
+  },
+  "latest": {
+    "ping": "Ping",
+    "ping_unit": "ms",
+    "jitter": "Jitter",
+    "jitter_unit": "ms",
+    "down": "Unduh",
+    "speed_unit": "Mbps",
+    "up": "Unggah",
+    "latest": "Pengujian terakhir",
+    "before": "yang lalu"
+  },
+  "info": {
+    "recommendations_error": "Anda harus melakukan setidaknya 10 pengujian untuk mendapatkan rata-rata. Tidak masalah apakah pengujian dilakukan secara manual atau otomatis.",
+    "recommendations_info": "Berdasarkan 10 pengujian terakhir, ditemukan bahwa ping optimal adalah <Bold>{{ping}} ms</Bold>, unduh di <Bold>{{down}} Mbps</Bold> dan unggah di <Bold>{{up}} Mbps</Bold>. Sebaiknya berorientasi pada kontrak internet Anda dan hanya mengadopsinya jika sesuai.",
+    "update": "Pembaruan ke versi {{version}} tersedia. Lihat <Changes>perubahan</Changes> dan <DLLink>unduh pembaruan</DLLink>.",
+    "down": {
+      "title": "Kecepatan unduh",
+      "description": "Kecepatan unduh mempengaruhi pengalaman menjelajah Anda. Semakin banyak yang Anda dapatkan, semakin cepat komputer Anda dapat menerima data."
+    },
+    "ping": {
+      "title": "Ping",
+      "description": "Ping menunjukkan seberapa cepat penyedia masing-masing merespons. Semakin pendek waktunya, semakin baik."
+    },
+    "jitter": {
+      "title": "Jitter",
+      "description": "Jitter is the variation in ping response times. Lower jitter means a more stable connection, which is important for real-time applications like video calls and gaming."
+    },
+    "up": {
+      "title": "Kecepatan unggah",
+      "description": "Kecepatan unggah mempengaruhi pengalaman menjelajah Anda. Semakin banyak yang Anda dapatkan, semakin cepat komputer Anda dapat mengirim data."
+    },
+    "latest": {
+      "title": "Pengujian terakhir",
+      "description": "Ini adalah waktu yang menunjukkan kapan pengujian terakhir dijalankan. Dalam hal ini, yang terakhir berlangsung pada <Bold>{{date}}</Bold> pada <Bold>{{time}}</Bold>."
+    }
+  },
+  "time": {
+    "now": "Baru saja",
+    "seconds": "{{seconds}} detik",
+    "minute": "1 menit",
+    "minutes": "{{minutes}} menit",
+    "hour": "1 jam",
+    "hours": "{{hours}} jam",
+    "on": "Pada",
+    "at": "Pukul"
+  },
+  "test": {
+    "not_available": "Saat ini tidak ada pengujian yang tersedia",
+    "no_latest": "Tidak ada pengujian saat ini yang tersedia. Silakan lakukan pengujian atau tunggu hingga pengujian berikutnya dilakukan.",
+    "loading_more": "Memuat lebih banyak pengujian...",
+    "no_more_tests": "Tidak ada lagi pengujian untuk dimuat",
+    "unknown_error": "Kesalahan tidak dikenal:",
+    "failed": "Pengujian gagal",
+    "recheck": "Silakan periksa sebisa mungkin jika ini sering terjadi.",
+    "delete": "Hapus Pengujian",
+    "deleted": "Pengujian telah dihapus",
+    "average": {
+      "title": "Kecepatan Rata-rata",
+      "description": "<Bold>{{amount}}</Bold> Pengujian telah menunjukkan bahwa pada <Bold>{{date}}</Bold> kecepatan unduh rata-rata <Bold>{{down}} Mbps </Bold> dan kecepatan unggah <Bold>{{up}} Mbps</Bold> tercapai. Pengujian memakan waktu rata-rata <Bold>{{duration}} Detik</Bold>."
+    },
+    "result": {
+      "title": "Hasil pengujian",
+      "description": "<Link>Pengujian ini</Link> mencapai kecepatan unduh maksimum <Bold>{{down}} Mbps</Bold> dan kecepatan unggah maksimum <Bold>{{up}} Mbps</Bold>. Dibuat <Bold>{{type}}</Bold> dan memakan waktu <Bold>{{duration}} Detik</Bold>.",
+      "jitter": " The connection jitter was <Bold>{{jitter}} ms</Bold>.",
+      "from_you": "oleh Anda",
+      "automatic": "secara otomatis"
+    },
+    "overview": {
+      "title_range": "Test overview from {{from}} to {{to}}"
+    }
+  },
+  "errors": {
+    "network_unreachable": "Koneksi internet tidak stabil selama pengujian",
+    "took_too_long": "Pengujian memakan waktu terlalu lama dan dibatalkan",
+    "no_permission": "MySpeed tidak memiliki izin untuk memulai pengujian ini",
+    "resource_unavailable": "Pengujian tidak dapat dilakukan karena sumber daya tidak tersedia sementara",
+    "no_route": "Pengujian tidak dapat dilakukan karena tidak ada rute ke host",
+    "connection_refused": "Pengujian tidak dapat dilakukan karena koneksi ditolak",
+    "timed_out": "Koneksi internet tidak stabil selama pengujian",
+    "config": "File konfigurasi tidak dapat dimuat",
+    "invalid_view": "Tampilan tidak valid"
+  },
+  "statistics": {
+    "average": "Average",
+    "export": {
+      "button": "Export"
+    },
+    "overview": {
+      "total_title": "Total pengujian",
+      "total_description": "Jumlah pengujian yang dieksekusi",
+      "failed_title": "Pengujian gagal",
+      "failed_description": "Jumlah pengujian yang gagal",
+      "average_title": "Durasi rata-rata",
+      "average_description": "Durasi rata-rata dari pengujian"
+    },
+    "failed": {
+      "title": "Pengujian gagal",
+      "success": "Berhasil",
+      "failed": "Gagal",
+      "label": "Pengujian"
+    },
+    "speed": {
+      "title": "Kecepatan"
+    },
+    "manual": {
+      "title": "Pengujian manual",
+      "yes": "Dibuat secara manual",
+      "no": "Dibuat secara otomatis"
+    },
+    "duration": {
+      "title": "Durasi pengujian",
+      "label": "Jumlah"
+    },
+    "values": {
+      "min": "Minimum",
+      "max": "Maksimum",
+      "avg": "Rata-rata",
+      "down": "Nilai unduh",
+      "up": "Nilai unggah"
+    },
+    "failed_test": "Failed test",
+    "hourly": {
+      "title": "Speed by Time of Day",
+      "sample_count": "Tests"
+    },
+    "consistency": {
+      "title": "Connection Stability",
+      "excellent": "Excellent",
+      "good": "Good",
+      "fair": "Fair",
+      "poor": "Poor",
+      "ping_variance": "Ping variance"
+    }
+  },
+  "calendar": {
+    "select_range": "Select date range",
+    "select_start": "Select start date",
+    "select_end": "Select end date",
+    "from": "From",
+    "to": "To",
+    "last_7_days": "Last 7 days",
+    "last_30_days": "Last 30 days",
+    "last_90_days": "Last 90 days",
+    "last_year": "Last year",
+    "mon": "Mon",
+    "tue": "Tue",
+    "wed": "Wed",
+    "thu": "Thu",
+    "fri": "Fri",
+    "sat": "Sat",
+    "sun": "Sun"
+  },
+  "nodes": {
+    "add": "Tambah server",
+    "create": "Tambah",
+    "this_server": "Server ini",
+    "created": "Server telah berhasil ditambahkan",
+    "password_required": "Node ini memerlukan kata sandi",
+    "update_password": "Silakan perbarui kata sandi dari node ini",
+    "password_outdated": "Kata sandi kedaluwarsa",
+    "password_updated": "Kata sandi telah berhasil diperbarui",
+    "preview_active": "Menambah dan menghapus server dinonaktifkan selama mode demo.",
+    "placeholder": {
+      "name": "Instance MySpeed",
+      "url": "https://your-server.com"
+    },
+    "group": {
+      "name": "Nama server",
+      "url": "Alamat server"
+    },
+    "delete": {
+      "title": "Hapus server",
+      "description": "Server <Bold>{{name}}</Bold> (#{{id}}) akan dihapus. Tindakan ini tidak dapat dibatalkan. Apakah Anda ingin melanjutkan?",
+      "yes": "Ya, hapus",
+      "success": "Server telah berhasil dihapus"
+    },
+    "rename": {
+      "title": "Rename server",
+      "placeholder": "New server name",
+      "success": "The server has been renamed successfully"
+    },
+    "messages": {
+      "not_reachable": "Server tidak dapat dijangkau",
+      "password_changed": "Kata sandi diubah",
+      "tests_pending": "Hasil pengujian tertunda"
+    }
+  },
+  "preview": {
+    "title": "Mode demo",
+    "info": "DEMO",
+    "description": "Anda saat ini dalam mode demo. Beberapa fitur dinonaktifkan dan beberapa pengaturan tidak dapat diubah. Jika Anda ingin menggunakan semua fitur, Anda dapat <Link>menginstal MySpeed</Link> di server Anda sendiri."
+  },
+  "integrations": {
+    "none_active": "Integrasi ini tidak aktif. <br/><Bold>Buat</Bold>",
+    "preview_active": "Integrasi dinonaktifkan selama mode demo.",
+    "display_name": "Nama integrasi",
+    "create": "Buat",
+    "activity": {
+      "never_executed": "Tidak pernah dieksekusi",
+      "last_run": "Terakhir dijalankan sebelum "
+    },
+    "discord": {
+      "title": "Discord",
+      "fields": {
+        "url": "Webhook-URL",
+        "url_placeholder": "https://discord.com/api/webhooks/...",
+        "display_name": "Nama tampilan",
+        "display_name_placeholder": "Notifikasi MySpeed",
+        "error_message": "Pesan kesalahan",
+        "error_message_placeholder": "Kesalahan: %error%",
+        "send_failed": "Kirim pesan kesalahan",
+        "send_finished": "Kirim pesan selesai",
+        "finished_message": "Pesan selesai",
+        "finished_message_placeholder": "%ping% ms, %download% Mbps, %upload% Mbps"
+      }
+    },
+    "gotify": {
+      "title": "Gotify",
+      "fields": {
+        "url": "Server-URL",
+        "key": "Token aplikasi",
+        "priority": "Prioritas",
+        "error_message": "Pesan kesalahan",
+        "error_message_placeholder": "Kesalahan: %error%",
+        "send_failed": "Kirim pesan kesalahan",
+        "send_finished": "Kirim pesan selesai",
+        "finished_message": "Pesan selesai",
+        "finished_message_placeholder": "%ping% ms, %download% Mbps, %upload% Mbps"
+      }
+    },
+    "pushover": {
+      "title": "Pushover",
+      "fields": {
+        "token": "Token aplikasi",
+        "user_key": "Kunci pengguna",
+        "error_message": "Pesan kesalahan",
+        "error_message_placeholder": "Kesalahan: %error%",
+        "send_failed": "Kirim pesan kesalahan",
+        "send_finished": "Kirim pesan selesai",
+        "finished_message": "Pesan selesai",
+        "finished_message_placeholder": "%ping% ms, %download% Mbps, %upload% Mbps"
+      }
+    },
+    "healthChecks": {
+      "title": "HealthChecks",
+      "fields": {
+        "url": "HealthChecks-URL",
+        "url_placeholder": "https://hc-ping.com/<uuid>"
+      }
+    },
+    "telegram": {
+      "title": "Telegram",
+      "fields": {
+        "token": "Token Bot",
+        "chat_id": "ID Chat",
+        "error_message": "Pesan kesalahan",
+        "error_message_placeholder": "Kesalahan: %error%",
+        "send_failed": "Kirim pesan kesalahan",
+        "send_finished": "Kirim pesan selesai",
+        "finished_message": "Pesan selesai",
+        "finished_message_placeholder": "%ping% ms, %download% Mbps, %upload% Mbps"
+      }
+    },
+    "webhook": {
+      "title": "Webhook",
+      "fields": {
+        "url": "Webhook-URL",
+        "url_placeholder": "https://your-server.com/hook",
+        "send_started": "Kirim dimulai",
+        "send_failed": "Kirim pesan kesalahan",
+        "send_finished": "Kirim pesan selesai",
+        "send_alive": "Kirim pesan Keep-Alive",
+        "send_recommendations": "Kirim rekomendasi",
+        "send_config_updates": "Kirim pembaruan konfigurasi"
+      }
+    }
+  },
+  "common": {
+    "back_to_top": "Kembali ke atas"
+  },
+  "not_found": {
+    "title": "Page not found",
+    "description": "The page you're looking for doesn't exist or has been moved.",
+    "back_home": "Back to Home"
+  },
+  "route_error": {
+    "title": "Oops!",
+    "subtitle": "Something went wrong",
+    "description": "An unexpected error occurred. Please try again or go back to the home page.",
+    "reload": "Reload Page"
+  },
+  "optimal_values": {
+    "title": "Optimal Values",
+    "use_recommended": "Use recommended"
+  }
+}
