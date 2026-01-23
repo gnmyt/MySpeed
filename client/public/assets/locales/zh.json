@@ -69,10 +69,10 @@
     "pause_tests": "暂停测试",
     "resume_tests": "继续测试",
     "language": "修改语言",
-    "light_mode": "灯光模式",
-    "dark_mode": "黑暗模式",
-    "theme_switched_light": "切换到灯光模式",
-    "theme_switched_dark": "切换到黑暗模式",
+    "light_mode": "浅色模式",
+    "dark_mode": "深色模式",
+    "theme_switched_light": "已切换到浅色模式",
+    "theme_switched_dark": "已切换到深色模式",
     "provider": "关于供应商",
     "integrations": "集成"
   },
@@ -87,15 +87,15 @@
   },
   "options": {
     "cron": {
-      "continuous": "Continuous",
+      "continuous": "连续 (每分钟)",
       "continuous_desc": "Every minute - high resource usage",
-      "frequent": "Very often",
+      "frequent": "频繁 (每30分钟一次)",
       "frequent_desc": "Every 30 minutes",
-      "default": "Default",
+      "default": "标准 (每小时一次)",
       "default_desc": "Every hour - recommended",
-      "rare": "Rarely",
+      "rare": "较少 (每3小时一次)",
       "rare_desc": "Every 3 hours",
-      "really_rare": "Very rarely",
+      "really_rare": "很少 (每6小时一次)",
       "really_rare_desc": "Every 6 hours"
     },
     "level": {
@@ -247,8 +247,8 @@
   "test": {
     "not_available": "目前没有任何测试",
     "no_latest": "当前没有测试。请执行一个测试或等到下一个测试完成。",
-    "loading_more": "加载更多测试...",
-    "no_more_tests": "不再加载测试",
+    "loading_more": "加载更多测试记录...",
+    "no_more_tests": "已加载全部测试记录",
     "unknown_error": "未知错误：",
     "failed": "测试失败",
     "recheck": "如果这种情况经常发生，请尽可能地检查。",
@@ -476,7 +476,7 @@
     }
   },
   "common": {
-    "back_to_top": "返回顶部"
+    "back_to_top": "回到顶部"
   },
   "not_found": {
     "title": "Page not found",
