@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 import * as timerTask from './tasks/timer.js';
 import * as integrationTask from './tasks/integrations.js';
 import './util/createFolders.js';
-import './util/loadServers.js';
+import { loadServers } from './util/loadServers.js';
 import errorHandler from './util/errorHandler.js';
 import errorMiddleware from './middlewares/error.js';
 import configRoutes from './routes/config.js';
@@ -34,6 +34,8 @@ const app = express();
 
 app.disable('x-powered-by');
 
+const clientPublicPath = path.join(process.cwd(), 'client', 'public');
+
 const port = process.env.SERVER_PORT || 5216;
 const httpsPort = process.env.HTTPS_PORT || 5217;
 
@@ -47,6 +49,10 @@ process.on('uncaughtException', err => errorHandler(err));
 
 app.use(express.json({ limit: '50mb' }));
 app.use(errorMiddleware);
+
+if (fs.existsSync(clientPublicPath)) {
+    app.use(express.static(clientPublicPath));
+}
 
 app.use("/api/config", configRoutes);
 app.use("/api/speedtests", speedtestsRoutes);
@@ -82,6 +88,8 @@ const run = async () => {
     await requestInterfaces();
     setInterval(() => requestInterfaces(), 3600000);
 
+    await loadServers();
+
     if (process.env.PREVIEW_MODE !== "true") await loadCli();
 
     await config.insertDefaults();
@@ -114,7 +122,7 @@ const run = async () => {
 
 db.authenticate().then(() => {
     console.log("Successfully connected to the database " + (process.env.DB_TYPE === "mysql" ? "server" : "file"));
-    run().then(undefined);
+    return run().catch(errorHandler);
 }).catch(err => {
     console.error("Could not open the database file. Maybe it is damaged?: " + err.message);
     process.exit(111);
