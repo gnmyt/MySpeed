@@ -23,7 +23,7 @@
     "unset": "Usuń",
     "retry": "Spróbuj ponownie",
     "login": "Zaloguj się",
-    "save": "Save",
+    "save": "Zapisz",
     "saving": "Saving...",
     "password": {
       "title": "Wymagane hasło",
@@ -39,14 +39,14 @@
       "interface": "Interfejs",
       "server": "Serwer",
       "server_id": "ID serwera",
-      "custom_url": "Custom URL",
+      "custom_url": "Niestandardowy adres URL",
       "custom_url_placeholder": "https://speed.test/backend/",
       "choose_automatically": "Wybierz automatycznie",
       "ookla_license": "Przeczytałem i akceptuję <Eula>EULA</Eula>, <GDPR>politykę prywatności</GDPR> oraz <TOS>regulamin</TOS> Ookla.",
-      "ookla_notice": "By using Ookla, you agree to their <Eula>EULA</Eula>, <GDPR>privacy policy</GDPR> and <TOS>terms of service</TOS>.",
-      "ookla_desc": "Popular provider with global server network",
-      "libre_desc": "Open-source, self-hostable speedtest",
-      "cloudflare_desc": "Fast CDN-based testing"
+      "ookla_notice": "Korzystając z Ookla, zgadzasz się na ich <Eula>EULA</Eula>, <GDPR>politykę prywatności</GDPR> i <TOS>warunki świadczenia usług</TOS>.",
+      "ookla_desc": "Popularny dostawca z globalną siecią serwerów",
+      "libre_desc": "Open-source'owy, samohostujący się speedtest",
+      "cloudflare_desc": "Szybkie testowanie oparte na CDN"
     }
   },
   "dropdown": {
@@ -60,7 +60,7 @@
     "upload": "Optymalna prędkość wysyłania",
     "download": "Optymalna prędkość pobierania",
     "recommendations": "Rekomendacje",
-    "optimal_values": "Optimal values",
+    "optimal_values": "Optymalne wartości",
     "change_provider": "Zmień dostawcę",
     "password": "Zmień hasło",
     "cron": "Ustaw częstotliwość",
@@ -77,10 +77,10 @@
     "integrations": "Integracje"
   },
   "about": {
-    "title": "About MySpeed",
-    "description": "MySpeed is an open-source speedtest analysis software that records your internet speed for up to 30 days.",
+    "title": "Informacje o MySpeed",
+    "description": "MySpeed to oprogramowanie typu open-source do analizy prędkości, które rejestruje twoją prędkość Internetu przez okres do 30 dni.",
     "github": "GitHub",
-    "website": "Website",
+    "website": "Witryna",
     "donate": "Donate",
     "translate": "Translate",
     "made_by": "Made with"
