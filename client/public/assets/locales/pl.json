@@ -81,9 +81,9 @@
     "description": "MySpeed to oprogramowanie typu open-source do analizy prędkości, które rejestruje twoją prędkość Internetu przez okres do 30 dni.",
     "github": "GitHub",
     "website": "Witryna",
-    "donate": "Donate",
-    "translate": "Translate",
-    "made_by": "Made with"
+    "donate": "Wesprzyj nas",
+    "translate": "Tłumaczenie",
+    "made_by": "Stworzone przy użyciu"
   },
   "options": {
     "cron": {
