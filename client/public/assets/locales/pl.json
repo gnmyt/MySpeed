@@ -45,7 +45,7 @@
       "ookla_license": "Przeczytałem i akceptuję <Eula>EULA</Eula>, <GDPR>politykę prywatności</GDPR> oraz <TOS>regulamin</TOS> Ookla.",
       "ookla_notice": "Korzystając z Ookla, zgadzasz się na ich <Eula>EULA</Eula>, <GDPR>politykę prywatności</GDPR> i <TOS>warunki świadczenia usług</TOS>.",
       "ookla_desc": "Popularny dostawca z globalną siecią serwerów",
-      "libre_desc": "Open-source'owy, samohostujący się speedtest",
+      "libre_desc": "Open-source, samodzielny test prędkości",
       "cloudflare_desc": "Szybkie testowanie oparte na CDN"
     }
   },
@@ -78,7 +78,7 @@
   },
   "about": {
     "title": "Informacje o MySpeed",
-    "description": "MySpeed to oprogramowanie typu open-source do analizy prędkości, które rejestruje twoją prędkość Internetu przez okres do 30 dni.",
+    "description": "MySpeed jest otwartym oprogramowaniem do analizy prędkości, które rejestruje szybkość internetu przez okres do 30 dni.",
     "github": "GitHub",
     "website": "Witryna",
     "donate": "Wesprzyj nas",
@@ -88,15 +88,15 @@
   "options": {
     "cron": {
       "continuous": "Ciągły",
-      "continuous_desc": "Co minutę - wysokie zużycie zasobów",
+      "continuous_desc": "Co minutę — wysokie zużycie zasobów",
       "frequent": "Bardzo często",
       "frequent_desc": "Co 30 minut",
       "default": "Domyślnie",
-      "default_desc": "Co godzinę - zalecane",
+      "default_desc": "Co godzinę — zalecane",
       "rare": "Rzadko",
       "rare_desc": "Co 3 godziny",
       "really_rare": "Bardzo rzadko",
-      "really_rare_desc": "Co 6 godziny"
+      "really_rare_desc": "Co 6 godzin"
     },
     "level": {
       "no_access": "Brak dostępu",
@@ -345,10 +345,10 @@
     "mon": "Pn",
     "tue": "Wt",
     "wed": "Śr",
-    "thu": "Thu",
-    "fri": "Fri",
-    "sat": "Sat",
-    "sun": "Sun"
+    "thu": "Czw",
+    "fri": "Pt",
+    "sat": "Sob",
+    "sun": "Nd."
   },
   "nodes": {
     "add": "Dodaj serwer",
@@ -375,9 +375,9 @@
       "success": "Serwer został pomyślnie usunięty"
     },
     "rename": {
-      "title": "Rename server",
-      "placeholder": "New server name",
-      "success": "The server has been renamed successfully"
+      "title": "Zmień nazwę serwera",
+      "placeholder": "Nowa nazwa serwera",
+      "success": "Nazwa serwera została pomyślnie zmieniona"
     },
     "messages": {
       "not_reachable": "Serwer jest niedostępny",
@@ -479,18 +479,18 @@
     "back_to_top": "Powrót do góry"
   },
   "not_found": {
-    "title": "Page not found",
-    "description": "The page you're looking for doesn't exist or has been moved.",
-    "back_home": "Back to Home"
+    "title": "Nie znaleziono strony",
+    "description": "Szukana strona nie istnieje lub została przeniesiona.",
+    "back_home": "Powrót na stronę główną"
   },
   "route_error": {
-    "title": "Oops!",
-    "subtitle": "Something went wrong",
-    "description": "An unexpected error occurred. Please try again or go back to the home page.",
-    "reload": "Reload Page"
+    "title": "Ups!",
+    "subtitle": "Coś poszło nie tak",
+    "description": "Wystąpił nieoczekiwany błąd. Spróbuj ponownie lub wróć do strony głównej.",
+    "reload": "Odśwież stronę"
   },
   "optimal_values": {
-    "title": "Optimal Values",
-    "use_recommended": "Use recommended"
+    "title": "Optymalne wartości",
+    "use_recommended": "Użyj rekomendowanych"
   }
 }
