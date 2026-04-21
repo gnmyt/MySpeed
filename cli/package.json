@@ -1,0 +1,32 @@
+{
+  "name": "myspeed-cli",
+  "version": "1.0.0",
+  "description": "MySpeed CLI - 命令行网速测试工具",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "myspeed": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js --help"
+  },
+  "keywords": [
+    "speedtest",
+    "network",
+    "bandwidth",
+    "cli",
+    "ookla",
+    "librespeed",
+    "cloudflare"
+  ],
+  "author": "",
+  "license": "GPL-3.0",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gnmyt/myspeed.git"
+  }
+}
