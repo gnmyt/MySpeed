@@ -1,7 +1,8 @@
 export const ooklaVersion = "1.2.0";
 export const ooklaList = [
     // MacOS
-    {os: 'darwin', arch: 'x64', suffix: 'macosx-x86_64.tgz'},
+    {os: 'darwin', arch: 'x64', suffix: 'macosx-universal.tgz'},
+    {os: 'darwin', arch: 'arm64', suffix: 'macosx-universal.tgz'},
 
     // Windows
     {os: 'win32', arch: 'x64', suffix: 'win64.zip'},

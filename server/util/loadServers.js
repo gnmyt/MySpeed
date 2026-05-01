@@ -1,45 +1,75 @@
-import axios from 'axios';
 import fs from 'node:fs';
 
-// Load servers from ookla
-if (!fs.existsSync("data/servers/ookla.json")) {
-    let servers = {};
-    try {
-        axios.get("https://www.speedtest.net/api/js/servers?limit=20")
-            .then(res => res.data)
-            .then(data => {
-                data?.forEach(row => {
-                    servers[row.id] = row.name + " (" + row.distance + "km)";
-                });
+const ooklaPath = 'data/servers/ookla.json';
+const librePath = 'data/servers/librespeed.json';
 
-                try {
-                    fs.writeFileSync("data/servers/ookla.json", JSON.stringify(servers, null, 4));
-                } catch (e) {
-                    console.error("Could not save servers file");
-                }
-            });
-    } catch (e) {
-        console.error("Could not get servers");
+const providerConfigs = {
+    ookla: {
+        cachePath: ooklaPath,
+        errorName: 'Ookla',
+        url: 'https://www.speedtest.net/api/js/servers?limit=20',
+        mapRow: (row) => [row.id, `${row.name} (${row.distance}km)`]
+    },
+    librespeed: {
+        cachePath: librePath,
+        errorName: 'LibreSpeed',
+        url: 'https://librespeed.org/backend-servers/servers.php',
+        mapRow: (row) => [row.id, row.name]
     }
-}
+};
 
-// Load servers from librespeed
-if (!fs.existsSync("data/servers/librespeed.json")) {
-    let servers = {};
-    try {
-        axios.get("https://librespeed.org/backend-servers/servers.php")
-            .then(res => res.data)
-            .then(data => {
-                data?.forEach(row => {
-                    servers[row.id] = row.name;
-                });
-                try {
-                    fs.writeFileSync("data/servers/librespeed.json", JSON.stringify(servers, null, 4));
-                } catch (e) {
-                    console.error("Could not save servers file");
-                }
-            });
-    } catch (e) {
-        console.error("Could not get servers");
+const buildServersMap = (rows, mapRow) => {
+    const servers = {};
+
+    rows?.forEach((row) => {
+        const [id, value] = mapRow(row);
+        servers[id] = value;
+    });
+
+    return servers;
+};
+
+const buildResponseError = (response) => {
+    const statusText = response.statusText ? ` ${response.statusText}` : '';
+
+    return new Error(`Request failed with status ${response.status}${statusText}`);
+};
+
+const loadProviderServers = async ({cachePath, errorName, fetchFn, fsModule, mapRow, url}) => {
+    if (fsModule.existsSync(cachePath)) {
+        return false;
     }
-}
+
+    try {
+        const response = await fetchFn(url);
+
+        if (!response.ok) {
+            throw buildResponseError(response);
+        }
+
+        const servers = buildServersMap(await response.json(), mapRow);
+
+        fsModule.writeFileSync(cachePath, JSON.stringify(servers, null, 4));
+
+        return true;
+    } catch (error) {
+        throw new Error(`Could not load ${errorName} servers: ${error.message}`, {cause: error});
+    }
+};
+
+export const loadOoklaServers = async ({fetchFn = globalThis.fetch, fsModule = fs} = {}) => loadProviderServers({
+    ...providerConfigs.ookla,
+    fsModule,
+    fetchFn
+});
+
+export const loadLibreServers = async ({fetchFn = globalThis.fetch, fsModule = fs} = {}) => loadProviderServers({
+    ...providerConfigs.librespeed,
+    fsModule,
+    fetchFn
+});
+
+export const loadServers = async ({fetchFn = globalThis.fetch, fsModule = fs} = {}) => {
+    await loadOoklaServers({fetchFn, fsModule});
+    await loadLibreServers({fetchFn, fsModule});
+};

@@ -34,6 +34,13 @@ MySpeed ist eine Speedtest-Analyse-Software, welche die Geschwindigkeit deines I
 - **🐧 Anleitung für [Linux](https://docs.myspeed.dev/setup/linux)**
 - **🪟 Anleitung für [Windows](https://docs.myspeed.dev/setup/windows)**
 
+### 🍎 macOS-Unterstützung
+
+- MySpeed laesst sich jetzt unter macOS fuer lokale Entwicklung und beim Start aus dem Quellcode erfolgreich ausfuehren.
+- Der macOS-Startpfad beruecksichtigt jetzt sowohl Apple Silicon als auch Intel Macs bei Nutzung des integrierten Ookla-CLI-Bootstraps.
+- Wenn du aus dem Quellcode startest, verwende `deno task dev` oder `deno run --allow-all server/index.js` im Repository-Root.
+- Die Installationsanleitungen oben bleiben weiterhin auf Linux und Windows fokussiert.
+
 ### 📸 Beispiel-Screenshots
 
 #### Startseite (Listen-Ansicht)
@@ -57,7 +64,7 @@ MySpeed ist eine Speedtest-Analyse-Software, welche die Geschwindigkeit deines I
 
 ## Überzeugt?
 
-Cool, dann lass uns loslegen! Die Installationsanleitung für Linux (und Windows) findest du oben unter Installation.
+Cool, dann lass uns loslegen! Die Installationsanleitungen fuer Linux und Windows findest du oben unter Installation, den Hinweis zum Start unter macOS aus dem Quellcode direkt darueber.
 
 ## Lizenz
 

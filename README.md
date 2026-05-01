@@ -34,6 +34,13 @@ MySpeed is a speed test analysis software that records your internet speed for u
 - **🐧 Guide for [Linux](https://docs.myspeed.dev/setup/linux)**
 - **🪟 Guide for [Windows](https://docs.myspeed.dev/setup/windows)**
 
+### 🍎 macOS Support
+
+- MySpeed can now start on macOS for local development and source-based setups.
+- The macOS startup path now includes code-path support for both Apple Silicon and Intel Macs when using the built-in Ookla CLI bootstrap.
+- If you run from source, start the app with `deno task dev` or `deno run --allow-all server/index.js` from the repository root.
+- The one-click installation guides above are still Linux and Windows focused.
+
 ### 📸 Example Screenshots
 
 #### Homepage (List View)
@@ -57,7 +64,7 @@ MySpeed is a speed test analysis software that records your internet speed for u
 
 ## Convinced?
 
-Great, let's get started! You can find the installation instructions for Linux (and Windows) at the top under Installation.
+Great, let's get started! You can find the installation instructions for Linux and Windows at the top under Installation, and the macOS source-based startup note right above.
 
 ## License
 
