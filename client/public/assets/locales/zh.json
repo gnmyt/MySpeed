@@ -460,7 +460,25 @@
       "title": "HealthChecks",
       "fields": {
         "url": "健康检查网址",
-        "url_placeholder": "https://hc-ping.com/<uuid>"
+        "url_placeholder": "https://hc-ping.com/<uuid>",
+        "interval": "Ping interval (minutes)",
+        "interval_placeholder": "1"
+      }
+    },
+    "influxdb": {
+      "title": "InfluxDB",
+      "fields": {
+        "url": "Server-URL",
+        "url_placeholder": "http://localhost:8086",
+        "org": "Organization",
+        "bucket": "Bucket",
+        "token": "API token",
+        "measurement": "Measurement name",
+        "measurement_placeholder": "speedtests (default)",
+        "host": "Host tag",
+        "host_placeholder": "Defaults to the machine hostname",
+        "tags": "Additional tags",
+        "tags_placeholder": "region=eu,role=primary (comma-separated)"
       }
     },
     "ntfy": {
@@ -511,7 +529,9 @@
         "send_finished": "是否发送测速完成信息",
         "send_alive": "发送生动的信息",
         "send_recommendations": "发送建议",
-        "send_config_updates": "发送配置更新"
+        "send_config_updates": "发送配置更新",
+        "interval": "Keep-Alive interval (minutes)",
+        "interval_placeholder": "1"
       }
     }
   },
