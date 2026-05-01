@@ -78,7 +78,7 @@
   },
   "about": {
     "title": "Informacje o MySpeed",
-    "description": "MySpeed jest otwartym oprogramowaniem do analizy prędkości, które rejestruje szybkość internetu przez okres do 30 dni.",
+    "description": "MySpeed is an open-source speedtest analysis software that records your internet speed over a configurable period of time.",
     "github": "GitHub",
     "website": "Witryna",
     "donate": "Wesprzyj nas",
@@ -196,7 +196,22 @@
     "reset": "Resetuj",
     "confirm_reset": "Tak, resetuj",
     "settings_exported": "Ustawienia zostały wyeksportowane",
-    "settings_imported": "Ustawienia zostały zaimportowane"
+    "settings_imported": "Ustawienia zostały zaimportowane",
+    "retention": "Data retention",
+    "retention_desc": "How long speedtest results are kept before being automatically deleted.",
+    "retention_saved": "Retention period updated",
+    "retention_days_placeholder": "365",
+    "retention_days_suffix": "days",
+    "retention_back": "Back to presets",
+    "retention_options": {
+      "week": "7 days",
+      "month": "30 days",
+      "quarter": "90 days",
+      "half_year": "180 days",
+      "year": "1 year (default)",
+      "forever": "Keep forever",
+      "custom": "Custom..."
+    }
   },
   "latest": {
     "ping": "Ping",
