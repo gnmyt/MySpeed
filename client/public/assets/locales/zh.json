@@ -78,7 +78,7 @@
   },
   "about": {
     "title": "About MySpeed",
-    "description": "MySpeed is an open-source speedtest analysis software that records your internet speed for up to 30 days.",
+    "description": "MySpeed is an open-source speedtest analysis software that records your internet speed over a configurable period of time.",
     "github": "GitHub",
     "website": "Website",
     "donate": "Donate",
@@ -196,7 +196,22 @@
     "reset": "重置",
     "confirm_reset": "是，重置",
     "settings_exported": "配置已导出",
-    "settings_imported": "配置已导入"
+    "settings_imported": "配置已导入",
+    "retention": "Data retention",
+    "retention_desc": "How long speedtest results are kept before being automatically deleted.",
+    "retention_saved": "Retention period updated",
+    "retention_days_placeholder": "365",
+    "retention_days_suffix": "days",
+    "retention_back": "Back to presets",
+    "retention_options": {
+      "week": "7 days",
+      "month": "30 days",
+      "quarter": "90 days",
+      "half_year": "180 days",
+      "year": "1 year (default)",
+      "forever": "Keep forever",
+      "custom": "Custom..."
+    }
   },
   "latest": {
     "ping": "ping 延迟",
