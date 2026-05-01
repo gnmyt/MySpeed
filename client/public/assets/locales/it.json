@@ -460,7 +460,25 @@
       "title": "HealthChecks",
       "fields": {
         "url": "URL Controlli sanitari",
-        "url_placeholder": "https://hc-ping.com/<uuid>"
+        "url_placeholder": "https://hc-ping.com/<uuid>",
+        "interval": "Ping interval (minutes)",
+        "interval_placeholder": "1"
+      }
+    },
+    "influxdb": {
+      "title": "InfluxDB",
+      "fields": {
+        "url": "Server-URL",
+        "url_placeholder": "http://localhost:8086",
+        "org": "Organization",
+        "bucket": "Bucket",
+        "token": "API token",
+        "measurement": "Measurement name",
+        "measurement_placeholder": "speedtests (default)",
+        "host": "Host tag",
+        "host_placeholder": "Defaults to the machine hostname",
+        "tags": "Additional tags",
+        "tags_placeholder": "region=eu,role=primary (comma-separated)"
       }
     },
     "ntfy": {
@@ -511,7 +529,9 @@
         "send_finished": "Inviare compilato",
         "send_alive": "Inviare messaggi vivaci",
         "send_recommendations": "Inviare raccomandazioni",
-        "send_config_updates": "Inviare gli aggiornamenti della configurazione"
+        "send_config_updates": "Inviare gli aggiornamenti della configurazione",
+        "interval": "Keep-Alive interval (minutes)",
+        "interval_placeholder": "1"
       }
     }
   },
