@@ -422,11 +422,11 @@
         "display_name": "显示名称",
         "display_name_placeholder": "MySpeed 通知",
         "error_message": "测速失败的信息内容",
-        "error_message_placeholder": "错误: %error%",
+        "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] Error: %error%",
         "send_failed": "是否发送测速失败信息",
         "send_finished": "是否发送测速完成信息",
         "finished_message": "测速完成的信息内容",
-        "finished_message_placeholder": "%ping% ms, %download% Mbit/s, %upload% Mbit/s"
+        "finished_message_placeholder": "%year%-%month%-%day% %hour%:%minute% — %ping% ms, %download% Mbps, %upload% Mbps"
       }
     },
     "gotify": {
@@ -436,11 +436,11 @@
         "key": "应用令牌",
         "priority": "优先权",
         "error_message": "测速失败的信息内容",
-        "error_message_placeholder": "错误: %error%",
+        "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] Error: %error%",
         "send_failed": "是否发送测速失败信息",
         "send_finished": "是否发送测速完成信息",
         "finished_message": "测速完成的信息内容",
-        "finished_message_placeholder": "%ping% ms, %download% Mbit/s, %upload% Mbit/s"
+        "finished_message_placeholder": "%year%-%month%-%day% %hour%:%minute% — %ping% ms, %download% Mbps, %upload% Mbps"
       }
     },
     "pushover": {
@@ -449,11 +449,11 @@
         "token": "应用程序令牌",
         "user_key": "用户密钥",
         "error_message": "是否发送测速失败信息",
-        "error_message_placeholder": "错误： %error%",
+        "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] Error: %error%",
         "send_failed": "是否发送测速失败信息",
         "send_finished": "是否发送测速完成信息",
         "finished_message": "测速完成的信息内容",
-        "finished_message_placeholder": "%ping% 毫秒， %download% Mbps， %upload% Mbps"
+        "finished_message_placeholder": "%year%-%month%-%day% %hour%:%minute% — %ping% ms, %download% Mbps, %upload% Mbps"
       }
     },
     "healthChecks": {
@@ -499,11 +499,11 @@
         "error_priority": "Error priority (1-5)",
         "error_priority_placeholder": "5",
         "error_message": "Error message",
-        "error_message_placeholder": "Error: %error%",
+        "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] Error: %error%",
         "send_failed": "Send error messages",
         "send_finished": "Send finished messages",
         "finished_message": "Finished message",
-        "finished_message_placeholder": "%ping% ms, %download% Mbps, %upload% Mbps"
+        "finished_message_placeholder": "%year%-%month%-%day% %hour%:%minute% — %ping% ms, %download% Mbps, %upload% Mbps"
       }
     },
     "telegram": {
@@ -512,11 +512,11 @@
         "token": "Bot Token",
         "chat_id": "聊天ID",
         "error_message": "是否发送测速失败信息",
-        "error_message_placeholder": "错误: %error%",
+        "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] Error: %error%",
         "send_failed": "是否发送测速失败信息",
         "send_finished": "是否发送测速完成信息",
         "finished_message": "测速完成的信息内容",
-        "finished_message_placeholder": "%ping% ms, %download% Mbit/s, %upload% Mbit/s"
+        "finished_message_placeholder": "%year%-%month%-%day% %hour%:%minute% — %ping% ms, %download% Mbps, %upload% Mbps"
       }
     },
     "webhook": {
