@@ -73,6 +73,7 @@
     "dark_mode": "Tryb ciemny",
     "theme_switched_light": "Przełączony na tryb oświetlenia",
     "theme_switched_dark": "Przełączony na tryb ciemny",
+    "preferences": "Preferences",
     "provider": "O dostawcy",
     "integrations": "Integracje"
   },
@@ -220,6 +221,7 @@
     "jitter_unit": "ms",
     "down": "Pobieranie",
     "speed_unit": "Mbps",
+    "byte_speed_unit": "MB/s",
     "up": "Wysyłanie",
     "latest": "Ostatni test",
     "before": "przed"
@@ -552,5 +554,32 @@
   "optimal_values": {
     "title": "Optymalne wartości",
     "use_recommended": "Użyj rekomendowanych"
+  },
+  "preferences": {
+    "title": "Preferences",
+    "theme": {
+      "title": "Appearance",
+      "description": "Switch between dark and light interface.",
+      "dark": "Dark",
+      "dark_desc": "Easier on the eyes in low light",
+      "light": "Light",
+      "light_desc": "Brighter look for daytime use"
+    },
+    "time_format": {
+      "title": "Time format",
+      "description": "How clock times are displayed throughout the app.",
+      "h24": "24-hour",
+      "h24_desc": "Display times like 14:30",
+      "h12": "12-hour",
+      "h12_desc": "Display times like 2:30 PM"
+    },
+    "speed_unit": {
+      "title": "Speed unit",
+      "description": "Choose how speeds are shown. Values are converted automatically.",
+      "mbps": "Mbps (Megabits per second)",
+      "mbps_desc": "Standard ISP / speedtest unit",
+      "mbytes": "MB/s (Megabytes per second)",
+      "mbytes_desc": "Common in browsers and download managers"
+    }
   }
 }
