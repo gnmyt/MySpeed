@@ -422,11 +422,11 @@
         "display_name": "Nom d'affichage",
         "display_name_placeholder": "Notification de MySpeed",
         "error_message": "Message d'erreur",
-        "error_message_placeholder": "Erreur : %error%",
+        "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] Error: %error%",
         "send_failed": "Envoyer les messages d'erreur",
         "send_finished": "Envoyer les messages terminés",
         "finished_message": "Message terminé",
-        "finished_message_placeholder": "%ping% ms, %download% Mbps, %upload% Mbps"
+        "finished_message_placeholder": "%year%-%month%-%day% %hour%:%minute% — %ping% ms, %download% Mbps, %upload% Mbps"
       }
     },
     "gotify": {
@@ -436,11 +436,11 @@
         "key": "Jeton d'application",
         "priority": "Priorité",
         "error_message": "Message d'erreur",
-        "error_message_placeholder": "Erreur : %error%",
+        "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] Error: %error%",
         "send_failed": "Envoyer des messages d'erreur",
         "send_finished": "Envoyer les messages terminés",
         "finished_message": "Message terminé",
-        "finished_message_placeholder": "%ping% ms, %download% Mbps, %upload% Mbps"
+        "finished_message_placeholder": "%year%-%month%-%day% %hour%:%minute% — %ping% ms, %download% Mbps, %upload% Mbps"
       }
     },
     "pushover": {
@@ -449,11 +449,11 @@
         "token": "Jeton d'application",
         "user_key": "Clé d'utilisateur",
         "error_message": "Message d'erreur",
-        "error_message_placeholder": "Erreur : %error%",
+        "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] Error: %error%",
         "send_failed": "Envoyer des messages d'erreur",
         "send_finished": "Envoyer des messages terminés",
         "finished_message": "Message terminé",
-        "finished_message_placeholder": "%ping% ms, %download% Mbps, %upload% Mbps"
+        "finished_message_placeholder": "%year%-%month%-%day% %hour%:%minute% — %ping% ms, %download% Mbps, %upload% Mbps"
       }
     },
     "healthChecks": {
@@ -499,11 +499,11 @@
         "error_priority": "Error priority (1-5)",
         "error_priority_placeholder": "5",
         "error_message": "Error message",
-        "error_message_placeholder": "Error: %error%",
+        "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] Error: %error%",
         "send_failed": "Send error messages",
         "send_finished": "Send finished messages",
         "finished_message": "Finished message",
-        "finished_message_placeholder": "%ping% ms, %download% Mbps, %upload% Mbps"
+        "finished_message_placeholder": "%year%-%month%-%day% %hour%:%minute% — %ping% ms, %download% Mbps, %upload% Mbps"
       }
     },
     "telegram": {
@@ -512,11 +512,11 @@
         "token": "Token du bot",
         "chat_id": "ID de conversation",
         "error_message": "Message d'erreur",
-        "error_message_placeholder": "Erreur : %error%",
+        "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] Error: %error%",
         "send_failed": "Envoyer des messages d'erreur",
         "send_finished": "Envoyer les messages terminés",
         "finished_message": "Message terminé",
-        "finished_message_placeholder": "%ping% ms, %download% Mb/s, %upload% Mb/s"
+        "finished_message_placeholder": "%year%-%month%-%day% %hour%:%minute% — %ping% ms, %download% Mbps, %upload% Mbps"
       }
     },
     "webhook": {
