@@ -422,11 +422,11 @@
         "display_name": "Nama tampilan",
         "display_name_placeholder": "Notifikasi MySpeed",
         "error_message": "Pesan kesalahan",
-        "error_message_placeholder": "Kesalahan: %error%",
+        "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] Error: %error%",
         "send_failed": "Kirim pesan kesalahan",
         "send_finished": "Kirim pesan selesai",
         "finished_message": "Pesan selesai",
-        "finished_message_placeholder": "%ping% ms, %download% Mbps, %upload% Mbps"
+        "finished_message_placeholder": "%year%-%month%-%day% %hour%:%minute% — %ping% ms, %download% Mbps, %upload% Mbps"
       }
     },
     "gotify": {
@@ -436,11 +436,11 @@
         "key": "Token aplikasi",
         "priority": "Prioritas",
         "error_message": "Pesan kesalahan",
-        "error_message_placeholder": "Kesalahan: %error%",
+        "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] Error: %error%",
         "send_failed": "Kirim pesan kesalahan",
         "send_finished": "Kirim pesan selesai",
         "finished_message": "Pesan selesai",
-        "finished_message_placeholder": "%ping% ms, %download% Mbps, %upload% Mbps"
+        "finished_message_placeholder": "%year%-%month%-%day% %hour%:%minute% — %ping% ms, %download% Mbps, %upload% Mbps"
       }
     },
     "pushover": {
@@ -449,11 +449,11 @@
         "token": "Token aplikasi",
         "user_key": "Kunci pengguna",
         "error_message": "Pesan kesalahan",
-        "error_message_placeholder": "Kesalahan: %error%",
+        "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] Error: %error%",
         "send_failed": "Kirim pesan kesalahan",
         "send_finished": "Kirim pesan selesai",
         "finished_message": "Pesan selesai",
-        "finished_message_placeholder": "%ping% ms, %download% Mbps, %upload% Mbps"
+        "finished_message_placeholder": "%year%-%month%-%day% %hour%:%minute% — %ping% ms, %download% Mbps, %upload% Mbps"
       }
     },
     "healthChecks": {
@@ -499,11 +499,11 @@
         "error_priority": "Error priority (1-5)",
         "error_priority_placeholder": "5",
         "error_message": "Error message",
-        "error_message_placeholder": "Error: %error%",
+        "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] Error: %error%",
         "send_failed": "Send error messages",
         "send_finished": "Send finished messages",
         "finished_message": "Finished message",
-        "finished_message_placeholder": "%ping% ms, %download% Mbps, %upload% Mbps"
+        "finished_message_placeholder": "%year%-%month%-%day% %hour%:%minute% — %ping% ms, %download% Mbps, %upload% Mbps"
       }
     },
     "telegram": {
@@ -512,11 +512,11 @@
         "token": "Token Bot",
         "chat_id": "ID Chat",
         "error_message": "Pesan kesalahan",
-        "error_message_placeholder": "Kesalahan: %error%",
+        "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] Error: %error%",
         "send_failed": "Kirim pesan kesalahan",
         "send_finished": "Kirim pesan selesai",
         "finished_message": "Pesan selesai",
-        "finished_message_placeholder": "%ping% ms, %download% Mbps, %upload% Mbps"
+        "finished_message_placeholder": "%year%-%month%-%day% %hour%:%minute% — %ping% ms, %download% Mbps, %upload% Mbps"
       }
     },
     "webhook": {
