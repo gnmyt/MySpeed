@@ -422,11 +422,11 @@
         "display_name": "Visningsnavn",
         "display_name_placeholder": "MySpeed-notifikation",
         "error_message": "Fejlmeddelelse",
-        "error_message_placeholder": "Fejl: %error%",
+        "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] Error: %error%",
         "send_failed": "Send fejlmeddelelser",
         "send_finished": "Send færdig-meddelelser",
         "finished_message": "Færdig-meddelelse",
-        "finished_message_placeholder": "%ping% ms, %download% Mbit/s, %upload% Mbit/s"
+        "finished_message_placeholder": "%year%-%month%-%day% %hour%:%minute% — %ping% ms, %download% Mbps, %upload% Mbps"
       }
     },
     "gotify": {
@@ -436,11 +436,11 @@
         "key": "App-token",
         "priority": "Prioritet",
         "error_message": "Fejlmeddelelse",
-        "error_message_placeholder": "Fejl: %error%",
+        "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] Error: %error%",
         "send_failed": "Send fejlmeddelelser",
         "send_finished": "Send færdig-meddelelser",
         "finished_message": "Færdig-meddelelse",
-        "finished_message_placeholder": "%ping% ms, %download% Mbit/s, %upload% Mbit/s"
+        "finished_message_placeholder": "%year%-%month%-%day% %hour%:%minute% — %ping% ms, %download% Mbps, %upload% Mbps"
       }
     },
     "pushover": {
@@ -449,11 +449,11 @@
         "token": "App-token",
         "user_key": "Bruger-nøgle",
         "error_message": "Fejlmeddelelse",
-        "error_message_placeholder": "Fejl: %error%",
+        "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] Error: %error%",
         "send_failed": "Send fejlmeddelelser",
         "send_finished": "Send færdig-meddelelser",
         "finished_message": "Færdig-meddelelse",
-        "finished_message_placeholder": "%ping% ms, %download% Mbps, %upload% Mbps"
+        "finished_message_placeholder": "%year%-%month%-%day% %hour%:%minute% — %ping% ms, %download% Mbps, %upload% Mbps"
       }
     },
     "healthChecks": {
@@ -499,11 +499,11 @@
         "error_priority": "Error priority (1-5)",
         "error_priority_placeholder": "5",
         "error_message": "Error message",
-        "error_message_placeholder": "Error: %error%",
+        "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] Error: %error%",
         "send_failed": "Send error messages",
         "send_finished": "Send finished messages",
         "finished_message": "Finished message",
-        "finished_message_placeholder": "%ping% ms, %download% Mbps, %upload% Mbps"
+        "finished_message_placeholder": "%year%-%month%-%day% %hour%:%minute% — %ping% ms, %download% Mbps, %upload% Mbps"
       }
     },
     "telegram": {
@@ -512,11 +512,11 @@
         "token": "Bot Token",
         "chat_id": "Chat-ID",
         "error_message": "Fejlmeddelelse",
-        "error_message_placeholder": "Fejl: %error%",
+        "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] Error: %error%",
         "send_failed": "Send fejlmeddelelser",
         "send_finished": "Send færdig-meddelelser",
         "finished_message": "Færdig-meddelelse",
-        "finished_message_placeholder": "%ping% ms, %download% Mbit/s, %upload% Mbit/s"
+        "finished_message_placeholder": "%year%-%month%-%day% %hour%:%minute% — %ping% ms, %download% Mbps, %upload% Mbps"
       }
     },
     "webhook": {
