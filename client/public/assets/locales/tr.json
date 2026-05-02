@@ -422,11 +422,11 @@
         "display_name": "Görünen ad",
         "display_name_placeholder": "MySpeed bildirimi",
         "error_message": "Hata mesajı",
-        "error_message_placeholder": "Hata: %error%",
+        "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] Error: %error%",
         "send_failed": "Hata mesajlarını gönder",
         "send_finished": "Tamamlanan mesajları gönder",
         "finished_message": "Tamamlanan mesaj",
-        "finished_message_placeholder": "%ping% ms, %download% Mbit/s, %upload% Mbit/s"
+        "finished_message_placeholder": "%year%-%month%-%day% %hour%:%minute% — %ping% ms, %download% Mbps, %upload% Mbps"
       }
     },
     "gotify": {
@@ -436,11 +436,11 @@
         "key": "Uygulama belirteci",
         "priority": "Öncelik",
         "error_message": "Hata mesajı",
-        "error_message_placeholder": "Hata: %error%",
+        "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] Error: %error%",
         "send_failed": "Hata mesajlarını gönder",
         "send_finished": "Tamamlanan mesajları gönder",
         "finished_message": "Tamamlanan mesaj",
-        "finished_message_placeholder": "%ping% ms, %download% Mbit/s, %upload% Mbit/s"
+        "finished_message_placeholder": "%year%-%month%-%day% %hour%:%minute% — %ping% ms, %download% Mbps, %upload% Mbps"
       }
     },
     "pushover": {
@@ -449,11 +449,11 @@
         "token": "Uygulama belirteci",
         "user_key": "Kullanıcı anahtarı",
         "error_message": "Hata mesajı",
-        "error_message_placeholder": "Hata: %error%",
+        "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] Error: %error%",
         "send_failed": "Hata mesajları gönderme",
         "send_finished": "Tamamlanan mesajları gönderme",
         "finished_message": "Bitti mesajı",
-        "finished_message_placeholder": "%ping% ms, %download% Mbps, %upload% Mbps"
+        "finished_message_placeholder": "%year%-%month%-%day% %hour%:%minute% — %ping% ms, %download% Mbps, %upload% Mbps"
       }
     },
     "healthChecks": {
@@ -499,11 +499,11 @@
         "error_priority": "Error priority (1-5)",
         "error_priority_placeholder": "5",
         "error_message": "Error message",
-        "error_message_placeholder": "Error: %error%",
+        "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] Error: %error%",
         "send_failed": "Send error messages",
         "send_finished": "Send finished messages",
         "finished_message": "Finished message",
-        "finished_message_placeholder": "%ping% ms, %download% Mbps, %upload% Mbps"
+        "finished_message_placeholder": "%year%-%month%-%day% %hour%:%minute% — %ping% ms, %download% Mbps, %upload% Mbps"
       }
     },
     "telegram": {
@@ -512,11 +512,11 @@
         "token": "Bot Token",
         "chat_id": "Sohbet Kimliği",
         "error_message": "Hata mesajı",
-        "error_message_placeholder": "Hata: %error%",
+        "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] Error: %error%",
         "send_failed": "Hata mesajlarını gönder",
         "send_finished": "Tamamlanan mesajları gönder",
         "finished_message": "Tamamlanan mesaj",
-        "finished_message_placeholder": "%ping% ms, %download% Mbit/s, %upload% Mbit/s"
+        "finished_message_placeholder": "%year%-%month%-%day% %hour%:%minute% — %ping% ms, %download% Mbps, %upload% Mbps"
       }
     },
     "webhook": {
