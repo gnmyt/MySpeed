@@ -23,8 +23,8 @@
     "unset": "Entfernen",
     "retry": "Erneut versuchen",
     "login": "Anmelden",
-    "save": "Save",
-    "saving": "Saving...",
+    "save": "Speichern",
+    "saving": "Speichern...",
     "password": {
       "title": "Passwort erforderlich",
       "placeholder": "Dein Passwort",
@@ -39,14 +39,14 @@
       "interface": "Schnittstelle",
       "server": "Server",
       "server_id": "Server-ID",
-      "custom_url": "Custom URL",
+      "custom_url": "Benutzerdefinierte URL",
       "custom_url_placeholder": "https://speed.test/backend/",
       "choose_automatically": "Automatisch wählen",
       "ookla_license": "Ich habe die <Eula>EULA</Eula>, die <GDPR>Datenschutzrichtlinie</GDPR> und die <TOS>Nutzungsbedingungen</TOS> von Ookla gelesen und akzeptiere sie.",
       "ookla_notice": "By using Ookla, you agree to their <Eula>EULA</Eula>, <GDPR>privacy policy</GDPR> and <TOS>terms of service</TOS>.",
-      "ookla_desc": "Popular provider with global server network",
-      "libre_desc": "Open-source, self-hostable speedtest",
-      "cloudflare_desc": "Fast CDN-based testing"
+      "ookla_desc": "Beliebter Anbieter mit globalem Servernetzwerk",
+      "libre_desc": "Open-Source, selbst-hostbarer Speedtest",
+      "cloudflare_desc": "Schnelle CDN-basierte Tests"
     }
   },
   "dropdown": {
@@ -60,7 +60,7 @@
     "upload": "Optimaler Up-Speed",
     "download": "Optimaler Down-Speed",
     "recommendations": "Optimale Werte",
-    "optimal_values": "Optimal values",
+    "optimal_values": "Optimale Werte",
     "change_provider": "Anbieter wechseln",
     "password": "Passwort ändern",
     "cron": "Häufigkeit einstellen",
