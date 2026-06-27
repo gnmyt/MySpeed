@@ -16,5 +16,6 @@ export function generateRelativeTime(created) {
         return Math.floor(diff / 3600) === 1 ? t("time.hour") : t("time.hours", {replace: {hours: Math.floor(diff / 3600)}});
     }
 
-    return "N/A"
+    const days = Math.floor(diff / 86400);
+    return days === 1 ? t("time.day") : t("time.days", {replace: {days: days}});
 }
