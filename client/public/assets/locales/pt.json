@@ -23,8 +23,8 @@
     "unset": "Remover",
     "retry": "Tentar novamente",
     "login": "Entrar",
-    "save": "Save",
-    "saving": "Saving...",
+    "save": "Salvar",
+    "saving": "Salvando...",
     "password": {
       "title": "Senha necessária",
       "placeholder": "Sua senha",
@@ -39,7 +39,7 @@
       "interface": "Interface",
       "server": "Servidor",
       "server_id": "ID do servidor",
-      "custom_url": "Custom URL",
+      "custom_url": "URL personalizada",
       "custom_url_placeholder": "https://speed.test/backend/",
       "choose_automatically": "Escolha automaticamente",
       "ookla_license": "Eu li e aceito o <Eula>EULA</Eula>, <GDPR>a política de privacidade</GDPR> e os <TOS>termos de serviço</TOS> da Ookla.",
@@ -60,7 +60,7 @@
     "upload": "Velocidade de upload ótima",
     "download": "Velocidade de download ótima",
     "recommendations": "Recomendações",
-    "optimal_values": "Optimal values",
+    "optimal_values": "Valores ideais",
     "change_provider": "Mudar de provedor",
     "password": "Alterar senha",
     "cron": "Definir frequência",
@@ -73,31 +73,31 @@
     "dark_mode": "Modo escuro",
     "theme_switched_light": "Comutado para o modo de luz",
     "theme_switched_dark": "Mudança para o modo escuro",
-    "preferences": "Preferences",
+    "preferences": "Preferências",
     "provider": "Sobre o provedor",
     "integrations": "Integrações"
   },
   "about": {
-    "title": "About MySpeed",
+    "title": "Sobre o MySpeed",
     "description": "MySpeed is an open-source speedtest analysis software that records your internet speed over a configurable period of time.",
     "github": "GitHub",
-    "website": "Website",
-    "donate": "Donate",
-    "translate": "Translate",
-    "made_by": "Made with"
+    "website": "Site",
+    "donate": "Doar",
+    "translate": "Traduzir",
+    "made_by": "Feito com"
   },
   "options": {
     "cron": {
-      "continuous": "Continuous",
-      "continuous_desc": "Every minute - high resource usage",
-      "frequent": "Very often",
-      "frequent_desc": "Every 30 minutes",
-      "default": "Default",
-      "default_desc": "Every hour - recommended",
-      "rare": "Rarely",
-      "rare_desc": "Every 3 hours",
-      "really_rare": "Very rarely",
-      "really_rare_desc": "Every 6 hours"
+      "continuous": "Contínuo",
+      "continuous_desc": "A cada minuto — uso intenso de recursos",
+      "frequent": "Muito frequentemente",
+      "frequent_desc": "A cada 30 minutos",
+      "default": "Padrão",
+      "default_desc": "A cada hora — recomendado",
+      "rare": "Raramente",
+      "rare_desc": "A cada 3 horas",
+      "really_rare": "Muito raramente",
+      "really_rare_desc": "A cada 6 horas"
     },
     "level": {
       "no_access": "Sem acesso",
@@ -109,15 +109,15 @@
     "read_access_desc": "Visitors can view data but can't change settings"
   },
   "pause": {
-    "manual": "Pause Indefinitely",
+    "manual": "Pausar indefinidamente",
     "manual_desc": "Pause until manually resumed",
-    "short": "Short Break",
-    "short_desc": "Pause for 1 hour",
-    "medium": "Medium Break",
-    "medium_desc": "Pause for 6 hours",
-    "long": "Long Break",
-    "long_desc": "Pause for 12 hours",
-    "custom": "Custom Duration"
+    "short": "Pausa breve",
+    "short_desc": "Pausar por 1 hora",
+    "medium": "Pausa média",
+    "medium_desc": "Pausar por 6 horas",
+    "long": "Pausa longa",
+    "long_desc": "Pausar por 12 horas",
+    "custom": "Duração personalizada"
   },
   "page": {
     "overview": "Visão geral",
@@ -145,13 +145,13 @@
     "custom_cron": "Custom cron expression",
     "schedule_offset": "Offset schedule",
     "schedule_offset_desc": "Adds a small delay to prevent tests from starting at exact times",
-    "advanced": "Advanced",
+    "advanced": "Avançado",
     "time_title": "Mostrar testes dos últimos ...",
     "download": "Baixar",
     "pause_title": "Pausar testes de velocidade por...",
     "hours": "Horas",
     "pause": "Pausar",
-    "pause_manual_hint": "Leave empty to pause indefinitely",
+    "pause_manual_hint": "Deixe em branco para pausar por tempo indeterminado",
     "release_manually": "Liberar manualmente",
     "language": "Alterar idioma",
     "view_title": "Alternar visualização"
@@ -165,7 +165,7 @@
     "paused": "Os testes de velocidade estão atualmente pausados. Por favor, continue-os se quiser realizar um.",
     "running": "Um teste de velocidade já está em andamento. Por favor, aguarde um momento.",
     "admin_login": "Login de Administrador",
-    "servers": "Servers",
+    "servers": "Servidores",
     "beta": {
       "title": "\"Versão Beta",
       "description": "Este recurso ainda está em beta. Se encontrar algum erro, por favor, relate <Link>aqui</Link>."
@@ -202,16 +202,16 @@
     "retention_desc": "How long speedtest results are kept before being automatically deleted.",
     "retention_saved": "Retention period updated",
     "retention_days_placeholder": "365",
-    "retention_days_suffix": "days",
+    "retention_days_suffix": "dias",
     "retention_back": "Back to presets",
     "retention_options": {
-      "week": "7 days",
-      "month": "30 days",
-      "quarter": "90 days",
-      "half_year": "180 days",
-      "year": "1 year (default)",
-      "forever": "Keep forever",
-      "custom": "Custom..."
+      "week": "7 dias",
+      "month": "30 dias",
+      "quarter": "90 dias",
+      "half_year": "180 dias",
+      "year": "1 ano (padrão)",
+      "forever": "Manter para sempre",
+      "custom": "Personalizado..."
     }
   },
   "latest": {
@@ -298,9 +298,9 @@
     "invalid_view": "Visualização inválida"
   },
   "statistics": {
-    "average": "Average",
+    "average": "Média",
     "export": {
-      "button": "Export"
+      "button": "Exportar"
     },
     "overview": {
       "total_title": "Total de testes",
@@ -335,37 +335,37 @@
       "down": "Valores de download",
       "up": "Valores de upload"
     },
-    "failed_test": "Failed test",
+    "failed_test": "Teste com falha",
     "hourly": {
       "title": "Speed by Time of Day",
-      "sample_count": "Tests"
+      "sample_count": "Testes"
     },
     "consistency": {
-      "title": "Connection Stability",
-      "excellent": "Excellent",
-      "good": "Good",
-      "fair": "Fair",
-      "poor": "Poor",
-      "ping_variance": "Ping variance"
+      "title": "Estabilidade da conexão",
+      "excellent": "Excelente",
+      "good": "Bom",
+      "fair": "Razoável",
+      "poor": "Ruim",
+      "ping_variance": "Variação do ping"
     }
   },
   "calendar": {
     "select_range": "Select date range",
     "select_start": "Select start date",
     "select_end": "Select end date",
-    "from": "From",
-    "to": "To",
-    "last_7_days": "Last 7 days",
-    "last_30_days": "Last 30 days",
-    "last_90_days": "Last 90 days",
-    "last_year": "Last year",
-    "mon": "Mon",
-    "tue": "Tue",
-    "wed": "Wed",
-    "thu": "Thu",
-    "fri": "Fri",
-    "sat": "Sat",
-    "sun": "Sun"
+    "from": "De",
+    "to": "Para",
+    "last_7_days": "Últimos 7 dias",
+    "last_30_days": "Últimos 30 dias",
+    "last_90_days": "Últimos 90 dias",
+    "last_year": "Último ano",
+    "mon": "Seg",
+    "tue": "Ter",
+    "wed": "Qua",
+    "thu": "Qui",
+    "fri": "Sex",
+    "sat": "Sáb",
+    "sun": "Dom"
   },
   "nodes": {
     "add": "Adicionar servidor",
@@ -392,9 +392,9 @@
       "success": "O servidor foi excluído com êxito"
     },
     "rename": {
-      "title": "Rename server",
-      "placeholder": "New server name",
-      "success": "The server has been renamed successfully"
+      "title": "Renomear o servidor",
+      "placeholder": "Novo nome do servidor",
+      "success": "O servidor foi renomeado com sucesso"
     },
     "messages": {
       "not_reachable": "O servidor não pode ser acessado",
@@ -463,48 +463,48 @@
       "fields": {
         "url": "HealthChecks-URL",
         "url_placeholder": "https://hc-ping.com/<uuid>",
-        "interval": "Ping interval (minutes)",
+        "interval": "Intervalo de ping (minutos)",
         "interval_placeholder": "1"
       }
     },
     "influxdb": {
       "title": "InfluxDB",
       "fields": {
-        "url": "Server-URL",
+        "url": "URL do servidor",
         "url_placeholder": "http://localhost:8086",
-        "org": "Organization",
+        "org": "Organização",
         "bucket": "Bucket",
-        "token": "API token",
-        "measurement": "Measurement name",
+        "token": "Token de API",
+        "measurement": "Nome da medição",
         "measurement_placeholder": "speedtests (default)",
         "host": "Host tag",
         "host_placeholder": "Defaults to the machine hostname",
-        "tags": "Additional tags",
+        "tags": "Tags adicionais",
         "tags_placeholder": "region=eu,role=primary (comma-separated)"
       }
     },
     "ntfy": {
       "title": "ntfy",
       "fields": {
-        "url": "Server-URL",
+        "url": "URL do servidor",
         "url_placeholder": "https://ntfy.sh",
-        "topic": "Topic",
+        "topic": "Tópico",
         "topic_placeholder": "myspeed-alerts",
-        "token": "Access token",
+        "token": "Token de acesso",
         "token_placeholder": "tk_... (optional, for protected servers)",
-        "title": "Notification title",
-        "title_placeholder": "MySpeed (optional)",
+        "title": "Título da notificação",
+        "title_placeholder": "MySpeed (opcional)",
         "tags": "Tags",
         "tags_placeholder": "warning,satellite (comma-separated)",
-        "priority": "Default priority (1-5)",
+        "priority": "Prioridade padrão (1-5)",
         "priority_placeholder": "3",
-        "error_priority": "Error priority (1-5)",
+        "error_priority": "Prioridade do erro (1-5)",
         "error_priority_placeholder": "5",
-        "error_message": "Error message",
+        "error_message": "Mensagem de erro",
         "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] Error: %error%",
-        "send_failed": "Send error messages",
-        "send_finished": "Send finished messages",
-        "finished_message": "Finished message",
+        "send_failed": "Enviar mensagens de erro",
+        "send_finished": "Enviar mensagens concluídas",
+        "finished_message": "Mensagem concluída",
         "finished_message_placeholder": "%year%-%month%-%day% %hour%:%minute% — %ping% ms, %download% Mbps, %upload% Mbps"
       }
     },
@@ -541,44 +541,44 @@
     "back_to_top": "Voltar ao topo"
   },
   "not_found": {
-    "title": "Page not found",
-    "description": "The page you're looking for doesn't exist or has been moved.",
-    "back_home": "Back to Home"
+    "title": "página não encontrada",
+    "description": "A página que procura não existe ou foi movida.",
+    "back_home": "Voltar para o Início"
   },
   "route_error": {
-    "title": "Oops!",
-    "subtitle": "Something went wrong",
+    "title": "Ops!",
+    "subtitle": "Ocorreu um erro",
     "description": "An unexpected error occurred. Please try again or go back to the home page.",
-    "reload": "Reload Page"
+    "reload": "Atualizar página"
   },
   "optimal_values": {
-    "title": "Optimal Values",
-    "use_recommended": "Use recommended"
+    "title": "Valores ideais",
+    "use_recommended": "Usar recomendados"
   },
   "preferences": {
-    "title": "Preferences",
+    "title": "Preferências",
     "theme": {
-      "title": "Appearance",
-      "description": "Switch between dark and light interface.",
-      "dark": "Dark",
+      "title": "Aparência",
+      "description": "Alternar entre a interface escura e clara.",
+      "dark": "Escuro",
       "dark_desc": "Easier on the eyes in low light",
-      "light": "Light",
+      "light": "Claro",
       "light_desc": "Brighter look for daytime use"
     },
     "time_format": {
-      "title": "Time format",
+      "title": "Formato de hora",
       "description": "How clock times are displayed throughout the app.",
-      "h24": "24-hour",
+      "h24": "24 horas",
       "h24_desc": "Display times like 14:30",
-      "h12": "12-hour",
+      "h12": "12 horas",
       "h12_desc": "Display times like 2:30 PM"
     },
     "speed_unit": {
-      "title": "Speed unit",
+      "title": "Unidade de velocidade",
       "description": "Choose how speeds are shown. Values are converted automatically.",
-      "mbps": "Mbps (Megabits per second)",
+      "mbps": "Mbps (Megabits por segundo)",
       "mbps_desc": "Standard ISP / speedtest unit",
-      "mbytes": "MB/s (Megabytes per second)",
+      "mbytes": "MB/s (Megabytes por segundo)",
       "mbytes_desc": "Common in browsers and download managers"
     }
   }
