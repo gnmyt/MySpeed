@@ -23,8 +23,8 @@
     "unset": "移除",
     "retry": "再试一次",
     "login": "登录",
-    "save": "Save",
-    "saving": "Saving...",
+    "save": "保存",
+    "saving": "保存中……",
     "password": {
       "title": "需要密码",
       "placeholder": "您的密码",
@@ -39,14 +39,14 @@
       "interface": "界面",
       "server": "服务器",
       "server_id": "服务器ID",
-      "custom_url": "Custom URL",
+      "custom_url": "自定义 URL",
       "custom_url_placeholder": "https://speed.test/backend/",
       "choose_automatically": "自动选择",
       "ookla_license": "我已阅读并接受 Ookla 的<Eula>EULA</Eula>、<GDPR>隐私政策</GDPR>和<TOS>服务条款</TOS>。",
-      "ookla_notice": "By using Ookla, you agree to their <Eula>EULA</Eula>, <GDPR>privacy policy</GDPR> and <TOS>terms of service</TOS>.",
-      "ookla_desc": "Popular provider with global server network",
-      "libre_desc": "Open-source, self-hostable speedtest",
-      "cloudflare_desc": "Fast CDN-based testing"
+      "ookla_notice": "使用 Ookla 即表示您同意其<Eula>最终用户许可协议</Eula>、<GDPR>隐私政策</GDPR>和<TOS>服务条款</TOS>。",
+      "ookla_desc": "拥有全球服务器网络的流行提供商",
+      "libre_desc": "开源、可自托管的测速工具",
+      "cloudflare_desc": "基于 CDN 的快速测试"
     }
   },
   "dropdown": {
@@ -60,7 +60,7 @@
     "upload": "最佳的上传速度",
     "download": "最佳的下载速度",
     "recommendations": "最优值",
-    "optimal_values": "Optimal values",
+    "optimal_values": "最佳值",
     "change_provider": "更换提供商",
     "password": "更改密码",
     "cron": "设置测试频率",
@@ -73,31 +73,31 @@
     "dark_mode": "深色模式",
     "theme_switched_light": "已切换到浅色模式",
     "theme_switched_dark": "已切换到深色模式",
-    "preferences": "Preferences",
+    "preferences": "偏好设置",
     "provider": "关于供应商",
     "integrations": "集成"
   },
   "about": {
-    "title": "About MySpeed",
-    "description": "MySpeed is an open-source speedtest analysis software that records your internet speed over a configurable period of time.",
+    "title": "关于 MySpeed",
+    "description": "MySpeed 是一款开源测速分析软件，可在可配置的时间段内记录您的网速。",
     "github": "GitHub",
-    "website": "Website",
-    "donate": "Donate",
-    "translate": "Translate",
-    "made_by": "Made with"
+    "website": "官网",
+    "donate": "捐赠",
+    "translate": "翻译",
+    "made_by": "用"
   },
   "options": {
     "cron": {
       "continuous": "连续 (每分钟)",
-      "continuous_desc": "Every minute - high resource usage",
+      "continuous_desc": "每分钟一次——高资源占用",
       "frequent": "频繁 (每30分钟一次)",
-      "frequent_desc": "Every 30 minutes",
+      "frequent_desc": "每 30 分钟",
       "default": "标准 (每小时一次)",
-      "default_desc": "Every hour - recommended",
+      "default_desc": "每小时一次——推荐",
       "rare": "较少 (每3小时一次)",
-      "rare_desc": "Every 3 hours",
+      "rare_desc": "每 3 小时",
       "really_rare": "很少 (每6小时一次)",
-      "really_rare_desc": "Every 6 hours"
+      "really_rare_desc": "每 6 小时"
     },
     "level": {
       "no_access": "无法进入",
@@ -105,19 +105,19 @@
     }
   },
   "password": {
-    "no_access_desc": "Visitors must enter the password to view anything",
-    "read_access_desc": "Visitors can view data but can't change settings"
+    "no_access_desc": "访客必须输入密码才能查看任何内容",
+    "read_access_desc": "访客可以查看数据但无法更改设置"
   },
   "pause": {
-    "manual": "Pause Indefinitely",
-    "manual_desc": "Pause until manually resumed",
-    "short": "Short Break",
-    "short_desc": "Pause for 1 hour",
-    "medium": "Medium Break",
-    "medium_desc": "Pause for 6 hours",
-    "long": "Long Break",
-    "long_desc": "Pause for 12 hours",
-    "custom": "Custom Duration"
+    "manual": "无限期暂停",
+    "manual_desc": "暂停直到手动恢复",
+    "short": "短暂休息",
+    "short_desc": "暂停 1 小时",
+    "medium": "中等休息",
+    "medium_desc": "暂停 6 小时",
+    "long": "长时间休息",
+    "long_desc": "暂停 12 小时",
+    "custom": "自定义时长"
   },
   "page": {
     "overview": "概览",
@@ -142,16 +142,16 @@
     "cron_title": "设置测试频率",
     "cron_rules": "克隆规则",
     "cron_next_test": "下一次测试：",
-    "custom_cron": "Custom cron expression",
-    "schedule_offset": "Offset schedule",
-    "schedule_offset_desc": "Adds a small delay to prevent tests from starting at exact times",
-    "advanced": "Advanced",
+    "custom_cron": "自定义 Cron 表达式",
+    "schedule_offset": "偏移计划",
+    "schedule_offset_desc": "添加小幅延迟以防止测试在整点启动",
+    "advanced": "高级",
     "time_title": "显示最后一次测试...",
     "download": "下载",
     "pause_title": "测速暂停了，因为...",
     "hours": "小时",
     "pause": "暂停",
-    "pause_manual_hint": "Leave empty to pause indefinitely",
+    "pause_manual_hint": "留空以无限期暂停",
     "release_manually": "手动释放",
     "language": "改变语言",
     "view_title": "修改视图"
@@ -165,7 +165,7 @@
     "paused": "测速目前已暂停。如果你想参加，请继续。",
     "running": "测速已经在进行中。请稍等片刻。",
     "admin_login": "管理员登录",
-    "servers": "Servers",
+    "servers": "服务器",
     "beta": {
       "title": "测试版本",
       "description": "该功能仍处于测试阶段。如果你发现错误，请报告 <Link>这里</Link>."
@@ -198,18 +198,18 @@
     "confirm_reset": "是，重置",
     "settings_exported": "配置已导出",
     "settings_imported": "配置已导入",
-    "retention": "Data retention",
-    "retention_desc": "How long speedtest results are kept before being automatically deleted.",
-    "retention_saved": "Retention period updated",
+    "retention": "数据保留",
+    "retention_desc": "测速结果在自动删除前保留多长时间。",
+    "retention_saved": "保留期已更新",
     "retention_days_placeholder": "365",
-    "retention_days_suffix": "days",
-    "retention_back": "Back to presets",
+    "retention_days_suffix": "天",
+    "retention_back": "返回预设",
     "retention_options": {
-      "week": "7 days",
-      "month": "30 days",
-      "quarter": "90 days",
-      "half_year": "180 days",
-      "year": "1 year (default)",
+      "week": "7 天",
+      "month": "30 天",
+      "quarter": "90 天",
+      "half_year": "180 天",
+      "year": "1 年（默认）",
       "forever": "Keep forever",
       "custom": "Custom..."
     }
