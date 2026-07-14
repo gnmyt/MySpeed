@@ -210,15 +210,15 @@
       "quarter": "90 天",
       "half_year": "180 天",
       "year": "1 年（默认）",
-      "forever": "Keep forever",
-      "custom": "Custom..."
+      "forever": "永久保留",
+      "custom": "自定义..."
     }
   },
   "latest": {
     "ping": "ping 延迟",
     "ping_unit": "毫秒",
-    "jitter": "Jitter",
-    "jitter_unit": "ms",
+    "jitter": "抖动",
+    "jitter_unit": "毫秒",
     "down": "下载",
     "speed_unit": "Mbps",
     "byte_speed_unit": "MB/s",
@@ -239,8 +239,8 @@
       "description": "Ping 延迟显示了各自供应商的响应速度。时间越短越好。"
     },
     "jitter": {
-      "title": "Jitter",
-      "description": "Jitter is the variation in ping response times. Lower jitter means a more stable connection, which is important for real-time applications like video calls and gaming."
+      "title": "抖动",
+      "description": "抖动是指 ping 响应时间的变化。较低的抖动意味着更稳定的连接，这对视频会议和游戏等实时应用非常重要。"
     },
     "up": {
       "title": "上传速度",
@@ -278,12 +278,12 @@
     "result": {
       "title": "测试结果",
       "description": "<Link>该测试</Link>的最高下载速度为<Bold>{{down}} Mbps</Bold>，最高上传速度为<Bold>{{up}} Mbps</Bold>。创建 <Bold>{{type}}</Bold>耗时<Bold>{{duration}} 秒</Bold>。",
-      "jitter": " The connection jitter was <Bold>{{jitter}} ms</Bold>.",
+      "jitter": " 连接抖动为 <Bold>{{jitter}} 毫秒</Bold>。",
       "from_you": "来自你的",
       "automatic": "自动"
     },
     "overview": {
-      "title_range": "Test overview from {{from}} to {{to}}"
+      "title_range": "{{from}} 至 {{to}} 的测试概览"
     }
   },
   "errors": {
@@ -298,9 +298,9 @@
     "invalid_view": "无效视图"
   },
   "statistics": {
-    "average": "Average",
+    "average": "平均",
     "export": {
-      "button": "Export"
+      "button": "导出"
     },
     "overview": {
       "total_title": "测速次数",
@@ -335,37 +335,37 @@
       "down": "下载数值",
       "up": "上传数值"
     },
-    "failed_test": "Failed test",
+    "failed_test": "失败的测试",
     "hourly": {
-      "title": "Speed by Time of Day",
-      "sample_count": "Tests"
+      "title": "分时段速度",
+      "sample_count": "测试"
     },
     "consistency": {
-      "title": "Connection Stability",
-      "excellent": "Excellent",
-      "good": "Good",
-      "fair": "Fair",
-      "poor": "Poor",
-      "ping_variance": "Ping variance"
+      "title": "连接稳定性",
+      "excellent": "极佳",
+      "good": "良好",
+      "fair": "一般",
+      "poor": "较差",
+      "ping_variance": "Ping 方差"
     }
   },
   "calendar": {
-    "select_range": "Select date range",
-    "select_start": "Select start date",
-    "select_end": "Select end date",
-    "from": "From",
-    "to": "To",
-    "last_7_days": "Last 7 days",
-    "last_30_days": "Last 30 days",
-    "last_90_days": "Last 90 days",
-    "last_year": "Last year",
-    "mon": "Mon",
-    "tue": "Tue",
-    "wed": "Wed",
-    "thu": "Thu",
-    "fri": "Fri",
-    "sat": "Sat",
-    "sun": "Sun"
+    "select_range": "选择日期范围",
+    "select_start": "选择开始日期",
+    "select_end": "选择结束日期",
+    "from": "从",
+    "to": "至",
+    "last_7_days": "最近 7 天",
+    "last_30_days": "最近 30 天",
+    "last_90_days": "最近 90 天",
+    "last_year": "去年",
+    "mon": "周一",
+    "tue": "周二",
+    "wed": "周三",
+    "thu": "周四",
+    "fri": "周五",
+    "sat": "周六",
+    "sun": "周日"
   },
   "nodes": {
     "add": "添加服务器",
@@ -392,9 +392,9 @@
       "success": "该服务器被成功删除"
     },
     "rename": {
-      "title": "Rename server",
-      "placeholder": "New server name",
-      "success": "The server has been renamed successfully"
+      "title": "重命名服务器",
+      "placeholder": "新服务器名称",
+      "success": "服务器已成功重命名"
     },
     "messages": {
       "not_reachable": "服务器无法到达",
@@ -424,11 +424,11 @@
         "display_name": "显示名称",
         "display_name_placeholder": "MySpeed 通知",
         "error_message": "测速失败的信息内容",
-        "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] Error: %error%",
+        "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] 错误: %error%",
         "send_failed": "是否发送测速失败信息",
         "send_finished": "是否发送测速完成信息",
         "finished_message": "测速完成的信息内容",
-        "finished_message_placeholder": "%year%-%month%-%day% %hour%:%minute% — %ping% ms, %download% Mbps, %upload% Mbps"
+        "finished_message_placeholder": "%year%-%month%-%day% %hour%:%minute% — %ping% 毫秒, %download% Mbps, %upload% Mbps"
       }
     },
     "gotify": {
@@ -438,11 +438,11 @@
         "key": "应用令牌",
         "priority": "优先权",
         "error_message": "测速失败的信息内容",
-        "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] Error: %error%",
+        "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] 错误: %error%",
         "send_failed": "是否发送测速失败信息",
         "send_finished": "是否发送测速完成信息",
         "finished_message": "测速完成的信息内容",
-        "finished_message_placeholder": "%year%-%month%-%day% %hour%:%minute% — %ping% ms, %download% Mbps, %upload% Mbps"
+        "finished_message_placeholder": "%year%-%month%-%day% %hour%:%minute% — %ping% 毫秒, %download% Mbps, %upload% Mbps"
       }
     },
     "pushover": {
@@ -451,11 +451,11 @@
         "token": "应用程序令牌",
         "user_key": "用户密钥",
         "error_message": "是否发送测速失败信息",
-        "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] Error: %error%",
+        "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] 错误: %error%",
         "send_failed": "是否发送测速失败信息",
         "send_finished": "是否发送测速完成信息",
         "finished_message": "测速完成的信息内容",
-        "finished_message_placeholder": "%year%-%month%-%day% %hour%:%minute% — %ping% ms, %download% Mbps, %upload% Mbps"
+        "finished_message_placeholder": "%year%-%month%-%day% %hour%:%minute% — %ping% 毫秒, %download% Mbps, %upload% Mbps"
       }
     },
     "healthChecks": {
@@ -463,49 +463,49 @@
       "fields": {
         "url": "健康检查网址",
         "url_placeholder": "https://hc-ping.com/<uuid>",
-        "interval": "Ping interval (minutes)",
+        "interval": "Ping 间隔（分钟）",
         "interval_placeholder": "1"
       }
     },
     "influxdb": {
       "title": "InfluxDB",
       "fields": {
-        "url": "Server-URL",
+        "url": "服务器 URL",
         "url_placeholder": "http://localhost:8086",
-        "org": "Organization",
-        "bucket": "Bucket",
-        "token": "API token",
-        "measurement": "Measurement name",
-        "measurement_placeholder": "speedtests (default)",
-        "host": "Host tag",
-        "host_placeholder": "Defaults to the machine hostname",
-        "tags": "Additional tags",
-        "tags_placeholder": "region=eu,role=primary (comma-separated)"
+        "org": "组织",
+        "bucket": "存储桶",
+        "token": "API 令牌",
+        "measurement": "测量名称",
+        "measurement_placeholder": "speedtests（默认）",
+        "host": "主机标签",
+        "host_placeholder": "默认为机器主机名",
+        "tags": "附加标签",
+        "tags_placeholder": "region=eu,role=primary（逗号分隔）"
       }
     },
     "ntfy": {
       "title": "ntfy",
       "fields": {
-        "url": "Server-URL",
+        "url": "服务器 URL",
         "url_placeholder": "https://ntfy.sh",
-        "topic": "Topic",
+        "topic": "主题",
         "topic_placeholder": "myspeed-alerts",
-        "token": "Access token",
-        "token_placeholder": "tk_... (optional, for protected servers)",
-        "title": "Notification title",
-        "title_placeholder": "MySpeed (optional)",
-        "tags": "Tags",
-        "tags_placeholder": "warning,satellite (comma-separated)",
-        "priority": "Default priority (1-5)",
+        "token": "访问令牌",
+        "token_placeholder": "tk_...（可选，用于受保护的服务器）",
+        "title": "通知标题",
+        "title_placeholder": "MySpeed（可选）",
+        "tags": "标签",
+        "tags_placeholder": "warning,satellite（逗号分隔）",
+        "priority": "默认优先级（1-5）",
         "priority_placeholder": "3",
-        "error_priority": "Error priority (1-5)",
+        "error_priority": "错误优先级（1-5）",
         "error_priority_placeholder": "5",
-        "error_message": "Error message",
-        "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] Error: %error%",
-        "send_failed": "Send error messages",
-        "send_finished": "Send finished messages",
-        "finished_message": "Finished message",
-        "finished_message_placeholder": "%year%-%month%-%day% %hour%:%minute% — %ping% ms, %download% Mbps, %upload% Mbps"
+        "error_message": "错误消息",
+        "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] 错误: %error%",
+        "send_failed": "发送错误消息",
+        "send_finished": "发送完成消息",
+        "finished_message": "完成消息",
+        "finished_message_placeholder": "%year%-%month%-%day% %hour%:%minute% — %ping% 毫秒, %download% Mbps, %upload% Mbps"
       }
     },
     "telegram": {
@@ -514,11 +514,11 @@
         "token": "Bot Token",
         "chat_id": "聊天ID",
         "error_message": "是否发送测速失败信息",
-        "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] Error: %error%",
+        "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] 错误: %error%",
         "send_failed": "是否发送测速失败信息",
         "send_finished": "是否发送测速完成信息",
         "finished_message": "测速完成的信息内容",
-        "finished_message_placeholder": "%year%-%month%-%day% %hour%:%minute% — %ping% ms, %download% Mbps, %upload% Mbps"
+        "finished_message_placeholder": "%year%-%month%-%day% %hour%:%minute% — %ping% 毫秒, %download% Mbps, %upload% Mbps"
       }
     },
     "webhook": {
@@ -532,7 +532,7 @@
         "send_alive": "发送生动的信息",
         "send_recommendations": "发送建议",
         "send_config_updates": "发送配置更新",
-        "interval": "Keep-Alive interval (minutes)",
+        "interval": "Keep-Alive 间隔（分钟）",
         "interval_placeholder": "1"
       }
     }
@@ -541,45 +541,45 @@
     "back_to_top": "回到顶部"
   },
   "not_found": {
-    "title": "Page not found",
-    "description": "The page you're looking for doesn't exist or has been moved.",
-    "back_home": "Back to Home"
+    "title": "页面未找到",
+    "description": "您查找的页面不存在或已被移动。",
+    "back_home": "返回首页"
   },
   "route_error": {
-    "title": "Oops!",
-    "subtitle": "Something went wrong",
-    "description": "An unexpected error occurred. Please try again or go back to the home page.",
-    "reload": "Reload Page"
+    "title": "哎呀！",
+    "subtitle": "出错了",
+    "description": "发生了意外错误。请重试或返回首页。",
+    "reload": "重新加载页面"
   },
   "optimal_values": {
-    "title": "Optimal Values",
-    "use_recommended": "Use recommended"
+    "title": "最佳值",
+    "use_recommended": "使用推荐值"
   },
   "preferences": {
-    "title": "Preferences",
+    "title": "偏好设置",
     "theme": {
-      "title": "Appearance",
-      "description": "Switch between dark and light interface.",
-      "dark": "Dark",
-      "dark_desc": "Easier on the eyes in low light",
-      "light": "Light",
-      "light_desc": "Brighter look for daytime use"
+      "title": "外观",
+      "description": "在深色和浅色界面之间切换。",
+      "dark": "深色",
+      "dark_desc": "在弱光下更护眼",
+      "light": "浅色",
+      "light_desc": "白天使用更明亮"
     },
     "time_format": {
-      "title": "Time format",
-      "description": "How clock times are displayed throughout the app.",
-      "h24": "24-hour",
-      "h24_desc": "Display times like 14:30",
-      "h12": "12-hour",
-      "h12_desc": "Display times like 2:30 PM"
+      "title": "时间格式",
+      "description": "应用中的时间显示方式。",
+      "h24": "24 小时制",
+      "h24_desc": "以 14:30 格式显示时间",
+      "h12": "12 小时制",
+      "h12_desc": "以 2:30 PM 格式显示时间"
     },
     "speed_unit": {
-      "title": "Speed unit",
-      "description": "Choose how speeds are shown. Values are converted automatically.",
-      "mbps": "Mbps (Megabits per second)",
-      "mbps_desc": "Standard ISP / speedtest unit",
-      "mbytes": "MB/s (Megabytes per second)",
-      "mbytes_desc": "Common in browsers and download managers"
+      "title": "速度单位",
+      "description": "选择速度的显示方式。数值会自动转换。",
+      "mbps": "Mbps（兆比特每秒）",
+      "mbps_desc": "标准 ISP / 测速单位",
+      "mbytes": "MB/s（兆字节每秒）",
+      "mbytes_desc": "常见于浏览器和下载管理器"
     }
   }
 }
