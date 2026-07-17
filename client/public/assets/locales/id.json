@@ -393,6 +393,7 @@
       "fields": {
         "token": "Token Bot",
         "chat_id": "ID Chat",
+        "topic_id": "ID Topik (opsional)",
         "error_message": "Pesan kesalahan",
         "error_message_placeholder": "Kesalahan: %error%",
         "send_failed": "Kirim pesan kesalahan",

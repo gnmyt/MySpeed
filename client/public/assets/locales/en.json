@@ -513,6 +513,7 @@
       "fields": {
         "token": "Bot Token",
         "chat_id": "Chat ID",
+        "topic_id": "Topic ID (optional)",
         "error_message": "Error message",
         "error_message_placeholder": "[%year%-%month%-%day% %hour%:%minute%] Error: %error%",
         "send_failed": "Send error messages",

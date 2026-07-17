@@ -445,6 +445,7 @@
       "fields": {
         "token": "Bot Token",
         "chat_id": "Chat ID",
+        "topic_id": "Themen-ID (optional)",
         "error_message": "Fehlernachricht",
         "error_message_placeholder": "Fehler: %error%",
         "send_failed": "Fehlernachrichten senden",

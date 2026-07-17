@@ -6,19 +6,19 @@ const defaults = {
     failed: "❌ *A speedtest has failed*\n`Reason`: %error%"
 };
 
-const send = (token, chat_id, text, activity) =>
+const send = (token, chat_id, text, activity, topic_id) =>
     postJson(`https://api.telegram.org/bot${token}/sendMessage`,
-        {text, chat_id, parse_mode: "markdown"}, {activity});
+        {text, chat_id, parse_mode: "markdown", ...(topic_id ? {message_thread_id: topic_id} : {})}, {activity});
 
 export default (registerEvent) => {
     registerEvent('testFinished', async ({data: c}, data, activity) => {
         if (c.send_finished) await send(c.token, c.chat_id,
-            replaceVariables(c.finished_message || defaults.finished, data), activity);
+            replaceVariables(c.finished_message || defaults.finished, data), activity, c.topic_id);
     });
 
     registerEvent('testFailed', async ({data: c}, error, activity) => {
         if (c.send_failed) await send(c.token, c.chat_id,
-            replaceVariables(c.failed_message || defaults.failed, {error}), activity);
+            replaceVariables(c.failed_message || defaults.failed, {error}), activity, c.topic_id);
     });
 
     return {
@@ -26,6 +26,7 @@ export default (registerEvent) => {
         fields: [
             {name: "token", type: "text", required: true, regex: /(\d+):[a-zA-Z0-9_-]+/},
             {name: "chat_id", type: "text", required: true, regex: /\d+/},
+            {name: "topic_id", type: "text", required: false, regex: /^\d+$/},
             {name: "send_finished", type: "boolean", required: false},
             {name: "finished_message", type: "textarea", required: false},
             {name: "send_failed", type: "boolean", required: false},
