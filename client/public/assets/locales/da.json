@@ -393,6 +393,7 @@
       "fields": {
         "token": "Bot-token",
         "chat_id": "Chat-ID",
+        "topic_id": "Emne-ID (valgfrit)",
         "error_message": "Fejlmeddelelse",
         "error_message_placeholder": "Fejl: %error%",
         "send_failed": "Send fejlmeddelelser",

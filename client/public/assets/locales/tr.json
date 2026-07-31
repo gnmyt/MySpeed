@@ -393,6 +393,7 @@
       "fields": {
         "token": "Bot Token",
         "chat_id": "Sohbet Kimliği",
+        "topic_id": "Konu Kimliği (opsiyonel)",
         "error_message": "Hata mesajı",
         "error_message_placeholder": "Hata: %error%",
         "send_failed": "Hata mesajlarını gönder",

@@ -393,6 +393,7 @@
       "fields": {
         "token": "Token bota",
         "chat_id": "ID czatu",
+        "topic_id": "ID wątku (opcjonalne)",
         "error_message": "Komunikat o błędzie",
         "error_message_placeholder": "Błąd: %error%",
         "send_failed": "Wysyłaj komunikaty o błędach",

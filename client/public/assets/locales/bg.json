@@ -393,6 +393,7 @@
       "fields": {
         "token": "Токен на бот",
         "chat_id": "Идентификатор на чата",
+        "topic_id": "ID на темата (незадължително)",
         "error_message": "Съобщение за грешка",
         "error_message_placeholder": "Грешка: %error%",
         "send_failed": "Изпращане на съобщения за грешки",

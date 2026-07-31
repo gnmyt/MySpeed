@@ -393,6 +393,7 @@
       "fields": {
         "token": "Bot Token",
         "chat_id": "Chat ID",
+        "topic_id": "ID de tema (opcional)",
         "error_message": "Mensaje de error",
         "error_message_placeholder": "Error: %error%",
         "send_failed": "Enviar mensajes de error",

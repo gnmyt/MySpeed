@@ -393,6 +393,7 @@
       "fields": {
         "token": "机器人令牌",
         "chat_id": "聊天ID",
+        "topic_id": "话题ID（可选）",
         "error_message": "测试失败通知内容",
         "error_message_placeholder": "错误: %error%",
         "send_failed": "发送测试失败通知",

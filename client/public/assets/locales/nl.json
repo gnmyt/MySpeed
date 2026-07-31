@@ -393,6 +393,7 @@
       "fields": {
         "token": "Bot Token",
         "chat_id": "Chat-ID",
+        "topic_id": "Onderwerp-ID (optioneel)",
         "error_message": "Foutmelding",
         "error_message_placeholder": "Fout: %error%",
         "send_failed": "Foutberichten verzenden",
