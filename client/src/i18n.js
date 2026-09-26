@@ -16,6 +16,7 @@ import TurkishFlag from "@/common/assets/languages/tr.webp";
 import DanishFlag from "@/common/assets/languages/da.webp";
 import PolishFlag from "@/common/assets/languages/pl.webp";
 import IndonesianFlag from "@/common/assets/languages/id.webp";
+import CatalanFlag from "@/common/assets/languages/ca.webp";
 
 if (localStorage.getItem('language') === null)
     localStorage.setItem('language', navigator.language.split('-')[0]);
@@ -34,7 +35,8 @@ export const languages = [
     {name: 'Dansk', code: 'da', flag: DanishFlag},
     {name: 'Polski', code: 'pl', flag: PolishFlag},
     {name: 'Türkçe', code: 'tr', flag: TurkishFlag},
-    {name: 'Bahasa Indonesia', code: 'id', flag: IndonesianFlag}
+    {name: 'Bahasa Indonesia', code: 'id', flag: IndonesianFlag},
+    {name: 'Català', code: 'ca', flag: CatalanFlag}
 ]
 
 i18n.use(initReactI18next).use(LanguageDetector).use(HttpApi).init({
