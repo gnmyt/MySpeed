@@ -18,7 +18,8 @@ export const en = defineConfig({
         items: [
           { text: 'Configuring a Reverse Proxy', link: 'guides/reverse-proxy' },
           { text: 'Setting up HTTPS', link: 'guides/https' },
-          { text: 'Statistics & Charts', link: 'guides/statistics' }
+          { text: 'Statistics & Charts', link: 'guides/statistics' },
+          { text: 'Home Assistant', link: 'guides/homeassistant' }
         ]
       },
       { text: 'Troubleshooting', link: 'troubleshooting' },
