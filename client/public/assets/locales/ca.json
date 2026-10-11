@@ -1,0 +1,496 @@
+{
+  "failed": "Error",
+  "welcome": {
+    "step": "Pas",
+    "title": "Benvingut a MySpeed!",
+    "subtext": "Configurem MySpeed per primera vegada. No et preocupis, no trigarà gaire.",
+    "provider_title": "Tria un proveïdor",
+    "provider_subtext": "Selecciona aquí el proveïdor que vols utilitzar. Aquest proveïdor serà qui realitzi les proves.",
+    "data_title": "Estableix les dades òptimes",
+    "data_subtext": "Selecciona en aquest pas les velocitats acordades contractualment",
+    "ms": "(en ms)",
+    "mbps": "(en Mbps)",
+    "accept_title": "Accepta les condicions",
+    "accept_subtext": "En aquest pas, volem informar-te sobre la llicència d'Ookla. Llegeix-la i confirma que l'has llegida i acceptada fent clic a \"Fet\"."
+  },
+  "dialog": {
+    "okay": "D'acord",
+    "done": "Fet",
+    "continue": "Continua",
+    "apply": "Sí, aplica",
+    "update": "Actualitza",
+    "close": "Tanca",
+    "unset": "Elimina",
+    "retry": "Torna-ho a intentar",
+    "login": "Inicia sessió",
+    "save": "Desa",
+    "saving": "Desant...",
+    "password": {
+      "title": "Cal una contrasenya",
+      "placeholder": "La teva contrasenya",
+      "wrong": "La contrasenya que has introduït és incorrecta",
+      "unlock": "Desbloqueja"
+    },
+    "api": {
+      "title": "L'API no és accessible",
+      "description": "MySpeed no ha pogut accedir a l'API d'aquesta instància. Torna-ho a intentar més tard."
+    },
+    "provider": {
+      "interface": "Interfície",
+      "server": "Servidor",
+      "server_id": "ID del servidor",
+      "custom_url": "URL personalitzada",
+      "custom_url_placeholder": "https://speed.test/backend/",
+      "choose_automatically": "Tria automàticament",
+      "ookla_license": "He llegit i accepto l'<Eula>EULA</Eula>, la <GDPR>política de privacitat</GDPR> i les <TOS>condicions del servei</TOS> d'Ookla.",
+      "ookla_notice": "En utilitzar Ookla, acceptes la seva <Eula>EULA</Eula>, la <GDPR>política de privacitat</GDPR> i les <TOS>condicions del servei</TOS>.",
+      "ookla_desc": "Proveïdor popular amb xarxa global de servidors",
+      "libre_desc": "Prova de velocitat de codi obert i auto-allotjable",
+      "cloudflare_desc": "Proves ràpides basades en CDN"
+    }
+  },
+  "dropdown": {
+    "settings": "Configuració",
+    "changes_applied": "Els canvis s'han desat.",
+    "language_changed": "L'idioma ha canviat.",
+    "provider_changed": "El proveïdor ha canviat.",
+    "changes_unsaved": "Els canvis no s'han aplicat. Comprova la teva entrada.",
+    "invalid": "Entrada no vàlida",
+    "ping": "Ping òptim",
+    "upload": "Velocitat de pujada òptima",
+    "download": "Velocitat de baixada òptima",
+    "recommendations": "Recomanacions",
+    "optimal_values": "Valors òptims",
+    "change_provider": "Canvia el proveïdor",
+    "password": "Canvia la contrasenya",
+    "cron": "Estableix la freqüència",
+    "time": "Estableix el període",
+    "storage": "Gestiona l'emmagatzematge",
+    "pause_tests": "Pausa les proves",
+    "resume_tests": "Reprèn les proves",
+    "language": "Canvia l'idioma",
+    "light_mode": "Mode clar",
+    "dark_mode": "Mode fosc",
+    "theme_switched_light": "S'ha canviat al mode clar",
+    "theme_switched_dark": "S'ha canviat al mode fosc",
+    "provider": "Sobre el proveïdor",
+    "integrations": "Integracions"
+  },
+  "about": {
+    "title": "Sobre MySpeed",
+    "description": "MySpeed és un programari d'anàlisi de proves de velocitat de codi obert que registra la velocitat d'internet fins a 30 dies.",
+    "github": "GitHub",
+    "website": "Lloc web",
+    "donate": "Dona",
+    "translate": "Tradueix",
+    "made_by": "Fet amb"
+  },
+  "options": {
+    "cron": {
+      "continuous": "Continu",
+      "continuous_desc": "Cada minut - ús elevat de recursos",
+      "frequent": "Molt sovint",
+      "frequent_desc": "Cada 30 minuts",
+      "default": "Per defecte",
+      "default_desc": "Cada hora - recomanat",
+      "rare": "Rarament",
+      "rare_desc": "Cada 3 hores",
+      "really_rare": "Molt rarament",
+      "really_rare_desc": "Cada 6 hores"
+    },
+    "level": {
+      "no_access": "Sense accés",
+      "read_access": "Accés de només lectura"
+    }
+  },
+  "password": {
+    "no_access_desc": "Els visitants han d'introduir la contrasenya per veure res",
+    "read_access_desc": "Els visitants poden veure les dades però no canviar la configuració"
+  },
+  "pause": {
+    "manual": "Pausa indefinidament",
+    "manual_desc": "Pausa fins que es reprengui manualment",
+    "short": "Pausa curta",
+    "short_desc": "Pausa durant 1 hora",
+    "medium": "Pausa mitjana",
+    "medium_desc": "Pausa durant 6 hores",
+    "long": "Pausa llarga",
+    "long_desc": "Pausa durant 12 hores",
+    "custom": "Durada personalitzada"
+  },
+  "page": {
+    "overview": "Visió general",
+    "statistics": "Estadístiques"
+  },
+  "update": {
+    "ping_title": "Estableix el ping òptim (ms)",
+    "ping_placeholder": "Ping (ms)",
+    "upload_title": "Estableix la velocitat de pujada òptima (Mbps)",
+    "upload_placeholder": "Velocitat de pujada (Mbps)",
+    "download_title": "Estableix la velocitat de baixada òptima (Mbps)",
+    "download_placeholder": "Velocitat de baixada (Mbps)",
+    "recommendations_title": "Recomanacions òptimes",
+    "recommendations_set": "Establir recomanacions automàtiques?",
+    "provider_title": "Estableix el proveïdor de proves de velocitat",
+    "manually": "Estableix manualment",
+    "new_password": "Estableix una nova contrasenya",
+    "password_placeholder": "Nova contrasenya",
+    "password_removed": "El bloqueig per contrasenya s'ha eliminat i la contrasenya configurada s'ha esborrat.",
+    "level": "Canvia el nivell",
+    "level_title": "Permisos per als visitants",
+    "cron_title": "Estableix la freqüència de les proves",
+    "cron_rules": "Regla Cron",
+    "cron_next_test": "Propera prova:",
+    "custom_cron": "Expressió cron personalitzada",
+    "schedule_offset": "Desplaçament de la planificació",
+    "schedule_offset_desc": "Afegeix un petit retard per evitar que les proves s'iniciïn en moments exactes",
+    "advanced": "Avançat",
+    "time_title": "Mostra les proves dels darrers...",
+    "download": "Baixada",
+    "pause_title": "Pausa les proves de velocitat durant...",
+    "hours": "Hores",
+    "pause": "Pausa",
+    "pause_manual_hint": "Deixa-ho buit per pausar indefinidament",
+    "release_manually": "Allibera manualment",
+    "language": "Canvia l'idioma",
+    "view_title": "Canvia la vista"
+  },
+  "header": {
+    "title": "MySpeed",
+    "running_tooltip": "Prova de velocitat en curs",
+    "start_tooltip": "Inicia la prova de velocitat",
+    "new_update": "Actualització disponible",
+    "download": "Baixada",
+    "paused": "Les proves de velocitat estan pausades. Reprèn-les si en vols fer una.",
+    "running": "Ja hi ha una prova de velocitat en curs. Espera un moment.",
+    "admin_login": "Inici de sessió d'administrador",
+    "servers": "Servidors",
+    "beta": {
+      "title": "Versió beta",
+      "description": "Aquesta funció encara és en versió beta. Si trobes errors, informa'n <Link>aquí</Link>."
+    }
+  },
+  "storage": {
+    "speedtests": "Proves de velocitat",
+    "configuration": "Configuració",
+    "stored_tests": "Proves emmagatzemades",
+    "tests": "Proves",
+    "export_tests": "Exporta les proves",
+    "tests_exported": "Les proves s'han exportat",
+    "csv": "CSV",
+    "json": "JSON",
+    "import_tests": "Importa les proves",
+    "tests_imported": "Les proves s'han importat",
+    "import_test_error": "S'ha produït un error en importar les proves",
+    "import_config_error": "S'ha produït un error en importar la configuració",
+    "export": "Exporta",
+    "import": "Importa",
+    "clear_history": "Esborra l'historial",
+    "history_cleared": "L'historial s'ha esborrat",
+    "delete": "Elimina",
+    "confirm_delete": "Sí, elimina",
+    "export_settings": "Exporta la configuració",
+    "import_settings": "Importa la configuració",
+    "factory_reset": "Restabliment de fàbrica",
+    "factory_reset_completed": "El restabliment de fàbrica s'ha completat",
+    "reset": "Restableix",
+    "confirm_reset": "Sí, restableix",
+    "settings_exported": "La configuració s'ha exportat",
+    "settings_imported": "La configuració s'ha importat"
+  },
+  "latest": {
+    "ping": "Ping",
+    "ping_unit": "ms",
+    "jitter": "Jitter",
+    "jitter_unit": "ms",
+    "down": "Baixada",
+    "speed_unit": "Mbps",
+    "up": "Pujada",
+    "latest": "Darrera prova",
+    "before": "fa"
+  },
+  "info": {
+    "recommendations_error": "Has de fer almenys 10 proves per obtenir una mitjana. No importa si les proves s'han fet manualment o automàticament.",
+    "recommendations_info": "Basant-se en les darreres 10 proves, s'ha determinat que el ping òptim és <Bold>{{ping}} ms</Bold>, la baixada a <Bold>{{down}} Mbps</Bold> i la pujada a <Bold>{{up}} Mbps</Bold>. El millor és orientar-se pel teu contracte d'internet i adoptar-ho només si coincideix.",
+    "update": "Hi ha una actualització a la versió {{version}} disponible. Consulta <Changes>els canvis</Changes> i <DLLink>baixa l'actualització</DLLink>.",
+    "down": {
+      "title": "Velocitat de baixada",
+      "description": "La velocitat de baixada afecta la teva experiència de navegació. Com més alta sigui, més ràpid podrà rebre dades el teu ordinador."
+    },
+    "ping": {
+      "title": "Ping",
+      "description": "El ping mostra la rapidesa amb què respon el proveïdor. Com més curt sigui el temps, millor."
+    },
+    "jitter": {
+      "title": "Jitter",
+      "description": "El jitter és la variació en els temps de resposta del ping. Un jitter més baix significa una connexió més estable, cosa important per a aplicacions en temps real com les videotrucades i els jocs."
+    },
+    "up": {
+      "title": "Velocitat de pujada",
+      "description": "La velocitat de pujada afecta la teva experiència de navegació. Com més alta sigui, més ràpid podrà enviar dades el teu ordinador."
+    },
+    "latest": {
+      "title": "Darrera prova",
+      "description": "Aquest és el moment en què es va realitzar la darrera prova. En aquest cas, la darrera va tenir lloc el <Bold>{{date}}</Bold> a les <Bold>{{time}}</Bold>."
+    }
+  },
+  "time": {
+    "now": "Ara mateix",
+    "seconds": "{{seconds}} segons",
+    "minute": "1 minut",
+    "minutes": "{{minutes}} minuts",
+    "hour": "1 hora",
+    "hours": "{{hours}} hores",
+    "on": "El",
+    "at": "A les"
+  },
+  "test": {
+    "not_available": "Ara mateix no hi ha cap prova disponible",
+    "no_latest": "No hi ha cap prova actual disponible. Realitza una prova o espera que es faci la propera.",
+    "loading_more": "Carregant més proves...",
+    "no_more_tests": "No hi ha més proves per carregar",
+    "unknown_error": "Error desconegut:",
+    "failed": "La prova ha fallat",
+    "recheck": "Comprova-ho tant com sigui possible si passa sovint.",
+    "delete": "Elimina la prova",
+    "deleted": "La prova s'ha eliminat",
+    "average": {
+      "title": "Velocitat mitjana",
+      "description": "<Bold>{{amount}}</Bold> proves han mostrat que el <Bold>{{date}}</Bold> la velocitat de baixada mitjana va ser de <Bold>{{down}} Mbps</Bold> i la de pujada de <Bold>{{up}} Mbps</Bold>. Les proves van durar una mitjana de <Bold>{{duration}} segons</Bold>."
+    },
+    "result": {
+      "title": "Resultat de la prova",
+      "description": "<Link>Aquesta prova</Link> ha assolit una velocitat de baixada màxima de <Bold>{{down}} Mbps</Bold> i una velocitat de pujada màxima de <Bold>{{up}} Mbps</Bold>. Va ser creada <Bold>{{type}}</Bold> i va durar <Bold>{{duration}} segons</Bold>.",
+      "jitter": " El jitter de la connexió va ser de <Bold>{{jitter}} ms</Bold>.",
+      "from_you": "per tu",
+      "automatic": "automàticament"
+    },
+    "overview": {
+      "title_range": "Resum de proves del {{from}} al {{to}}"
+    }
+  },
+  "errors": {
+    "network_unreachable": "La connexió a internet era inestable durant la prova",
+    "took_too_long": "La prova ha tardat massa i s'ha cancel·lat",
+    "no_permission": "MySpeed no té permís per iniciar aquesta prova",
+    "resource_unavailable": "La prova no s'ha pogut realitzar perquè el recurs no estava disponible temporalment",
+    "no_route": "La prova no s'ha pogut realitzar perquè no hi havia ruta cap a l'amfitrió",
+    "connection_refused": "La prova no s'ha pogut realitzar perquè s'ha rebutjat la connexió",
+    "timed_out": "La connexió a internet era inestable durant la prova",
+    "config": "No s'ha pogut carregar el fitxer de configuració",
+    "invalid_view": "Vista no vàlida"
+  },
+  "statistics": {
+    "average": "Mitjana",
+    "export": {
+      "button": "Exporta"
+    },
+    "overview": {
+      "total_title": "Total de proves",
+      "total_description": "El nombre de proves executades",
+      "failed_title": "Proves fallides",
+      "failed_description": "El nombre de proves fallides",
+      "average_title": "Durada mitjana",
+      "average_description": "La durada mitjana de les proves"
+    },
+    "failed": {
+      "title": "Proves fallides",
+      "success": "Correctes",
+      "failed": "Fallides",
+      "label": "Proves"
+    },
+    "speed": {
+      "title": "Velocitat"
+    },
+    "manual": {
+      "title": "Proves manuals",
+      "yes": "Creada manualment",
+      "no": "Creada automàticament"
+    },
+    "duration": {
+      "title": "Durada de la prova",
+      "label": "Quantitat"
+    },
+    "values": {
+      "min": "Mínim",
+      "max": "Màxim",
+      "avg": "Mitjana",
+      "down": "Valors de baixada",
+      "up": "Valors de pujada"
+    },
+    "failed_test": "Prova fallida",
+    "hourly": {
+      "title": "Velocitat per hora del dia",
+      "sample_count": "Proves"
+    },
+    "consistency": {
+      "title": "Estabilitat de la connexió",
+      "excellent": "Excel·lent",
+      "good": "Bona",
+      "fair": "Regular",
+      "poor": "Deficient",
+      "ping_variance": "Variació del ping"
+    }
+  },
+  "calendar": {
+    "select_range": "Selecciona un rang de dates",
+    "select_start": "Selecciona la data d'inici",
+    "select_end": "Selecciona la data de fi",
+    "from": "Des de",
+    "to": "Fins a",
+    "last_7_days": "Darrers 7 dies",
+    "last_30_days": "Darrers 30 dies",
+    "last_90_days": "Darrers 90 dies",
+    "last_year": "Darrer any",
+    "mon": "Dl",
+    "tue": "Dt",
+    "wed": "Dc",
+    "thu": "Dj",
+    "fri": "Dv",
+    "sat": "Ds",
+    "sun": "Dg"
+  },
+  "nodes": {
+    "add": "Afegeix un servidor",
+    "create": "Afegeix",
+    "this_server": "Aquest servidor",
+    "created": "El servidor s'ha afegit correctament",
+    "password_required": "Aquest node requereix una contrasenya",
+    "update_password": "Actualitza la contrasenya d'aquest node",
+    "password_outdated": "Contrasenya obsoleta",
+    "password_updated": "La contrasenya s'ha actualitzat correctament",
+    "preview_active": "Afegir i eliminar servidors està desactivat en el mode de demostració.",
+    "placeholder": {
+      "name": "Instància de MySpeed",
+      "url": "https://el-teu-servidor.com"
+    },
+    "group": {
+      "name": "Nom del servidor",
+      "url": "Adreça del servidor"
+    },
+    "delete": {
+      "title": "Elimina el servidor",
+      "description": "El servidor <Bold>{{name}}</Bold> (#{{id}}) s'eliminarà. Aquesta acció no es pot desfer. Vols continuar?",
+      "yes": "Sí, elimina",
+      "success": "El servidor s'ha eliminat correctament"
+    },
+    "rename": {
+      "title": "Reanomena el servidor",
+      "placeholder": "Nou nom del servidor",
+      "success": "El servidor s'ha reanomenat correctament"
+    },
+    "messages": {
+      "not_reachable": "El servidor no és accessible",
+      "password_changed": "Contrasenya canviada",
+      "tests_pending": "Resultats de la prova pendents"
+    }
+  },
+  "preview": {
+    "title": "Mode de demostració",
+    "info": "DEMO",
+    "description": "Actualment estàs en mode de demostració. Algunes funcions estan desactivades i alguns paràmetres no es poden canviar. Si vols utilitzar totes les funcions, pots <Link>instal·lar MySpeed</Link> al teu propi servidor."
+  },
+  "integrations": {
+    "none_active": "Aquesta integració no està activa. <br/><Bold>Crea</Bold>",
+    "preview_active": "Les integracions estan desactivades en el mode de demostració.",
+    "display_name": "Nom de la integració",
+    "create": "Crea",
+    "activity": {
+      "never_executed": "Mai executat",
+      "last_run": "Darrera execució fa "
+    },
+    "discord": {
+      "title": "Discord",
+      "fields": {
+        "url": "URL del webhook",
+        "url_placeholder": "https://discord.com/api/webhooks/...",
+        "display_name": "Nom de visualització",
+        "display_name_placeholder": "Notificació de MySpeed",
+        "error_message": "Missatge d'error",
+        "error_message_placeholder": "Error: %error%",
+        "send_failed": "Envia missatges d'error",
+        "send_finished": "Envia missatges de finalització",
+        "finished_message": "Missatge de finalització",
+        "finished_message_placeholder": "%ping% ms, %download% Mbps, %upload% Mbps"
+      }
+    },
+    "gotify": {
+      "title": "Gotify",
+      "fields": {
+        "url": "URL del servidor",
+        "key": "Token de l'aplicació",
+        "priority": "Prioritat",
+        "error_message": "Missatge d'error",
+        "error_message_placeholder": "Error: %error%",
+        "send_failed": "Envia missatges d'error",
+        "send_finished": "Envia missatges de finalització",
+        "finished_message": "Missatge de finalització",
+        "finished_message_placeholder": "%ping% ms, %download% Mbps, %upload% Mbps"
+      }
+    },
+    "pushover": {
+      "title": "Pushover",
+      "fields": {
+        "token": "Token de l'aplicació",
+        "user_key": "Clau d'usuari",
+        "error_message": "Missatge d'error",
+        "error_message_placeholder": "Error: %error%",
+        "send_failed": "Envia missatges d'error",
+        "send_finished": "Envia missatges de finalització",
+        "finished_message": "Missatge de finalització",
+        "finished_message_placeholder": "%ping% ms, %download% Mbps, %upload% Mbps"
+      }
+    },
+    "healthChecks": {
+      "title": "HealthChecks",
+      "fields": {
+        "url": "URL de HealthChecks",
+        "url_placeholder": "https://hc-ping.com/<uuid>"
+      }
+    },
+    "telegram": {
+      "title": "Telegram",
+      "fields": {
+        "token": "Token del bot",
+        "chat_id": "ID del xat",
+        "error_message": "Missatge d'error",
+        "error_message_placeholder": "Error: %error%",
+        "send_failed": "Envia missatges d'error",
+        "send_finished": "Envia missatges de finalització",
+        "finished_message": "Missatge de finalització",
+        "finished_message_placeholder": "%ping% ms, %download% Mbps, %upload% Mbps"
+      }
+    },
+    "webhook": {
+      "title": "Webhook",
+      "fields": {
+        "url": "URL del webhook",
+        "url_placeholder": "https://el-teu-servidor.com/hook",
+        "send_started": "Envia inici",
+        "send_failed": "Envia missatges d'error",
+        "send_finished": "Envia missatges de finalització",
+        "send_alive": "Envia missatges Keep-Alive",
+        "send_recommendations": "Envia recomanacions",
+        "send_config_updates": "Envia actualitzacions de configuració"
+      }
+    }
+  },
+  "common": {
+    "back_to_top": "Torna a dalt"
+  },
+  "not_found": {
+    "title": "Pàgina no trobada",
+    "description": "La pàgina que busques no existeix o s'ha mogut.",
+    "back_home": "Torna a l'inici"
+  },
+  "route_error": {
+    "title": "Ostres!",
+    "subtitle": "Alguna cosa ha anat malament",
+    "description": "S'ha produït un error inesperat. Torna-ho a intentar o torna a la pàgina d'inici.",
+    "reload": "Recarrega la pàgina"
+  },
+  "optimal_values": {
+    "title": "Valors òptims",
+    "use_recommended": "Utilitza els recomanats"
+  }
+}
