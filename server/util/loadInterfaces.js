@@ -1,5 +1,4 @@
 import os from 'node:os';
-import https from 'node:https';
 import * as config from '../controller/config.js';
 
 export let interfaces = {};
@@ -15,40 +14,14 @@ export const requestInterfaces = async () => {
 
             if (address.internal) continue;
 
-            let options = {hostname: "speed.cloudflare.com", path: "/__down?bytes=1", method: "GET",
-                family: address.family === "IPv4" ? 4 : 6, timeout: 5000};
-
-            options.agent = new https.Agent(options);
-            options.localAddress = address.address;
-
-            await new Promise((resolve) => {
-
-                const req = https.request(options, () => {
-                    if (!interfacesResult[i]) interfacesResult[i] = [];
-                    interfacesResult[i].push(address.address);
-                    req.destroy();
-                    resolve();
-                });
-
-                req.on('error', () => resolve());
-                req.on('timeout', () => req.destroy());
-
-                req.end();
-            });
+            if (!interfacesResult[i]) interfacesResult[i] = [];
+            interfacesResult[i].push(address.address);
         }
-
-        if (!interfacesResult[i]) delete interfacesResult[i];
     }
 
+    interfaces = {};
     for (let i in interfacesResult) {
-        for (let j in interfacesResult[i]) {
-            if (interfacesResult[i][j].includes(".")) {
-                interfaces[i] = interfacesResult[i][j];
-                break;
-            }
-        }
-
-        if (!interfaces[i]) interfaces[i] = interfacesResult[i][0];
+        interfaces[i] = interfacesResult[i].find((address) => address.includes(".")) || interfacesResult[i][0];
     }
 
     for (let i in interfaces) {
@@ -57,12 +30,13 @@ export const requestInterfaces = async () => {
 
     const currentInterface = await config.getValue("interface");
 
-    if (!interfaces[currentInterface]) {
-        if (!currentInterface) {
-            console.warn("No interface set. Falling back to default.");
-        } else {
-            console.warn(`Interface ${currentInterface} not found. Falling back to default.`);
-        }
-        await config.updateValue("interface", Object.keys(interfaces)[0]);
+    if (currentInterface && interfaces[currentInterface]) return;
+
+    if (!currentInterface) {
+        console.warn("No interface set. Falling back to default.");
+    } else {
+        console.warn(`Interface ${currentInterface} not found. Falling back to default.`);
     }
+
+    await config.updateValue("interface", Object.keys(interfaces)[0] || "none");
 };
