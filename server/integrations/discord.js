@@ -26,7 +26,8 @@ export default (registerEvent) => {
     return {
         icon: "fa-brands fa-discord",
         fields: [
-            {name: "url", type: "text", required: true, regex: /https:\/\/.*discord.com\/api\/webhooks\/\d+\/.+/},
+            {name: "url", type: "text", required: true,
+                regex: /^https:\/\/(?:ptb\.|canary\.)?discord(?:app)?\.com\/api(?:\/v\d+)?\/webhooks\/\d+\/[\w-]+(?:\?\S*)?$/},
             {name: "display_name", type: "text", required: false},
             {name: "send_finished", type: "boolean", required: false},
             {name: "finished_message", type: "textarea", required: false},
