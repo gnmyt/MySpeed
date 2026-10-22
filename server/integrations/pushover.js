@@ -25,8 +25,8 @@ export default (registerEvent) => {
     return {
         icon: "fa-solid fa-pushover",
         fields: [
-            {name: "token", type: "text", required: true, regex: /^[a-z0-9]{30}$/},
-            {name: "user_key", type: "text", required: true, regex: /^[a-z0-9]{30}$/},
+            {name: "token", type: "text", required: true, regex: /^[A-Za-z0-9]{30}$/},
+            {name: "user_key", type: "text", required: true, regex: /^[A-Za-z0-9]{30}$/},
             {name: "send_finished", type: "boolean", required: false},
             {name: "finished_message", type: "textarea", required: false},
             {name: "send_failed", type: "boolean", required: false},
