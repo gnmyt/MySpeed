@@ -25,7 +25,7 @@ export default (registerEvent) => {
         icon: "fa-solid fa-bell",
         fields: [
             {name: "url", type: "text", required: true, regex: /https?:\/\/.+/},
-            {name: "key", type: "text", required: true, regex: /^.{15}$/},
+            {name: "key", type: "text", required: true, regex: /^.{15,}$/},
             {name: "priority", type: "text", required: true, regex: /^[0-9]$/},
             {name: "send_finished", type: "boolean", required: false},
             {name: "finished_message", type: "textarea", required: false},
